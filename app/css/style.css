@@ -205,3 +205,88 @@
     border-color: var(--color-gray-200, currentColor);
   }
 }
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+}
+
+/* This class sets the initial state for the element */
+.fade-in-slide-up {
+  /* Start completely transparent */
+  opacity: 0;
+  /* Start 20px below its final position */
+  transform: translateY(20px);
+  /* Apply the animation: name, duration, easing, and fill mode */
+  animation: fadeInSlideUp 0.5s ease-out forwards;
+}
+
+/* Keyframes define the animation progression */
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.scroll-container {
+  overflow: hidden;         /* Hides the overflowing content */
+  width: 100%;              /* Adjust based on your layout */
+  border: 1px solid #ccc;   /* Optional styling */
+}
+
+.scrolling-list-left {
+  display: flex;            /* Places items in a row */
+  animation: scroll-left 50s linear infinite;
+}
+
+.scrolling-list-right {
+  display: flex;            /* Places items in a row */
+  animation: scroll-right 50s linear infinite;
+}
+
+.item {
+  flex: none;               /* Prevents items from shrinking */
+  width: 200px;             /* Set a fixed width for each item */
+  margin-right: 10px;       /* Space between items */
+  background: #f0f0f0;      /* Optional styling */
+  padding: 20px;            /* Optional styling */
+  text-align: center;       /* Center text */
+}
+
+/* Define the keyframes for scrolling */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Move left by 50% of the width of the scrolling list.
+       Since we've duplicated the items, 50% is exactly one set. */
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    /* Move left by 50% of the width of the scrolling list.
+       Since we've duplicated the items, 50% is exactly one set. */
+    transform: translateX(50%);
+  }
+}

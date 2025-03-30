@@ -1,0 +1,168 @@
+{
+  "HomePage": {
+    "home": "Trang Chủ",
+    "consultation": "Tư Vấn Miễn Phí + Học Thử",
+    "freeTest": "Miễn Phí TestAS",
+    "contact": "Liên Hệ",
+    "signup": "Đăng Ký Học Thử",
+    "heroTitle": "Chuyên gia dạy. Lộ trình hay.",
+    "heroSubtitle": "Tham gia viện khởi nghiệp hàng đầu Việt Nam để có được kỹ năng, sự hướng dẫn và tài nguyên.",
+    "enrollNow": "Đăng Ký Ngay",
+    "exploreCourses": "Khám Phá Khóa Học",
+    "stats": {
+      "studentsTrained": "Số Lượng Học Viên",
+      "startupsLaunched": "Khởi Nghiệp Đã Ra Mắt",
+      "yearsExperience": "Năm Kinh Nghiệm",
+      "mentorsAvailable": "Cố Vấn Có Sẵn"
+    },
+    "switchLocale": "",
+    "whatIsTestAS": {
+      "label": "Chuẩn Bị Thông Minh",
+      "title": "TestAS Là Gì?",
+      "subtitle": "Chìa khóa để mở cánh cửa đại học mơ ước của bạn với sự tự tin",
+      "features": {
+        "crucial": {
+          "title": "Quan Trọng Để Thành Công",
+          "description": "TestAS là yếu tố cần thiết để đảm bảo bạn được nhận vào trường đại học mơ ước."
+        },
+        "difficulty": {
+          "title": "Độ Khó Bất Ngờ",
+          "description": "90% thí sinh nhận ra TestAS khó hơn nhiều so với dự kiến khi vào phòng thi."
+        },
+        "sample": {
+          "title": "Mẫu So Với Thực Tế",
+          "description": "Các câu hỏi mẫu chính thức quá dễ so với bài thi TestAS thực tế."
+        },
+        "trusted": {
+          "title": "Được Tin Tưởng Bởi Học Sinh Giỏi",
+          "description": "KNI đã hướng dẫn thành công các học sinh có điểm trung bình 9.5 và IELTS 7.0–8.0."
+        },
+        "preparation": {
+          "title": "Chuẩn Bị Là Chìa Khóa",
+          "description": "Đừng đối mặt với kỳ thi thay đổi cuộc đời mà không chuẩn bị—học tập đúng cách tạo nên sự khác biệt."
+        },
+        "competition": {
+          "title": "Vượt Qua Đối Thủ",
+          "description": "Chuẩn bị tận tâm với KNI giúp bạn vượt qua người khác và nắm bắt cơ hội hàng đầu."
+        }
+      },
+      "tags": {
+        "expertGuidance": "Hướng Dẫn Chuyên Gia",
+        "provenResults": "Kết Quả Đã Được Chứng Minh",
+        "studentSuccess": "Thành Công Của Học Sinh"
+      }
+    },
+    "preparation": {
+      "label": "Hướng Dẫn Chuẩn Bị",
+      "title": "Vậy bạn sẽ chuẩn bị cho TestAS như thế nào?",
+      "sections": {
+        "0": {
+          "title": "Tự ôn luyện",
+          "description_1": "Cũng được đó, nếu nhiên bạn đã có IELTS 7.5 hoặc tiếng Đức C1.",
+          "description_2": "Bạn có kiến thức và từ vựng chuyên ngành bằng tiếng Anh hoặc Đức chứ không chỉ học ngôn ngữ phổ thông.",
+          "description_3": "Bạn không phải cân bằng thời gian cho các môn học khác.",
+          "description_4": "Bạn có dư dả cơ hội để thi đi lại TestAS nhiều lần."
+        },
+        "1": {
+          "title": "Lấy tài liệu trên mạng",
+          "description_1": "Bạn tìm thấy cuốn Preparation for TestAS và bạn nghĩ đó là câu trả lời cho tất cả?",
+          "description_2": "Để cho bạn thấy, nếu bạn mua được cuốn từ 2017 đến cuốn 2025, nội dung của nó 99% giữ nguyên. Họ chỉ đổi số năm để tránh việc bị cướp bản quyền thôi.",
+          "description_3": "Cho dù bạn đã thuộc nằm lòng từng chữ một trong cuốn sách đó... Bạn sẽ sớm nhận ra nó khác bài thi thật như thế nào."
+        },
+        "2": {
+          "title": "Học trung tâm Tư vấn du học?",
+          "description_1": "Ý bạn là nơi họ dạy bạn lại những gì có trong sách Preparation for TestAS?",
+          "description_2": "Nếu bạn cần du học thì bạn tìm một chuyên gia tư vấn du học.",
+          "description_3": "Còn nếu bạn cần điểm TestAS cao thì bạn sẽ cần một chuyên gia về TestAS."
+        }
+      },
+      "buttons": {
+        "caseStudy": "Nghiên cứu điển hình",
+        "bookACall": "Đặt lịch gọi"
+      }
+    },
+    "tutor": {
+      "label": "Từ năm 2024",
+      "title": "Người đồng hành cùng bạn",
+      "subheading": "Hello, mình tên là Nhật",
+      "description": {
+        "item1": "Cựu sinh viên VGU MEN khóa 18-22",
+        "item2": "4 năm học bổng liên tiếp (50-50-100-50%)",
+        "item3": "Kỹ sư robot ABB",
+        "item4": "TestAS: 125/130",
+        "item5": "2 năm dạy TestAS – tỉ lệ đậu 95%"
+      },
+      "quote": "Mình tin rằng giáo dục tại Đức là cơ hội tốt nhất cho sự nghiệp sau này của sinh viên Việt Nam vì chất lượng mang tính toàn cầu và học phí gần như không. Chính vì thế mình có gắng đem lại cơ hội tốt nhất đến những bạn trẻ quyết tâm nhất với mục tiêu này.",
+      "signature": {
+        "name": "Nhật, Người hướng dẫn của bạn"
+      }
+    },
+    "roadmap": {
+      "label": "Quy trình của chúng tôi",
+      "title": "Lộ trình học với KNI như thế nào?",
+      "description": "Chúng tôi hướng dẫn bạn từng bước để chuẩn bị cho TestAS với lộ trình rõ ràng và hiệu quả, đảm bảo bạn đạt được mục tiêu một cách nhanh chóng.",
+      "steps": {
+        "0": {
+          "title": "Mẹo và Bí quyết",
+          "description": "Tắt cả mẹo và bị quyết giải để nhanh và đơn giản."
+        },
+        "1": {
+          "title": "Kiến thức chuyên ngành",
+          "description": "Bực tranh tổng thế kiến thức chuyên ngành với các chủ đề trong điểm."
+        },
+        "2": {
+          "title": "Tiếng Anh chuyên ngành",
+          "description": "Tiếng Anh chuyên ngành và từ vựng của tất cả các phần."
+        },
+        "3": {
+          "title": "Đề thi gần nhất",
+          "description": "Những đề thi không chỉ giới hạn trong 1 cuốn sách, mà được lấy ra từ các đợt thi gần nhất."
+        }
+      }
+    },
+    "customerReviews": {
+      "title": "Sự hài lòng của học viên"
+    },
+    "cta": {
+      "contact": "Liên hệ để được tư vấn + học thử miễn phí",
+      "registerNow": "Đăng ký ngay"
+    }
+  },
+  "Consultation": {
+    "label": "Liên hệ",
+    "title": "Tư vấn + Học thử",
+    "free": "miễn phí",
+    "description": {
+      "line1": "Bạn muốn biết tất cả thông tin về TestAS, VGU hay du học Đức cho hành trình sắp tới của bạn?",
+      "line2": "Hay bạn muốn trải nghiệm thử một lớp KNI?",
+      "line3": "Điền đơn sau và chúng mình sẽ liên hệ lại với bạn trong vòng 48 tiếng.",
+      "line4": "Không bắt buộc, không chi phí."
+    },
+    "form": {
+      "name": "Họ Tên *",
+      "zalo": "Zalo *",
+      "email": "Email *",
+      "howDidYouFindUs": "Bạn tìm được chúng mình qua đâu? *",
+      "submit": "Gửi ngay"
+    }
+  },
+  "FreeTestAS": {
+    "label": "Nhận đề miễn phí",
+    "title": "Đề TestAS miễn phí",
+    "quote": "Em không ngờ là bài thi TestAS khó như vậy - 99% người thi TestAS",
+    "description": {
+      "line1": "Dùng đề sư thửc chuyên bị là nguy hiểm bạn không được vào nào trước mơ ước của mình.",
+      "line2": "Bộ đề Core Test này cho bạn biết những gì căn chuẩn bị cho kỳ thi TestAS. Tham chi bạn được tăng kèm bộ Digital Core Test để bạn lựa chọn hình thức thi phù hợp với bạn nhất."
+    },
+    "form": {
+      "email": "Email",
+      "zalo": "Zalo (số điện thoại)",
+      "submit": "Gửi mình bộ đề ngay!"
+    }
+  },
+  "Contact": {
+    "title": "Liên hệ",
+    "description": "Đừng ngần ngại hãy liên hệ với mình để biết thêm nhiều về TestAS cũng như nhận được tư vấn nhiệt tình về khóa học nhé",
+    "SocialMedia": "Mạng xã hội"
+  }
+}
