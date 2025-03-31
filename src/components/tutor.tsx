@@ -15,7 +15,7 @@ import { FaGoogleScholar } from "react-icons/fa6";
 import { FcEngineering } from "react-icons/fc";
 import { FaCheck } from "react-icons/fa";
 
-import { renderDescriptionWithMultipleHighlights } from '@/utils/render-utils'
+import { renderDescriptionWithMultipleHighlights } from '@/src/utils/render-utils'
 
 export default function Tutor() {
   const t = useTranslations("HomePage.tutor");

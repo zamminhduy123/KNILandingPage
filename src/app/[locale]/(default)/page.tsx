@@ -1,13 +1,13 @@
-import Hero from "@/components/hero-home";
-import BusinessCategories from "@/components/business-categories";
-import FeaturesPlanet from "@/components/features-planet";
-import LargeTestimonial from "@/components/large-testimonial";
-import Cta from "@/components/cta";
-import WhatIsTestAS from "@/components/whatistestas";
-import Preparation from "@/components/preparation";
-import Tutor from "@/components/tutor";
-import RoadMap from "@/components/roadmap";
-import CustomerReviews from "@/components/reviews";
+import Hero from "@/src/components/hero-home";
+import BusinessCategories from "@/src/components/business-categories";
+import FeaturesPlanet from "@/src/components/features-planet";
+import LargeTestimonial from "@/src/components/large-testimonial";
+import Cta from "@/src/components/cta";
+import WhatIsTestAS from "@/src/components/whatistestas";
+import Preparation from "@/src/components/preparation";
+import Tutor from "@/src/components/tutor";
+import RoadMap from "@/src/components/roadmap";
+import CustomerReviews from "@/src/components/reviews";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

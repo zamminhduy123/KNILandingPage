@@ -5,8 +5,8 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import Header from "@/components/ui/header";
-import Footer from "@/components/ui/footer";
+import Header from "@/src/components/ui/header";
+import Footer from "@/src/components/ui/footer";
 
 type Props = {
   children: React.ReactNode;

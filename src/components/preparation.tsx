@@ -12,7 +12,7 @@ const images = [
   "/images/academy-study.jpg",
 ];
 
-import { renderDescriptionWithMultipleHighlights } from '@/utils/render-utils'
+import { renderDescriptionWithMultipleHighlights } from '@/src/utils/render-utils'
 
 export default function Preparation() {
   const t = useTranslations("HomePage.preparation");

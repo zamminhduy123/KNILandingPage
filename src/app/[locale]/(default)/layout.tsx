@@ -1,12 +1,12 @@
-import Header from "@/components/ui/header";
-import Footer from "@/components/ui/footer";
+import Header from "@/src/components/ui/header";
+import Footer from "@/src/components/ui/footer";
 
 import {NextIntlClientProvider, hasLocale, useMessages} from 'next-intl';
 import {notFound} from 'next/navigation';
-import {routing} from '@/i18n/routing';
+import {routing} from '@/src/i18n/routing';
 import { Inter } from "next/font/google";
 import ClientLayout from './index'
-import AOSInitializer from '@/components/AOSInitializer'
+import AOSInitializer from '@/src/components/AOSInitializer'
 import Head from 'next/head';
 
 const inter = Inter({
