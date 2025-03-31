@@ -103,7 +103,7 @@ export default function Preparation() {
                 key={1}
                 src={images[1]}
                 width={500}
-                height={400}
+                height={300}
                 alt={t(`sections.1.title`)}
                 className={`rounded-lg shadow-md ${activeSection == 1 ? "fade-in-slide-up" : "opacity-0"}`}
                 priority
@@ -173,18 +173,18 @@ export default function Preparation() {
                 </ul>
                 {/* Buttons */}
                 <div className="flex space-x-4 mt-8 justify-end">
-                  <a
+                  {/* <a
                     href="#case-study"
                     className="px-6 py-3 border border-white text-white rounded-full hover:bg-white hover:text-gray-900 transition"
                   >
                     {t("buttons.caseStudy")}
-                  </a>
-                  <a
+                  </a> */}
+                  {/* <a
                     href="#book-a-call"
                     className="px-6 py-3 bg-green-500 text-white rounded-full hover:bg-green-600 transition"
                   >
                     {t("buttons.bookACall")}
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

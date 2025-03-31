@@ -2,23 +2,23 @@
   "HomePage": {
     "home": "Trang Chủ",
     "consultation": "Tư Vấn Miễn Phí + Học Thử",
-    "freeTest": "Miễn Phí TestAS",
+    "freeTest": "Đề TestAS FREE",
     "contact": "Liên Hệ",
     "signup": "Đăng Ký Học Thử",
     "heroTitle": "Chuyên gia dạy. Lộ trình hay.",
-    "heroSubtitle": "Tham gia viện khởi nghiệp hàng đầu Việt Nam để có được kỹ năng, sự hướng dẫn và tài nguyên.",
+    "heroSubtitle": "Sợ rớt TestAS, lo lỡ hẹn nước Đức? Đồng hành ngay với trung tâm đã giúp 95% học viên đậu—2 năm dẫn đầu chất lượng và tài liệu tại Việt Nam!",
     "enrollNow": "Đăng Ký Ngay",
     "exploreCourses": "Khám Phá Khóa Học",
     "stats": {
       "studentsTrained": "Số Lượng Học Viên",
-      "startupsLaunched": "Khởi Nghiệp Đã Ra Mắt",
+      "startupsLaunched": "Tỉ Lệ Đậu",
       "yearsExperience": "Năm Kinh Nghiệm",
-      "mentorsAvailable": "Cố Vấn Có Sẵn"
+      "mentorsAvailable": "Bộ đề mới"
     },
     "switchLocale": "",
     "whatIsTestAS": {
       "label": "Chuẩn Bị Thông Minh",
-      "title": "TestAS Là Gì?",
+      "title": "Vì sao chọn KNI?",
       "subtitle": "Chìa khóa để mở cánh cửa đại học mơ ước của bạn với sự tự tin",
       "features": {
         "crucial": {
@@ -34,7 +34,7 @@
           "description": "Các câu hỏi mẫu chính thức quá dễ so với bài thi TestAS thực tế."
         },
         "trusted": {
-          "title": "Được Tin Tưởng Bởi Học Sinh Giỏi",
+          "title": "Tin Tưởng Bởi Học Sinh Giỏi",
           "description": "KNI đã hướng dẫn thành công các học sinh có điểm trung bình 9.5 và IELTS 7.0–8.0."
         },
         "preparation": {
@@ -108,15 +108,15 @@
         },
         "1": {
           "title": "Kiến thức chuyên ngành",
-          "description": "Bực tranh tổng thế kiến thức chuyên ngành với các chủ đề trong điểm."
+          "description": "Tổng thể kiến thức chuyên ngành và chủ đề trọng điểm"
         },
         "2": {
           "title": "Tiếng Anh chuyên ngành",
-          "description": "Tiếng Anh chuyên ngành và từ vựng của tất cả các phần."
+          "description": "Từ vựng tiếng Anh chuyên ngành của tất cả các phần."
         },
         "3": {
           "title": "Đề thi gần nhất",
-          "description": "Những đề thi không chỉ giới hạn trong 1 cuốn sách, mà được lấy ra từ các đợt thi gần nhất."
+          "description": "Đề thi được cập nhật liên tục từ các đợt thi gần nhất."
         }
       }
     },

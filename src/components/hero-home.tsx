@@ -62,21 +62,23 @@ export default function HeroHome() {
                 data-aos="fade-in"
                 data-aos-delay="400"
               >
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center min-h-[120px]">
-                  <p className="text-sm text-gray-500 text-center">{t("stats.studentsTrained")}</p>
-                  <p className="text-2xl font-semibold text-gray-900 mt-2">5,000+</p>
+                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-between min-h-[80px]">
+                  <p className="text-sm text-gray-500 text-center flex items-center"
+                    style={{flexGrow: 1}}
+                  >{t("stats.mentorsAvailable")}</p>
+                  <p className="text-2xl font-semibold text-gray-900 mt-2">15+</p>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center min-h-[120px]">
-                  <p className="text-sm text-gray-500 text-center">{t("stats.startupsLaunched")}</p>
-                  <p className="text-2xl font-semibold text-gray-900 mt-2">300+</p>
+                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-between min-h-[120px]">
+                  <p className="text-sm text-gray-500 text-center flex items-center" style={{flexGrow: 1}}>{t("stats.yearsExperience")}</p>
+                  <p className="text-2xl font-semibold text-gray-900 mt-2">2+</p>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center min-h-[120px]">
-                  <p className="text-sm text-gray-500 text-center">{t("stats.yearsExperience")}</p>
-                  <p className="text-2xl font-semibold text-gray-900 mt-2">10+</p>
+                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-between min-h-[120px]">
+                  <p className="text-sm text-gray-500 text-center flex items-center" style={{flexGrow: 1}}>{t("stats.studentsTrained")}</p>
+                  <p className="text-2xl font-semibold text-gray-900 mt-2">100+</p>
                 </div>
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-center min-h-[120px]">
-                  <p className="text-sm text-gray-500 text-center">{t("stats.mentorsAvailable")}</p>
-                  <p className="text-2xl font-semibold text-gray-900 mt-2">50+</p>
+                <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center justify-between min-h-[120px] ">
+                  <p className="text-sm text-gray-500 text-center flex items-center" style={{flexGrow: 1}}>{t("stats.startupsLaunched")}</p>
+                  <p className="text-2xl font-semibold text-orange-500 mt-2">95%</p>
                 </div>
               </div>
             </div>

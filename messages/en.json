@@ -2,44 +2,44 @@
   "HomePage": {
     "home": "Home",
     "consultation": "Free Consultation + Trial Lesson",
-    "freeTest": "Free Test",
+    "freeTest": "Free TestAS Practice",
     "contact": "Contact",
-    "signup": "Sign Up for a Free Trial",
-    "heroTitle": "Empower Your Startup Journey. Learn. Grow. Succeed.",
-    "heroSubtitle": "Join Vietnam’s leading entrepreneurship institute to gain skills, mentorship, and resources.",
+    "signup": "Sign Up for a Trial Lesson",
+    "heroTitle": "Expert Teaching. Proven Roadmap.",
+    "heroSubtitle": "Afraid of failing TestAS and missing your chance to study in Germany? Join the center that has helped 95% of students pass—2 years leading in quality and materials in Vietnam!",
     "enrollNow": "Enroll Now",
     "exploreCourses": "Explore Courses",
     "stats": {
-      "studentsTrained": "Students Trained",
-      "startupsLaunched": "Startups Launched",
+      "studentsTrained": "Number of Students",
+      "startupsLaunched": "Pass Rate",
       "yearsExperience": "Years of Experience",
-      "mentorsAvailable": "Mentors Available"
+      "mentorsAvailable": "New Practice Sets"
     },
-    "switchLocale": "🇬🇧",
+    "switchLocale": "",
     "whatIsTestAS": {
-      "label": "Prepare Smarter",
-      "title": "What is TestAS?",
-      "subtitle": "Your key to unlocking the university of your dreams with confidence",
+      "label": "Smart Preparation",
+      "title": "Why Choose KNI?",
+      "subtitle": "The key to unlocking your dream university with confidence",
       "features": {
         "crucial": {
           "title": "Crucial for Success",
-          "description": "TestAS is essential to secure admission to your dream university."
+          "description": "TestAS is essential to ensure you get accepted into your dream university."
         },
         "difficulty": {
           "title": "Unexpected Difficulty",
-          "description": "90% of candidates find TestAS much harder than expected during the exam."
+          "description": "90% of test-takers realize TestAS is much harder than expected when they enter the exam room."
         },
         "sample": {
           "title": "Sample vs. Reality",
-          "description": "Official sample questions are too easy compared to the real TestAS exam."
+          "description": "Official sample questions are far too easy compared to the actual TestAS exam."
         },
         "trusted": {
           "title": "Trusted by Top Students",
-          "description": "KNI has guided students with 9.5 GPA and IELTS 7.0–8.0 to success."
+          "description": "KNI has successfully guided students with a 9.5 GPA and IELTS scores of 7.0–8.0."
         },
         "preparation": {
-          "title": "Preparation is Key",
-          "description": "Don’t face a life-changing exam unprepared—proper study makes the difference."
+          "title": "Preparation Is Key",
+          "description": "Don’t face a life-changing exam unprepared—studying the right way makes all the difference."
         },
         "competition": {
           "title": "Outshine the Competition",
@@ -54,26 +54,26 @@
     },
     "preparation": {
       "label": "Preparation Guide",
-      "title": "How Will You Prepare for TestAS?",
+      "title": "So, How Will You Prepare for TestAS?",
       "sections": {
         "0": {
           "title": "Self-Study",
-          "description_1": "You can do it if you’re highly motivated and have an IELTS 7.5 or German C1 level.",
-          "description_2": "You have knowledge and vocabulary in your field in English or German, not just general language skills.",
-          "description_3": "You don’t need to balance time for other subjects.",
-          "description_4": "You have multiple opportunities to retake TestAS. You’ll soon realize how tough it can be."
+          "description_1": "It’s fine, but only if you already have IELTS 7.5 or German C1.",
+          "description_2": "You have specialized knowledge and vocabulary in English or German, not just conversational language skills.",
+          "description_3": "You don’t have to balance time with other subjects.",
+          "description_4": "You have plenty of opportunities to retake TestAS multiple times."
         },
         "1": {
-          "title": "Online Resources",
-          "description_1": "Let me tell you, if you buy resources from 2017 to 2025, 99% of the content is outdated and risky.",
-          "description_2": "They only update the year to avoid copyright issues. Even if you memorize everything in one of those books… You’ll soon realize how tough it can be.",
-          "description_3": "Even if you memorize everything in one of those books… You’ll soon realize how tough it can be."
+          "title": "Using Online Materials",
+          "description_1": "You found a Preparation for TestAS book and think it’s the answer to everything?",
+          "description_2": "Let me tell you, if you buy books from 2017 to 2025, 99% of the content remains the same. They only change the year to avoid copyright issues.",
+          "description_3": "Even if you memorize every word in that book… you’ll soon realize how different it is from the actual exam."
         },
         "2": {
-          "title": "Study Abroad Center?",
-          "description_1": "Do you mean the place where they teach you what they’ve read in books about TestAS preparation?",
-          "description_3": "If you need to study abroad, find a study abroad consultant. But if you need a high TestAS score, you’ll need a TestAS expert.",
-          "description_2": "If you need to study abroad, find a study abroad consultant. "
+          "title": "Studying at a Study Abroad Center?",
+          "description_1": "You mean the place where they reteach what’s in the Preparation for TestAS book?",
+          "description_2": "If you need study abroad advice, find a study abroad expert.",
+          "description_3": "But if you need a high TestAS score, you’ll need a TestAS specialist."
         }
       },
       "buttons": {
@@ -82,89 +82,89 @@
       }
     },
     "tutor": {
-      "label": "Since 2015",
-      "title": "Your Companion",
-      "subheading": "Hello, my name is Nhật",
+      "label": "Since 2024",
+      "title": "Your Companion on This Journey",
+      "subheading": "Hello, My Name Is Nhật",
       "description": {
-        "item1": "Former VGU MEN student, class of 18-22",
-        "item2": "4 years of continuous scholarships: 50-50-100-50%",
-        "item3": "ABB robot engineer",
-        "item4": "TestAS score: 125/130",
-        "item5": "2 years teaching TestAS – 95% pass rate"
+        "item1": "Former VGU MEN Student, Class of 18-22",
+        "item2": "4 Consecutive Years of Scholarships (50-50-100-50%)",
+        "item3": "ABB Robotics Engineer",
+        "item4": "TestAS: 125/130",
+        "item5": "2 Years Teaching TestAS – 95% Pass Rate"
       },
-      "quote": "I believe that education in Germany is the best opportunity for the future career of Vietnamese students due to its global quality and nearly free tuition. That’s why I strive to bring the best opportunities to the most determined young people with this goal.",
+      "quote": "I believe that education in Germany is the best opportunity for Vietnamese students’ future careers due to its global quality and near-zero tuition fees. That’s why I strive to bring the best opportunities to the most determined young people with this goal.",
       "signature": {
-        "name": "Nhật, Your Tutor"
+        "name": "Nhật, Your Instructor"
       }
     },
     "roadmap": {
       "label": "Our Process",
-      "title": "How is the Learning Journey with KNI?",
-      "description": "We guide you step-by-step to prepare for TestAS with a clear and effective roadmap, ensuring you achieve your goals efficiently.",
+      "title": "What Is the Learning Roadmap with KNI Like?",
+      "description": "We guide you step-by-step to prepare for TestAS with a clear and effective roadmap, ensuring you achieve your goals quickly.",
       "steps": {
         "0": {
           "title": "Tips and Tricks",
-          "description": "Turn off all tips and tricks to solve quickly and simply."
+          "description": "All the tips and tricks to solve questions quickly and simply."
         },
         "1": {
           "title": "Specialized Knowledge",
-          "description": "General overview of specialized knowledge with key topics."
+          "description": "Comprehensive specialized knowledge and key topics."
         },
         "2": {
           "title": "Specialized English",
-          "description": "Specialized English and vocabulary for all sections."
+          "description": "Specialized English vocabulary for all sections."
         },
         "3": {
-          "title": "Recent Test Questions",
-          "description": "Test questions not limited to one book, but sourced from the most recent exams."
+          "title": "Latest Practice Tests",
+          "description": "Practice tests continuously updated from the most recent exams."
         }
       }
     },
     "customerReviews": {
-      "title": "Customer Reviews"
+      "title": "Student Satisfaction"
     },
     "cta": {
-      "contact": "Liên hệ để được tư vấn + học thử miễn phí",
-      "registerNow": "Đăng ký ngay"
+      "contact": "Contact for Free Consultation + Trial Lesson",
+      "registerNow": "Register Now"
     }
   },
   "Consultation": {
-    "label": "Get in Touch",
-    "title": "Consultation + Free Trial",
-    "free": "free",
+    "label": "Contact",
+    "title": "Consultation + Trial Lesson",
+    "free": "Free",
     "description": {
-      "line1": "Do you want to know all the information about TestAS, VGU, or studying in Germany for your upcoming journey?",
-      "line2": "Or do you want to experience a trial KNI class?",
-      "line3": "Fill out the form below, and we’ll contact you within 48 hours.",
-      "line4": "No obligation, no cost."
+      "line1": "Want to know everything about TestAS, VGU, or studying in Germany for your upcoming journey?",
+      "line2": "Or do you want to experience a trial lesson with KNI?",
+      "line3": "Fill out the form below, and we’ll get back to you within 48 hours.",
+      "line4": "No obligations, no cost."
     },
     "form": {
       "name": "Full Name *",
       "zalo": "Zalo *",
       "email": "Email *",
-      "howDidYouFindUs": "How did you find us? *",
+      "howDidYouFindUs": "How Did You Find Us? *",
       "submit": "Submit Now"
     }
   },
   "FreeTestAS": {
-    "label": "Get Your Free Test",
-    "title": "Free TestAS Practice",
-    "quote": "I didn’t expect the TestAS practice to be this valuable - 99% of TestAS users",
+    "label": "Get Free Practice Tests",
+    "title": "Free TestAS Practice Tests",
+    "quote": "I didn’t expect the TestAS exam to be this difficult - 99% of TestAS test-takers",
     "description": {
-      "line1": "Using free practice tests is the most dangerous thing you can do before taking your exam.",
-      "line2": "Start with the Core Test to understand the basic preparation standards for the TestAS. You can also participate in a Digital Core Test to help you choose the exam format that suits you best."
+      "line1": "Using official practice tests to prepare is risky—you might not get into your dream school.",
+      "line2": "This Core Test set lets you know what you need to prepare for the TestAS exam. Plus, you’ll get a bonus Digital Core Test set so you can choose the test format that suits you best."
     },
     "form": {
       "email": "Email",
-      "zalo": "Zalo (phone number)",
-      "submit": "Send Me the Free Test Now!"
+      "zalo": "Zalo (Phone Number)",
+      "submit": "Send Me the Practice Set Now!"
     }
   },
   "Contact": {
     "title": "Contact Us",
     "items": {
       "0": {
-        "label": "Head Office",
+        "label": "Headquarters",
         "value": "KNI Education"
       },
       "1": {

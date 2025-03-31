@@ -62,15 +62,15 @@ export default function RoadMap() {
           {steps.map((step, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg shadow-md p-6 text-center"
+              className="bg-white rounded-lg shadow-md p-6 text-center relative flex flex-col justify-between items-center min-h-[200px]" // Added min-h and flex
               data-aos="fade-up"
               data-aos-delay={`${(index + 1) * 100}`}
             >
               <step.icon size={48} className="mx-auto mb-4 text-orange-500" />
-              <h3 className="text-xl font-bold text-black mb-2">
-                {step.title}
-              </h3>
-              <p className="text-gray-600">{step.description}</p>
+              <div className="flex flex-col justify-start flex-grow"> {/* Adjusted for consistent alignment */}
+                <h3 className="text-xl font-bold text-black mb-2 flex items-center justify-center" style={{height: "60px", width: "100%"}}>{step.title}</h3>
+                <p className="text-gray-600">{step.description}</p>
+              </div>
             </div>
           ))}
         </div>
