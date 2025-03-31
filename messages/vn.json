@@ -161,8 +161,25 @@
     }
   },
   "Contact": {
-    "title": "Liên hệ",
-    "description": "Đừng ngần ngại hãy liên hệ với mình để biết thêm nhiều về TestAS cũng như nhận được tư vấn nhiệt tình về khóa học nhé",
+    "title": "Liên hệ với chúng mình",
+    "items": {
+      "0": {
+        "label": "Trụ sở chính",
+        "value": "KNI Education"
+      },
+      "1": {
+        "label": "Số điện thoại",
+        "value": "+84 091-839-1099"
+      },
+      "2": {
+        "label": "Địa chỉ Email",
+        "value": "nhat@kni.vn"
+      },
+      "3": {
+        "label": "Vị trí",
+        "value": "Thành phố Hồ Chí Minh, Việt Nam"
+      }
+    },
     "SocialMedia": "Mạng xã hội"
   }
 }

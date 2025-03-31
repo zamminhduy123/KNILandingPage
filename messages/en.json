@@ -157,6 +157,25 @@
     }
   },
   "Contact": {
-    "title": "Liên hệ"
+    "title": "Contact Us",
+    "items": {
+      "0": {
+        "label": "Head Office",
+        "value": "KNI Education"
+      },
+      "1": {
+        "label": "Phone Number",
+        "value": "+84 091-839-1099"
+      },
+      "2": {
+        "label": "Email Address",
+        "value": "nhat@kni.vn"
+      },
+      "3": {
+        "label": "Location",
+        "value": "Ho Chi Minh City, Vietnam"
+      }
+    },
+    "SocialMedia": "Social Media"
   }
 }
