@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import documentSrc from "@/public/images/documents.jpg";
+import documentBlurSrc from "@/public/images/documents_blur.jpg";
 import { Metadata } from "next";
 
 import Head from "next/head";
@@ -199,6 +200,8 @@ export default function FreeTestAS({params} : any) {
                 data-aos="fade-left"
                 data-aos-delay="100"
                 priority
+                placeholder="blur"
+                blurDataURL={"public/images/documents_blur.jpg"}
               />
             </div>
           </div>

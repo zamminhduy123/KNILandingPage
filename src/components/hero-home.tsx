@@ -93,6 +93,8 @@ export default function HeroHome() {
                 height={400}
                 alt="Entrepreneurship workshop at KNI"
                 className="rounded-lg shadow-md"
+                placeholder="blur"
+                priority
               />
             </div>
           </div>

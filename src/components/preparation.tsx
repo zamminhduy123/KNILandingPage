@@ -12,6 +12,14 @@ const images = [
   "/images/academy-study.jpg",
 ];
 
+const blurImages = [
+  "/images/self-study_blur.jpg",
+  "/images/gather-online_blur.jpg",
+  "/images/academy-study_blur.jpg",
+];
+
+
+
 import { renderDescriptionWithMultipleHighlights } from '@/src/utils/render-utils'
 
 export default function Preparation() {
@@ -87,6 +95,8 @@ export default function Preparation() {
                 alt={t(`sections.${activeSection}.title`)}
                 className="rounded-lg shadow-md w-full fade-in-slide-up"
                 priority
+                placeholder="blur"
+                blurDataURL={blurImages[activeSection]}
             />
           </div>
           {/* Right: Text Sections */}

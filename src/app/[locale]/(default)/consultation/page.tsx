@@ -112,6 +112,8 @@ export default function Consultation({ params }: any) {
               data-aos="fade-left"
               data-aos-delay="100"
               priority
+              placeholder="blur"
+              blurDataURL={"public/images/consultation_blur.jpg"}
             />
           </div>
         </div>
