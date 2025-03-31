@@ -88,15 +88,39 @@ export default function Preparation() {
           {/* Left: Image */}
           <div className="order-2 md:order-1 sticky top-20">
             <Image
-                key={activeSection}
-                src={images[activeSection]}
+                key={0}
+                src={images[0]}
                 width={500}
                 height={400}
-                alt={t(`sections.${activeSection}.title`)}
-                className="rounded-lg shadow-md w-full fade-in-slide-up"
+                alt={t(`sections.0.title`)}
+                className={`rounded-lg shadow-md ${activeSection == 0 ? "fade-in-slide-up" : "opacity-0"}`}
                 priority
                 placeholder="blur"
-                blurDataURL={blurImages[activeSection]}
+                blurDataURL={blurImages[0]}
+                fetchPriority="high"
+            />
+            <Image
+                key={1}
+                src={images[1]}
+                width={500}
+                height={400}
+                alt={t(`sections.1.title`)}
+                className={`rounded-lg shadow-md ${activeSection == 1 ? "fade-in-slide-up" : "opacity-0"}`}
+                priority
+                placeholder="blur"
+                blurDataURL={blurImages[1]}
+                fetchPriority="high"
+            />
+            <Image
+                key={2}
+                src={images[2]}
+                width={500}
+                height={400}
+                alt={t(`sections.2.title`)}
+                className={`rounded-lg shadow-md ${activeSection == 2 ? "fade-in-slide-up" : "opacity-0"}`}
+                priority
+                placeholder="blur"
+                blurDataURL={blurImages[2]}
                 fetchPriority="high"
             />
           </div>
