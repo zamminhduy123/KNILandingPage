@@ -158,7 +158,7 @@ export default function FreeTestAS() {
                 <div>
                   <input type="hidden" name="_captcha" value="false" />
                   <label htmlFor="email" className="sr-only">
-                    {t("freeTestAS.form.email")}
+                    {t("form.email")}
                   </label>
                   <input
                     type="email"
@@ -171,7 +171,7 @@ export default function FreeTestAS() {
                 </div>
                 <div>
                   <label htmlFor="zalo" className="sr-only">
-                    {t("freeTestAS.form.zalo")}
+                    {t("form.zalo")}
                   </label>
                   <input
                     type="text"
