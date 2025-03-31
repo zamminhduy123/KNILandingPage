@@ -99,20 +99,20 @@ export default function Header() {
                 {t("home")}
               </Link>
               <Link
-                href="/consultation"
+                href={`${locale}/consultation`}
                 className={navClassName('/consultation')}
               >
                 {t("consultation")}
               </Link>
               <Link
-                href="/free-testas"
-                className={navClassName('/free-testas')}
+                href={`${locale}/free-testas`}
+                className={navClassName(`${locale}/free-testas`)}
               >
                 {t("freeTest")}
               </Link>
               <Link
-                href="/contact"
-                className={navClassName('/contact')}
+                href={`${locale}/contact`}
+                className={navClassName(`${locale}/contact`)}
               >
                 {t("contact")}
               </Link>
@@ -146,7 +146,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link
-              href="/consultation"
+              href={`${locale}/consultation`}
               className="bg-orange-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-orange-600 transition-colors"
             >
               {t("signup")}

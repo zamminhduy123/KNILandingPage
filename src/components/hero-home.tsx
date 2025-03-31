@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import HeroImage from "@/public/images/BG.png";
 import TestASLogo from "./ui/logo";
 
 export default function HeroHome() {
   const t = useTranslations("HomePage");
+  const locale = useLocale();
 
   return (
     <section className="relative min-h-screen flex items-center bg-white">
@@ -43,7 +44,7 @@ export default function HeroHome() {
                 data-aos-delay="300"
               >
                 <Link
-                  href="/consultation"
+                  href={`${locale}/contact`}
                   className="btn bg-orange-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-orange-600 transition"
                 >
                   {t("enrollNow")} <span className="ml-2">→</span>
