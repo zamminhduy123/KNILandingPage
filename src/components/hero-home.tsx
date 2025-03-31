@@ -45,16 +45,16 @@ export default function HeroHome() {
               >
                 <Link
                   href={`/${locale}/consultation`}
-                  className="btn bg-orange-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-orange-600 transition"
+                  className="btn bg-orange-500 text-white px-12 py-3 rounded-full shadow-5xl shadow-orange-500/50 hover:bg-orange-600 transition font-bold"
                 >
                   {t("enrollNow")} <span className="ml-2">→</span>
                 </Link>
-                <Link
+                {/* <Link
                   href="#"
                   className="btn border border-blue-900 text-blue-900 px-6 py-3 rounded-full shadow-md hover:bg-blue-50 transition"
                 >
                   {t("exploreCourses")}
-                </Link>
+                </Link> */}
               </div>
               {/* Stats Cards */}
               <div
