@@ -42,13 +42,15 @@ export default async function DefaultLayout({
         <title>KNI - TestAS</title>
         <meta name="description" content="A brief description of your page" />
         <meta name="keywords" content="Next.js, SEO, optimization, TestAS, Test for Academic Studies, KNI, Khanh Nhat Institute" />
-        <link
-          rel="icon"
-          href="/icon.png"
-          type="image/png"
-          sizes="32"
-        />
       </Head>
+      <head>
+        <link
+            rel="icon"
+            href="/icon.png"
+            type="image/png"
+            sizes="32"
+          />
+      </head>
       <body
         className={`${inter.variable} bg-gray-50 font-inter tracking-tight text-gray-900 antialiased`}
       >
