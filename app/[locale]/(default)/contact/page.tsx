@@ -12,7 +12,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 
 import { FaEnvelope, FaMapMarkerAlt, FaBuilding } from "react-icons/fa";
 
-export default function FreeTestAS() {
+export default function Contact() {
   const t = useTranslations("Contact");
 
   const contactItems = [

@@ -49,7 +49,7 @@ export default function HeroHome() {
                   {t("enrollNow")} <span className="ml-2">→</span>
                 </Link>
                 <Link
-                  href="/courses"
+                  href="#"
                   className="btn border border-blue-900 text-blue-900 px-6 py-3 rounded-full shadow-md hover:bg-blue-50 transition"
                 >
                   {t("exploreCourses")}
