@@ -5,6 +5,16 @@ import { Metadata } from "next";
 
 import Head from "next/head";
 
+// Define supported locales
+const locales = ["en", "vn"];
+
+// Generate static paths for each locale
+export async function generateStaticParams() {
+  return locales.map((locale) => ({
+    locale,
+  }));
+}
+
 // Inside the component, before the return statement
 const structuredData = {
   "@context": "https://schema.org",

@@ -1,8 +1,17 @@
-"use client";
-
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import ConsultSrc from '@/public/images/consultant.jpg'
+
+// Define supported locales
+const locales = ["en", "vn"];
+
+// Generate static paths for each locale
+export async function generateStaticParams() {
+  return locales.map((locale) => ({
+    locale,
+  }));
+}
+
 
 export default function Consultation() {
   const t = useTranslations("Consultation");

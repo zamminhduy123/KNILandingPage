@@ -1,9 +1,4 @@
-"use client";
-
 import { useTranslations } from "next-intl";
-import Image from "next/image";
-import { useEffect } from "react";
-import documentSrc from "@/public/images/documents.jpg";
 import { FaPhone } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { AiFillTikTok } from "react-icons/ai";
@@ -11,6 +6,16 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 
 import { FaEnvelope, FaMapMarkerAlt, FaBuilding } from "react-icons/fa";
+
+// Define supported locales
+const locales = ["en", "vn"];
+
+// Generate static paths for each locale
+export async function generateStaticParams() {
+  return locales.map((locale) => ({
+    locale,
+  }));
+}
 
 export default function Contact() {
   const t = useTranslations("Contact");

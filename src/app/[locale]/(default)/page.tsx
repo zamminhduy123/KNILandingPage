@@ -8,7 +8,7 @@ import Preparation from "@/src/components/preparation";
 import Tutor from "@/src/components/tutor";
 import RoadMap from "@/src/components/roadmap";
 import CustomerReviews from "@/src/components/reviews";
-import { Metadata } from "next";
+import { GetStaticProps, Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
@@ -50,6 +50,17 @@ export const metadata: Metadata = {
     images: ["https://kni.vn/images/twitter-image-home.jpg"],
   },
 };
+
+
+// Define supported locales
+const locales = ["en", "vn"];
+
+// Generate static paths for each locale
+export async function generateStaticParams() {
+  return locales.map((locale) => ({
+    locale,
+  }));
+}
 
 export default function Home() {
   return (
