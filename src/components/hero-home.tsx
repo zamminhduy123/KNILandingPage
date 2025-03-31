@@ -44,7 +44,7 @@ export default function HeroHome() {
                 data-aos-delay="300"
               >
                 <Link
-                  href={`${locale}/contact`}
+                  href={`/${locale}/consultation`}
                   className="btn bg-orange-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-orange-600 transition"
                 >
                   {t("enrollNow")} <span className="ml-2">→</span>
