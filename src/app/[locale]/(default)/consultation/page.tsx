@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import ConsultSrc from '@/public/images/consultant.jpg'
+import ConsultSrc from '@/public/images/consultant-small.jpg'
 import {setRequestLocale} from 'next-intl/server';
 import { use } from "react";
 

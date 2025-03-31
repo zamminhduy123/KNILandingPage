@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import documentSrc from "@/public/images/documents.jpg";
+import documentSrc from "@/public/images/documents-small.jpg";
 import documentBlurSrc from "@/public/images/documents_blur.jpg";
 import { Metadata } from "next";
 

@@ -7,9 +7,9 @@ import { FaCheckCircle, FaQuestionCircle } from "react-icons/fa";
 import { AiTwotoneQuestionCircle } from "react-icons/ai";
 
 const images = [
-  "/images/self-study.jpg",
-  "/images/gather-online.jpg",
-  "/images/academy-study.jpg",
+  "/images/self-study-small.jpg",
+  "/images/gather-online-small.jpg",
+  "/images/academy-study-small.jpg",
 ];
 
 const blurImages = [
