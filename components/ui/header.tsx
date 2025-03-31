@@ -146,7 +146,7 @@ export default function Header() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link
-              href="/signup"
+              href="/consultation"
               className="bg-orange-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-orange-600 transition-colors"
             >
               {t("signup")}

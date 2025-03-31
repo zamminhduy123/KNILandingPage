@@ -13,18 +13,6 @@ import { FaSquareInstagram } from "react-icons/fa6";
 export default function FreeTestAS() {
   const t = useTranslations("FreeTestAS");
 
-  const contactItems = [
-    {
-      icon: FaPhone, // Replace with your actual icon path
-      value: "091-839-1099",
-      highlight: true, // Highlight this item with red background
-    },
-    {
-      icon: IoMdMail, // Replace with your actual icon path
-      value: "nhat@kni.vn",
-    }, 
-  ];
-
   return (
     <>
       {/* Free TestAS Section */}
@@ -34,7 +22,7 @@ export default function FreeTestAS() {
             {/* Left: Content */}
             <div className="order-1">
               <p
-                className="text-sm uppercase text-red-600 font-semibold tracking-wider mb-2"
+                className="text-sm uppercase text-orange-600 font-semibold tracking-wider mb-2"
                 data-aos="fade-right"
                 data-aos-delay="100"
               >
@@ -45,7 +33,7 @@ export default function FreeTestAS() {
                 data-aos="fade-right"
                 data-aos-delay="200"
               >
-                {t("title")} <span className="text-red-600">.</span>
+                {t("title")} <span className="text-orange-600">.</span>
               </h1>
               <p
                 className="text-gray-600 mb-4 italic"
@@ -68,26 +56,29 @@ export default function FreeTestAS() {
               >
                 {t("description.line2")}
               </p>
-              <form className="space-y-4" data-aos="fade-right" data-aos-delay="600">
+              <form className="space-y-4" data-aos="fade-right" data-aos-delay="600" action="https://formsubmit.co/bb03a141b18680d1cb60fdd8d49ee98b" method="POST">
                 <div>
+                  <input type="hidden" name="_captcha" value="false"/>
                   <input
                     type="email"
+                    name="email"
                     placeholder={t("form.email")}
-                    className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+                    className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
                     required
                   />
                 </div>
                 <div>
                   <input
                     type="text"
+                    name="phone-number"
                     placeholder={t("form.zalo")}
-                    className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+                    className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600 "
                     required
                   />
                 </div>
                 <button
                   type="submit"
-                  className="bg-red-600 text-white uppercase px-6 py-3 rounded-md hover:bg-red-700 transition flex items-center"
+                  className="bg-orange-600 text-white uppercase px-6 py-3 rounded-md hover:bg-orange-700 transition flex items-center cursor-pointer"
                 >
                   {t("form.submit")} <span className="ml-2">→</span>
                 </button>

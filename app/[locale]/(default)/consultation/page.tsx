@@ -3,7 +3,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import ConsultSrc from '@/public/images/consultant.jpg'
-import { renderDescriptionWithMultipleHighlights } from '@/utils/render-utils'
 
 export default function Consultation() {
   const t = useTranslations("Consultation");
@@ -15,7 +14,7 @@ export default function Consultation() {
           {/* Left: Form */}
           <div className="order-1">
             <p
-              className="text-sm uppercase text-red-600 font-semibold tracking-wider mb-2"
+              className="text-sm uppercase text-orange-600 font-semibold tracking-wider mb-2"
               data-aos="fade-right"
               data-aos-delay="100"
             >
@@ -26,7 +25,7 @@ export default function Consultation() {
               data-aos="fade-right"
               data-aos-delay="200"
             >
-              {t("title")}<br/>{t("free")}<span className="text-red-600">.</span>
+              {t("title")}<br/>{t("free")}<span className="text-orange-600">.</span>
             </h1>
             <p
               className="text-gray-600 mb-4"
@@ -61,7 +60,7 @@ export default function Consultation() {
                 <input
                   type="text"
                   placeholder={t("form.name")}
-                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
                   required
                 />
               </div>
@@ -69,7 +68,7 @@ export default function Consultation() {
                 <input
                   type="text"
                   placeholder={t("form.zalo")}
-                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
                   required
                 />
               </div>
@@ -77,7 +76,7 @@ export default function Consultation() {
                 <input
                   type="email"
                   placeholder={t("form.email")}
-                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
                   required
                 />
               </div>
@@ -85,13 +84,13 @@ export default function Consultation() {
                 <input
                   type="text"
                   placeholder={t("form.howDidYouFindUs")}
-                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-red-600"
+                  className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600"
                   required
                 />
               </div>
               <button
                 type="submit"
-                className="bg-red-600 text-white uppercase px-6 py-3 rounded-md hover:bg-red-700 transition flex items-center cursor-pointer"
+                className="bg-orange-600 text-white uppercase px-6 py-3 rounded-md hover:bg-orange-700 transition flex items-center cursor-pointer"
               >
                 {t("form.submit")} <span className="ml-2">→</span>
               </button>

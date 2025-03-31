@@ -9,6 +9,7 @@ import { IoMdMail } from "react-icons/io";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
+import Link from "next/link";
 
 export default function Contact() {
   const t = useTranslations("Contact");
@@ -70,21 +71,33 @@ export default function Contact() {
             data-aos-delay={`${(3 + 1) * 100}`}
           >
             <div className="flex items-center">
-              <AiFillTikTok
-                size={48}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.tiktok.com/@khanhnhat.institute"
                 className="mx-auto mb-4 text-gray-500 hover:scale-110 transition-all cursor-pointer"
                 style={{ transitionDuration: "200ms" }}
-              />
-              <FaSquareFacebook
-                size={48}
+              >
+                <AiFillTikTok size={48} />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/testascandidates"
                 className="mx-auto mb-4 text-gray-500 hover:scale-110 transition-all cursor-pointer"
                 style={{ transitionDuration: "200ms" }}
-              />
-              <FaSquareInstagram
-                size={48}
+              >
+                <FaSquareFacebook size={48} />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/khanhnhatinstitute/"
                 className="mx-auto mb-4 text-gray-500 hover:scale-110 transition-all cursor-pointer"
                 style={{ transitionDuration: "200ms" }}
-              />
+              >
+                <FaSquareInstagram size={48} />
+              </a>
             </div>
             <p>{t("SocialMedia")}</p>
           </div>

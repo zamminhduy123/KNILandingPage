@@ -7,6 +7,7 @@ import {routing} from '@/i18n/routing';
 import { Inter } from "next/font/google";
 import ClientLayout from './index'
 import AOSInitializer from '@/components/AOSInitializer'
+import Head from 'next/head';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -30,6 +31,17 @@ export default async function DefaultLayout({
   }
   return (
     <html lang={locale} className="scroll-smooth">
+      <Head>
+        <title>KNI - TestAS</title>
+        <meta name="description" content="A brief description of your page" />
+        <meta name="keywords" content="Next.js, SEO, optimization, TestAS, Test for Academic Studies, KNI, Khanh Nhat Institute" />
+        <link
+          rel="icon"
+          href="/icon.png"
+          type="image/png"
+          sizes="32"
+        />
+      </Head>
       <body
         className={`${inter.variable} bg-gray-50 font-inter tracking-tight text-gray-900 antialiased`}
       >
