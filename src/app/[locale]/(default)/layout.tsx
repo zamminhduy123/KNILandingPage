@@ -8,6 +8,8 @@ import { Inter } from "next/font/google";
 import ClientLayout from './index'
 import AOSInitializer from '@/src/components/AOSInitializer'
 import Head from 'next/head';
+import {setRequestLocale} from 'next-intl/server';
+import '../../css/style.css' 
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,6 +21,10 @@ type Props = {
   children: React.ReactNode;
   params: Promise<{locale: string}>;
 };
+ 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({locale}));
+}
 
 export default async function DefaultLayout({
   children,
@@ -29,6 +35,7 @@ export default async function DefaultLayout({
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
+
   return (
     <html lang={locale} className="scroll-smooth">
       <Head>

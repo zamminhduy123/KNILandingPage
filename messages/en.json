@@ -65,11 +65,15 @@
         },
         "1": {
           "title": "Online Resources",
-          "description": " Let me tell you, if you buy resources from 2017 to 2025, 99% of the content is outdated and risky. They only update the year to avoid copyright issues. Even if you memorize everything in one of those books… You’ll soon realize how tough it can be."
+          "description_1": "Let me tell you, if you buy resources from 2017 to 2025, 99% of the content is outdated and risky.",
+          "description_2": "They only update the year to avoid copyright issues. Even if you memorize everything in one of those books… You’ll soon realize how tough it can be.",
+          "description_3": "Even if you memorize everything in one of those books… You’ll soon realize how tough it can be."
         },
         "2": {
           "title": "Study Abroad Center?",
-          "description": "Do you mean the place where they teach you what they’ve read in books about TestAS preparation? If you need to study abroad, find a study abroad consultant. But if you need a high TestAS score, you’ll need a TestAS expert."
+          "description_1": "Do you mean the place where they teach you what they’ve read in books about TestAS preparation?",
+          "description_3": "If you need to study abroad, find a study abroad consultant. But if you need a high TestAS score, you’ll need a TestAS expert.",
+          "description_2": "If you need to study abroad, find a study abroad consultant. "
         }
       },
       "buttons": {

@@ -9,6 +9,8 @@ import Tutor from "@/src/components/tutor";
 import RoadMap from "@/src/components/roadmap";
 import CustomerReviews from "@/src/components/reviews";
 import { GetStaticProps, Metadata } from "next";
+import {setRequestLocale} from 'next-intl/server';
+import {routing} from '@/src/i18n/routing';
 
 export const metadata: Metadata = {
   title: {
@@ -51,18 +53,16 @@ export const metadata: Metadata = {
   },
 };
 
-
-// Define supported locales
-const locales = ["en", "vn"];
-
-// Generate static paths for each locale
-export async function generateStaticParams() {
-  return locales.map((locale) => ({
-    locale,
-  }));
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({locale}));
 }
 
-export default function Home() {
+export default async function Home({params} : any) {
+  const {locale} = await params;
+ 
+  // Enable static rendering
+  setRequestLocale(locale);
+  
   return (
     <>
       <Hero />

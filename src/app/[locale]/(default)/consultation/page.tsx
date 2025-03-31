@@ -1,19 +1,15 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import ConsultSrc from '@/public/images/consultant.jpg'
+import {setRequestLocale} from 'next-intl/server';
+import { use } from "react";
 
-// Define supported locales
-const locales = ["en", "vn"];
+export default function Consultation({ params }: any) {
+  const {locale} = use<any>(params);
+ 
+  // Enable static rendering
+  setRequestLocale(locale);
 
-// Generate static paths for each locale
-export async function generateStaticParams() {
-  return locales.map((locale) => ({
-    locale,
-  }));
-}
-
-
-export default function Consultation() {
   const t = useTranslations("Consultation");
 
   return (

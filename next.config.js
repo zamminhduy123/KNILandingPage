@@ -1,21 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: "export",
+  trailingSlash: true,
   images: {
     unoptimized: true,
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'static.wixstatic.com',
-        port: '',
-        search: '',
+        protocol: "https",
+        hostname: "static.wixstatic.com",
+        port: "",
+        search: "",
       },
     ],
-  }
-}
-
-const createNextIntlPlugin = require('next-intl/plugin');
-
+  },
+};
+const createNextIntlPlugin = require('next-intl/plugin')
 const withNextIntl = createNextIntlPlugin();
-  
-module.exports = withNextIntl(nextConfig);
+module.exports = withNextIntl(nextConfig)

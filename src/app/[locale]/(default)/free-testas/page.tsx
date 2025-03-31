@@ -4,16 +4,8 @@ import documentSrc from "@/public/images/documents.jpg";
 import { Metadata } from "next";
 
 import Head from "next/head";
-
-// Define supported locales
-const locales = ["en", "vn"];
-
-// Generate static paths for each locale
-export async function generateStaticParams() {
-  return locales.map((locale) => ({
-    locale,
-  }));
-}
+import { use } from "react";
+import {setRequestLocale} from 'next-intl/server';
 
 // Inside the component, before the return statement
 const structuredData = {
@@ -96,7 +88,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function FreeTestAS() {
+export default function FreeTestAS({params} : any) {
+  const {locale} = use<any>(params);
+ 
+  // Enable static rendering
+  setRequestLocale(locale);
+
   const t = useTranslations("FreeTestAS");
 
   return (

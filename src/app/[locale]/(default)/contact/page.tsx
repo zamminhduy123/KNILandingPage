@@ -4,20 +4,16 @@ import { IoMdMail } from "react-icons/io";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
-
+import {setRequestLocale} from 'next-intl/server';
 import { FaEnvelope, FaMapMarkerAlt, FaBuilding } from "react-icons/fa";
+import { use } from "react";
 
-// Define supported locales
-const locales = ["en", "vn"];
-
-// Generate static paths for each locale
-export async function generateStaticParams() {
-  return locales.map((locale) => ({
-    locale,
-  }));
-}
-
-export default function Contact() {
+export default function Contact({params} : any) {
+  const {locale} = use<any>(params);
+ 
+  // Enable static rendering
+  setRequestLocale(locale);
+  
   const t = useTranslations("Contact");
 
   const contactItems = [
