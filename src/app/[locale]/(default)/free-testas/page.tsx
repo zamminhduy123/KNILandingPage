@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import documentSrc from "@/public/images/documents-small.jpg";
+import documentSrc from "@/public/images/documents.jpg";
 import documentBlurSrc from "@/public/images/documents_blur.jpg";
 import { Metadata } from "next";
 
@@ -190,13 +190,13 @@ export default function FreeTestAS({params} : any) {
               </form>
             </div>
             {/* Right: Image */}
-            <div className="order-2">
+            <div className="order-2 flex justify-end">
               <Image
                 src={documentSrc} // Replace with your actual image path
                 width={500}
                 height={500}
                 alt="Free TestAS Image"
-                className="rounded-lg shadow-md w-full"
+                className="rounded-lg shadow-md"
                 data-aos="fade-left"
                 data-aos-delay="100"
                 priority

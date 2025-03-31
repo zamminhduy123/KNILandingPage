@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import ConsultSrc from '@/public/images/consultant-small.jpg'
+import ConsultSrc from '@/public/images/consultant.jpg'
 import {setRequestLocale} from 'next-intl/server';
 import { use } from "react";
 
@@ -102,13 +102,13 @@ export default function Consultation({ params }: any) {
             </form>
           </div>
           {/* Right: Image */}
-          <div className="order-2">
+          <div className="order-2 flex justify-end">
             <Image
               src={ConsultSrc} // Replace with your actual image path
               width={400}
               height={400}
               alt="Consultation Image"
-              className="rounded-lg shadow-md w-full"
+              className="rounded-lg shadow-md"
               data-aos="fade-left"
               data-aos-delay="100"
               priority
