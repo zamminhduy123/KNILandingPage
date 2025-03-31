@@ -58,6 +58,7 @@ export default function Header() {
                 height={48}
                 alt="KNI Logo"
                 className="hover:opacity-80 transition-opacity"
+                priority
               />
             </Link>
           </div>

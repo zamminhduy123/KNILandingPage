@@ -46,6 +46,7 @@ export default function Tutor() {
               className="rounded-lg shadow-md"
               data-aos="fade-right"
               data-aos-delay="100"
+              priority
             />
             {/* Secondary Image (Overlapping) */}
             <Image
@@ -56,6 +57,7 @@ export default function Tutor() {
               className="absolute bottom-0 right-0 shadow-md border-amber-50 border-5"
               data-aos="fade-right"
               data-aos-delay="200"
+              priority
             />
             {/* Circular Badge */}
             <div
@@ -69,6 +71,7 @@ export default function Tutor() {
                 height={100}
                 alt="Education Award"
                 className="rounded-full"
+                priority
               />
             </div>
           </div>
@@ -115,6 +118,7 @@ export default function Tutor() {
                         height={25}
                         alt="Tutor Signature"
                         className="rounded-full"
+                        priority
                     />
                 </div>
                 <p className="text-xl text-gray-500">
@@ -144,6 +148,7 @@ export default function Tutor() {
                 height={50}
                 alt="Tutor Signature"
                 className="rounded-full"
+                priority
               />
               <div>
                 <p className="text-black font-semibold">{t("signature.name")}</p>

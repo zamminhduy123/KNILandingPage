@@ -86,7 +86,7 @@ export default function Preparation() {
                 height={400}
                 alt={t(`sections.${activeSection}.title`)}
                 className="rounded-lg shadow-md w-full fade-in-slide-up"
-                loading="eager"
+                priority
             />
           </div>
           {/* Right: Text Sections */}

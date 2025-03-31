@@ -111,6 +111,7 @@ export default function Consultation({ params }: any) {
               className="rounded-lg shadow-md w-full"
               data-aos="fade-left"
               data-aos-delay="100"
+              priority
             />
           </div>
         </div>
