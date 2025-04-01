@@ -181,5 +181,14 @@
       }
     },
     "SocialMedia": "Mạng xã hội"
+  },
+  "ThankYou": {
+    "title": "Cảm ơn bạn",
+    "subtitle": "Bộ đề miễn phí sẽ đến email của bạn trong vòng 5 phút.",
+    "checkSpam": "KIỂM TRA MỤC THƯ RÁC nếu bạn không tìm thấy nó sau thời gian trên.",
+    "freeVideoTitle": "Muốn được học thử miễn phí?",
+    "freeVideoDescription": "Có thể sau khi giải xong đề bạn sẽ muốn được biết kết quả của bạn có đủ khá năng đạt điểm bạn mong muốn trong bài thi thật hay không? Hay bạn sẽ muốn được phân tích điểm mạnh và điểm yếu qua bài thi bởi người có kinh nghiệm để bạn có lộ trình tự học hợp lý?",
+    "contactPrompt": "Hãy đăng ký ngay và chúng mình sẽ Alo tư vấn trực tiếp miễn phí cho bạn!",
+    "registerNow": "Đăng Ký Ngay"
   }
 }

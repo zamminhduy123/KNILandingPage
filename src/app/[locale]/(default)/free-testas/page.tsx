@@ -154,6 +154,7 @@ export default function FreeTestAS({params} : any) {
                 method="POST"
               >
                 <div>
+                  <input type="hidden" name="_next" value={`https://knilandingpage.onrender.com/vn/thank-you/index.html`}/>
                   <input type="hidden" name="_captcha" value="false" />
                   <label htmlFor="email" className="sr-only">
                     {t("form.email")}
@@ -172,7 +173,7 @@ export default function FreeTestAS({params} : any) {
                     {t("form.zalo")}
                   </label>
                   <input
-                    type="text"
+                    type="number"
                     name="phone-number"
                     placeholder={t("form.zalo")}
                     className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-600 "

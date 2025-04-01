@@ -181,5 +181,14 @@
       }
     },
     "SocialMedia": "Social Media"
+  },
+  "ThankYou": {
+    "title": "Thank you",
+    "subtitle": "The free practice set will arrive in your email within 5 minutes.",
+    "checkSpam": "CHECK YOUR SPAM FOLDER if you don’t find it after the specified time.",
+    "freeVideoTitle": "Want to try a free lesson?",
+    "freeVideoDescription": "After solving the practice set, would you like to know if your results are good enough to achieve your desired score in the real test? Or would you like an expert to analyze your strengths and weaknesses through the test to help you create a suitable self-study plan?",
+    "contactPrompt": "Register now and we’ll call you for a free consultation!",
+    "registerNow": "Register Now"
   }
 }
