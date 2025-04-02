@@ -190,5 +190,27 @@
     "freeVideoDescription": "After solving the practice set, would you like to know if your results are good enough to achieve your desired score in the real test? Or would you like an expert to analyze your strengths and weaknesses through the test to help you create a suitable self-study plan?",
     "contactPrompt": "Register now and we’ll call you for a free consultation!",
     "registerNow": "Register Now"
+  },
+  "brevoForm": {
+    "errorMessage": "Please try again!",
+    "successMessage": "Check your email to get started!",
+    "title": "Preparation for TestAS 2025",
+    "freeLabel": "(FREE)",
+    "description": "Do you need the latest updated practice set to start your self-study journey without paying a fee? Leave your information, and the Core Test + Module set will arrive in no time!",
+    "emailLabel": "Enter EMAIL (where to receive the practice set)",
+    "emailHelpText": "Provide your email address to subscribe. For e.g abc@xyz.com",
+    "zaloLabel": "Enter Zalo (a teacher will connect and answer all your questions)",
+    "zaloTooltip": "The Zalo field must contain between 6 and 19 digits and include the country code (e.g. 849xxxxxxxx for Vietnam)",
+    "zaloHelpText": "Please provide the correct phone number",
+    "moduleLabel": "The Module practice set you need is:",
+    "moduleOptions": {
+      "engineer": "ENGINEER",
+      "economics": "ECONOMICS",
+      "naturalScience": "NATURAL SCIENCE AND COMPUTER SCIENCE"
+    },
+    "submitButton": "SEND ME THE PRACTICE SET NOW!",
+    "requiredCodeError": "Please choose a country code",
+    "invalidMessage": "Please enter valid information!",
+    "requiredError": "Please fill in all the required fields!"
   }
 }

@@ -7,6 +7,7 @@ import { Metadata } from "next";
 import Head from "next/head";
 import { use } from "react";
 import {setRequestLocale} from 'next-intl/server';
+import BrevoForm from "@/src/components/brevo/form";
 
 // Inside the component, before the return statement
 const structuredData = {
@@ -106,11 +107,11 @@ export default function FreeTestAS({params} : any) {
         />
       </Head>
       {/* Free TestAS Section */}
-      <section className="min-h-screen bg-white snap-center py-32">
+      <section className="min-h-screen bg-white snap-center py-16">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             {/* Left: Content */}
-            <div className="order-1">
+            {/* <div className="order-1">
               <p
                 className="text-sm uppercase text-orange-600 font-semibold tracking-wider mb-2"
                 data-aos="fade-right"
@@ -154,8 +155,6 @@ export default function FreeTestAS({params} : any) {
                 method="POST"
               >
                 <div>
-                  <input type="hidden" name="_next" value={`https://knilandingpage.onrender.com/vn/thank-you/index.html`}/>
-                  <input type="hidden" name="_captcha" value="false" />
                   <label htmlFor="email" className="sr-only">
                     {t("form.email")}
                   </label>
@@ -181,6 +180,8 @@ export default function FreeTestAS({params} : any) {
                     aria-required="true"
                   />
                 </div>
+                <input type="hidden" name="_next" value="https://knilandingpage.onrender.com/vn/thank-you/index.html"/>
+                <input type="hidden" name="_captcha" value="false" />
                 <button
                   type="submit"
                   className="bg-orange-600 text-white uppercase px-6 py-3 rounded-md hover:bg-orange-700 transition flex items-center cursor-pointer"
@@ -189,7 +190,8 @@ export default function FreeTestAS({params} : any) {
                   {t("form.submit")} <span className="ml-2">→</span>
                 </button>
               </form>
-            </div>
+            </div> */}
+            <BrevoForm/>
             {/* Right: Image */}
             <div className="order-2 flex justify-end">
               <Image

@@ -190,5 +190,27 @@
     "freeVideoDescription": "Có thể sau khi giải xong đề bạn sẽ muốn được biết kết quả của bạn có đủ khá năng đạt điểm bạn mong muốn trong bài thi thật hay không? Hay bạn sẽ muốn được phân tích điểm mạnh và điểm yếu qua bài thi bởi người có kinh nghiệm để bạn có lộ trình tự học hợp lý?",
     "contactPrompt": "Hãy đăng ký ngay và chúng mình sẽ Alo tư vấn trực tiếp miễn phí cho bạn!",
     "registerNow": "Đăng Ký Ngay"
+  },
+  "brevoForm": {
+    "errorMessage": "Mời bạn thử lại!",
+    "successMessage": "Check email của bạn để bắt đầu thôi!",
+    "title": "Preparation for TestAS 2025",
+    "freeLabel": "(FREE)",
+    "description": "Bạn cần bộ sách cập nhật mới nhất để bắt đầu hành trình tự học của bạn mà không cần trả phí? Hãy để lại thông tin và bộ sách Core Test + Module sẽ tới trong tích tắc!",
+    "emailLabel": "Nhập EMAIL (nơi nhận bộ đề)",
+    "emailHelpText": "Provide your email address to subscribe. For e.g abc@xyz.com",
+    "zaloLabel": "Nhập Zalo (giáo viên sẽ kết nối và trả lời mọi thắc mắc của bạn)",
+    "zaloTooltip": "Zalo phải từ 6 đến 19 chữ số và bao gồm mã quốc gia (ví dụ: 849xxxxxxxx cho Việt Nam)",
+    "zaloHelpText": "Lưu ý nhập đúng sdt để được giáo viên tư vấn cho bạn nha.",
+    "moduleLabel": "Bộ sách Module bạn cần là:",
+    "moduleOptions": {
+      "engineer": "ENGINEER",
+      "economics": "ECONOMICS",
+      "naturalScience": "NATURAL SCIENCE AND COMPUTER SCIENCE"
+    },
+    "submitButton": "GỬI MÌNH ĐỀ NGAY!",
+    "requiredCodeError": "Vui lòng chọn mã quốc gia",
+    "invalidMessage": "Điền thông tin hợp lệ nha!",
+    "requiredError": "Bạn ơi điền mình đầy đủ nha!"
   }
 }
