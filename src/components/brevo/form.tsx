@@ -13,7 +13,7 @@ export default function BrevoForm() {
       />
 
       {/* Form Container */}
-      <div className="sib-form" style={{ textAlign: "center" }}>
+      <div className="sib-form p-0!" style={{ textAlign: "center" }}>
         <div id="sib-form-container" className="sib-form-container">
           {/* Form */}
           <div
@@ -40,7 +40,8 @@ export default function BrevoForm() {
                     textAlign: "left",
                     fontWeight: 700,
                     fontFamily: "Inter, sans-serif",
-                    color: "#ff914d",
+                    // color: "#ff914d",
+                    color: "black",
                     backgroundColor: "transparent",
                   }}
 
@@ -144,7 +145,8 @@ export default function BrevoForm() {
                         htmlFor="SMS"
                         data-required="*"
                       >
-                        {t("zaloLabel")}
+                        {t("zaloLabel") ||
+                          "ZALO (lưu ý lời mời từ giáo viên)"}
                       </label>
                       <div
                         className="sib-sms-input-wrapper"
