@@ -30,8 +30,6 @@ export default function BrevoForm() {
               method="POST"
               action="https://sibforms.com/serve/MUIFAMvp7vW3kMn8y8v0FQvSWuzRFSKeGmnymv65Sgwl6j8GfbYRPonAhkH-_H4QWnwwJXhx9GluHA10NDM8pzLjHmNejfmjOF_C8Q2-v58mc5oq2WPrXwsuJWSQU01Y3f4QpzxTKOaLGTDJFSQJvqJbkrXjxgsur0AkJUEmfLB0Rs9983EgGrVfsvZLwQ5Izqxws-VryR_KAZnz"
               data-type="subscription"
-              data-aos="fade-left"
-              data-aos-delay="100"
             >
               {/* Title */}
               <div style={{ padding: "8px 0" }}>

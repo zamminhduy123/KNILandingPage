@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 import Head from "next/head";
 import { use } from "react";
-import {setRequestLocale} from 'next-intl/server';
+import { setRequestLocale } from "next-intl/server";
 import BrevoForm from "@/src/components/brevo/form";
 
 // Inside the component, before the return statement
@@ -90,9 +90,9 @@ export const metadata: Metadata = {
   },
 };
 
-export default function FreeTestAS({params} : any) {
-  const {locale} = use<any>(params);
- 
+export default function FreeTestAS({ params }: any) {
+  const { locale } = use<any>(params);
+
   // Enable static rendering
   setRequestLocale(locale);
 
@@ -191,7 +191,10 @@ export default function FreeTestAS({params} : any) {
                 </button>
               </form>
             </div> */}
-            <BrevoForm/>
+            <div data-aos="fade-right" data-aos-delay="100">
+              <BrevoForm />
+            </div>
+
             {/* Right: Image */}
             <div className="order-2 flex justify-end">
               <Image
