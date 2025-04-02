@@ -3,6 +3,7 @@ import Image from "next/image";
 import ConsultSrc from '@/public/images/consultant.jpg'
 import {setRequestLocale} from 'next-intl/server';
 import { use } from "react";
+import ConsultationForm from "@/src/components/brevo/consultation-form";
 
 export default function Consultation({ params }: any) {
   const {locale} = use<any>(params);
@@ -18,49 +19,44 @@ export default function Consultation({ params }: any) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left: Form */}
           <div className="order-1">
-            <p
+            {/* <p
               className="text-sm uppercase text-orange-600 font-semibold tracking-wider mb-2"
               data-aos="fade-right"
               data-aos-delay="100"
             >
               {t("label")}
-            </p>
+            </p> */}
             <h1
-              className="text-4xl md:text-5xl font-bold text-black mb-6"
-              data-aos="fade-right"
-              data-aos-delay="200"
+              className="text-3xl md:text-4xl font-bold text-[#ff914d] mb-2"
             >
-              {t("title")}<br/>{t("free")}<span className="text-orange-600">.</span>
+              {t("title")}{" "}{t("free")}<span className="text-orange-600">.</span>
             </h1>
             <p
-              className="text-gray-600 mb-4"
-              data-aos="fade-right"
-              data-aos-delay="300"
+              className="text-gray-600 mb-2"
             >
-              {t("description.line1")}
+              {t("description.line1")}{" "}{t("description.line2")}{" "}{t("description.line3")}
             </p>
-            <p
+            {/* <p
               className="text-gray-600 mb-4"
               data-aos="fade-right"
               data-aos-delay="400"
             >
-              {t("description.line2")}
-            </p>
-            <p
+
+            </p> */}
+            {/* <p
               className="text-gray-600 mb-4"
               data-aos="fade-right"
               data-aos-delay="500"
             >
-              {t("description.line3")}
-            </p>
+              
+            </p> */}
             <p
-              className="text-orange-600 font-bold mb-6"
-              data-aos="fade-right"
-              data-aos-delay="600"
+              className="text-orange-600 font-bold mb-2"
             >
               {t("description.line4")}
             </p>
-            <form className="space-y-4" data-aos="fade-right" data-aos-delay="700">
+            <ConsultationForm/>
+            {/* <form className="space-y-4" data-aos="fade-right" data-aos-delay="700">
               <div>
                 <input
                   type="text"
@@ -99,8 +95,9 @@ export default function Consultation({ params }: any) {
               >
                 {t("form.submit")} <span className="ml-2">→</span>
               </button>
-            </form>
+            </form> */}
           </div>
+
           {/* Right: Image */}
           <div className="order-2 flex justify-end">
             <Image

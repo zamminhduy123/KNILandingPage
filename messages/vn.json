@@ -137,13 +137,6 @@
       "line2": "Hay bạn muốn trải nghiệm thử một lớp KNI?",
       "line3": "Điền đơn sau và chúng mình sẽ liên hệ lại với bạn trong vòng 48 tiếng.",
       "line4": "Không bắt buộc, không chi phí."
-    },
-    "form": {
-      "name": "Họ Tên *",
-      "zalo": "Zalo *",
-      "email": "Email *",
-      "howDidYouFindUs": "Bạn tìm được chúng mình qua đâu? *",
-      "submit": "Gửi ngay"
     }
   },
   "FreeTestAS": {
@@ -212,5 +205,29 @@
     "requiredCodeError": "Vui lòng chọn mã quốc gia",
     "invalidMessage": "Điền thông tin hợp lệ nha!",
     "requiredError": "Bạn ơi điền mình đầy đủ nha!"
+  },
+  "ConsultationBrevoForm": {
+    "nameLabel": "TÊN",
+    "emailLabel": "EMAIL",
+    "zaloLabel": "ZALO (lưu ý lời mời từ giáo viên)",
+    "zaloTooltip": "The SMS field must contain between 6 and 19 digits and include the country code without using +/0 (e.g. 1xxxxxxxxxx for the United States)",
+    "searchLabel": "Bạn tìm được chúng mình qua đâu?",
+    "searchOptions": {
+      "referred": "Được giới thiệu từ người quen"
+    },
+    "submitButton": "ĐĂNG KÝ!",
+    "errorMessage": "Có lỗi. Xin thử lại!",
+    "successMessage": "Đăng ký thành công, nhớ check Zalo của bạn nhé!",
+    "requiredCodeError": "Please choose a country code",
+    "invalidMessage": "Thông tin không hợp lệ, vui lòng điền lại!",
+    "requiredError": "Đừng bỏ trống tui :(",
+    "zaloHelpText": "Lưu ý nhập đúng sdt để được giáo viên tư vấn cho bạn nha.",
+    "form": {
+      "name": "Họ Tên *",
+      "zalo": "Zalo *",
+      "email": "Email *",
+      "howDidYouFindUs": "Bạn tìm được chúng mình qua đâu? *",
+      "submit": "Gửi ngay"
+    }
   }
 }

@@ -212,5 +212,29 @@
     "requiredCodeError": "Please choose a country code",
     "invalidMessage": "Please enter valid information!",
     "requiredError": "Please fill in all the required fields!"
+  },
+  "ConsultationBrevoForm": {
+    "nameLabel": "NAME",
+    "emailLabel": "EMAIL",
+    "zaloLabel": "ZALO (note the invitation from the teacher)",
+    "zaloTooltip": "The SMS field must contain between 6 and 19 digits and include the country code without using +/0 (e.g. 1xxxxxxxxxx for the United States)",
+    "searchLabel": "How did you find us?",
+    "searchOptions": {
+      "referred": "Referred by an acquaintance"
+    },
+    "submitButton": "SIGN UP!",
+    "errorMessage": "There was an error. Please try again!",
+    "successMessage": "Successfully registered, remember to check your Zalo!",
+    "requiredCodeError": "Please choose a country code",
+    "invalidMessage": "Invalid information, please fill it in again!",
+    "requiredError": "Don't leave me blank :(",
+    "zaloHelpText": "Please enter the correct phone number so the teacher can consult with you.",
+    "form": {
+      "name": "Full Name *",
+      "zalo": "Zalo *",
+      "email": "Email *",
+      "howDidYouFindUs": "How did you find us? *",
+      "submit": "Send Now"
+    }
   }
 }

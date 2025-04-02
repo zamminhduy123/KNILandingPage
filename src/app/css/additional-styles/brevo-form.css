@@ -56,3 +56,14 @@
     border: none !important;
     width: calc(100% - 32px) !important;
   }
+  
+  .consultation-form {
+    padding: 0 !important;
+  }
+
+  .consultation-form #sib-container {
+    padding: 0 !important;
+  }
+  .consultation-form #sib-container .sib-form-block {
+    padding: 0 !important;
+  }
