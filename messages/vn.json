@@ -184,6 +184,11 @@
     "contactPrompt": "Hãy đăng ký ngay và chúng mình sẽ Alo tư vấn trực tiếp miễn phí cho bạn!",
     "registerNow": "Đăng Ký Ngay"
   },
+  "ThankYouFreeConsult": {
+    "title": "Cảm ơn nhé",
+    "subtitle_1": "Giáo viên của bọn mình sẽ liên hệ với bạn qua điện thoại trong vòng 48 tiếng.",
+    "subtitle_2": "Trong lúc đó bạn, có thể đọc qua các bài blog của bọn mình để có thêm nhiều tips và tricks về học tập ở Đức!"
+  },
   "brevoForm": {
     "errorMessage": "Mời bạn thử lại!",
     "successMessage": "Check email của bạn để bắt đầu thôi!",

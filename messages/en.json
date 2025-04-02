@@ -191,6 +191,11 @@
     "contactPrompt": "Register now and we’ll call you for a free consultation!",
     "registerNow": "Register Now"
   },
+  "ThankYouFreeConsult": {
+    "title": "Thank you!",
+    "subtitle_1": "Our teacher will contact you by phone within 48 hours.",
+    "subtitle_2": "In the meantime, you can check out our blog posts for more tips and tricks about studying in Germany!"
+  },
   "brevoForm": {
     "errorMessage": "Please try again!",
     "successMessage": "Check your email to get started!",
