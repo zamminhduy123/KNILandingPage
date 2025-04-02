@@ -60,7 +60,7 @@ export default async function DefaultLayout({
             <AOSInitializer />{children}
           </ClientLayout>
         </NextIntlClientProvider>
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-22N9GX8CS1"></Script>
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-22N9GX8CS1"></Script>
         <Script>
           {`
             window.dataLayer = window.dataLayer || [];
