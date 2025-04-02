@@ -46,7 +46,7 @@ export default function ThankYouPage({ params }: any) {
 
         {/* Register Now Button */}
         <Link
-          href="/consultation"
+          href={`${locale}/consultation`}
           className="inline-block bg-orange-500 text-white font-semibold py-3 px-6 rounded-lg hover:bg-orange-600 transition-colors"
         >
           {t("registerNow")}
