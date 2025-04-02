@@ -10,6 +10,7 @@ import AOSInitializer from '@/src/components/AOSInitializer'
 import Head from 'next/head';
 import {setRequestLocale} from 'next-intl/server';
 import '../../css/style.css' 
+import Script from 'next/script';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -59,6 +60,14 @@ export default async function DefaultLayout({
             <AOSInitializer />{children}
           </ClientLayout>
         </NextIntlClientProvider>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-22N9GX8CS1"></Script>
+        <Script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-22N9GX8CS1');
+        </Script>
       </body>
     </html>
   );
