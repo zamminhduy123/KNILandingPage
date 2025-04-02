@@ -62,11 +62,13 @@ export default async function DefaultLayout({
         </NextIntlClientProvider>
         <Script async src="https://www.googletagmanager.com/gtag/js?id=G-22N9GX8CS1"></Script>
         <Script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-22N9GX8CS1');
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-22N9GX8CS1');
+          `}
         </Script>
       </body>
     </html>
