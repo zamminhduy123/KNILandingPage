@@ -18,7 +18,9 @@ export default function Consultation({ params }: any) {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left: Form */}
-          <div className="order-1">
+          <div className="order-1"               
+              data-aos="fade-right"
+              data-aos-delay="100">
             {/* <p
               className="text-sm uppercase text-orange-600 font-semibold tracking-wider mb-2"
               data-aos="fade-right"
