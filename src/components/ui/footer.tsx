@@ -1,7 +1,11 @@
 import Link from "next/link";
 import Logo from "./logo";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function Footer({ border = false }: { border?: boolean }) {
+  const locale = useLocale();
+  const t = useTranslations("HomePage");
+
   return (
     <footer>
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -14,8 +18,15 @@ export default function Footer({ border = false }: { border?: boolean }) {
             <div>
               <Logo />
             </div>
-            <div className="text-sm text-gray-600">
-              &copy; KNI.vn - All rights reserved.
+            <div className="text-sm text-gray-600 flex flex-wrap items-center gap-x-3 gap-y-1">
+              <span>&copy; KNI.vn - All rights reserved.</span>
+              <span className="text-gray-300" aria-hidden="true">|</span>
+              <Link
+                href={`/${locale}/privacy-policy`}
+                className="hover:text-orange-500 transition-colors"
+              >
+                {t("privacyPolicy")}
+              </Link>
             </div>
           </div>
 
@@ -199,7 +210,7 @@ export default function Footer({ border = false }: { border?: boolean }) {
       </div>
 
       {/* Big text */}
-      <div className="relative -mt-16 h-60 w-full" aria-hidden="true">
+      <div className="relative -mt-16 h-60 w-full pointer-events-none" aria-hidden="true">
         <div className="pointer-events-none absolute left-1/2 -z-10 -translate-x-1/2 text-center text-[348px] font-bold leading-none before:bg-linear-to-b before:from-gray-200 before:to-gray-100/30 before:to-80% before:bg-clip-text before:text-transparent before:content-['KNI'] after:absolute after:inset-0 after:bg-gray-300/70 after:bg-clip-text after:text-transparent after:mix-blend-darken after:content-['KNI'] after:[text-shadow:0_1px_0_white]"></div>
         {/* Glow */}
         <div

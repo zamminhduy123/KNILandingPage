@@ -5,6 +5,7 @@
     "freeTest": "Đề TestAS FREE",
     "contact": "Liên Hệ",
     "signup": "Đăng Ký Học Thử",
+    "privacyPolicy": "Chính sách bảo mật",
     "heroTitle": "Chuyên gia dạy. Lộ trình hay.",
     "heroSubtitle": "Sợ rớt TestAS, lo lỡ hẹn nước Đức? Đồng hành ngay với trung tâm đã giúp 95% học viên đậu—2 năm dẫn đầu chất lượng và tài liệu tại Việt Nam!",
     "enrollNow": "Đăng Ký Ngay",
@@ -233,6 +234,53 @@
       "email": "Email *",
       "howDidYouFindUs": "Bạn tìm được chúng mình qua đâu? *",
       "submit": "Gửi ngay"
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Chính Sách Bảo Mật",
+    "lastUpdated": "Cập nhật lần cuối: 18 tháng 6, 2026",
+    "intro": "Tại KNI Education (kni.vn), một trong những ưu tiên hàng đầu của chúng tôi là bảo vệ quyền riêng tư của khách truy cập. Tài liệu Chính sách Bảo mật này chứa các loại thông tin được thu thập, ghi lại bởi KNI Education và cách chúng tôi sử dụng nó.",
+    "section1": {
+      "title": "1. Thông Tin Chúng Tôi Thu Thập",
+      "p1": "Khi bạn đăng ký nhận tư vấn miễn phí, học thử hoặc tải về các đề thi TestAS miễn phí, chúng tôi sẽ thu thập thông tin cá nhân do bạn cung cấp bao gồm:",
+      "li1": "Họ và tên",
+      "li2": "Số điện thoại Zalo",
+      "li3": "Địa chỉ Email",
+      "li4": "Nguồn thông tin bạn biết đến chúng tôi (được giới thiệu, mạng xã hội, v.v.)",
+      "p2": "Chúng tôi không thu thập thông tin thanh toán nhạy cảm hoặc dữ liệu theo dõi hành vi cá nhân ngoài số liệu phân tích web tiêu chuẩn."
+    },
+    "section2": {
+      "title": "2. Cách Chúng Tôi Sử Dụng Thông Tin",
+      "p1": "Chúng tôi sử dụng thông tin thu thập được cho các mục đích bao gồm:",
+      "li1": "Gửi tài liệu ôn tập TestAS và các bản cập nhật mới nhất cho bạn.",
+      "li2": "Liên hệ qua Zalo/điện thoại/email để xếp lịch học thử hoặc tư vấn lộ trình.",
+      "li3": "Cung cấp, vận hành và duy trì trang web cũng như dịch vụ của chúng tôi.",
+      "li4": "Cải thiện, cá nhân hóa và mở rộng trang web cũng như các chương trình đào tạo.",
+      "li5": "Tìm hiểu và phân tích cách bạn sử dụng trang web của chúng tôi."
+    },
+    "section3": {
+      "title": "3. Bảo Mật Dữ Liệu và Dịch Vụ Bên Thứ Ba",
+      "p1": "Chúng tôi vô cùng trân trọng sự tin tưởng của bạn trong việc cung cấp thông tin cá nhân. Chúng tôi cam kết bảo vệ thông tin này bằng các biện pháp thương mại phù hợp. Chúng tôi sử dụng các dịch vụ của bên thứ ba như Brevo để xử lý và lưu trữ thông tin liên hệ phục vụ việc gửi email tự động. Chúng tôi không bán, trao đổi hoặc chuyển giao thông tin cá nhân của bạn cho bất kỳ bên thứ ba nào khác."
+    },
+    "section4": {
+      "title": "4. Cookies và Web Beacons",
+      "p1": "Giống như bất kỳ trang web nào khác, KNI Education sử dụng 'cookies'. Những cookies này được sử dụng để lưu trữ thông tin bao gồm các tùy chọn của khách truy cập và các trang trên trang web mà khách truy cập đã truy cập. Thông tin này được sử dụng để tối ưu hóa trải nghiệm của người dùng bằng cách tùy chỉnh nội dung trang web của chúng tôi.",
+      "p2": "Chúng tôi cũng sử dụng Google Analytics (G-22N9GX8CS1) để đo lường cách người dùng tương tác với nội dung trang web. Bạn có thể chọn tắt cookies thông qua tùy chọn cài đặt của trình duyệt cá nhân."
+    },
+    "section5": {
+      "title": "5. Quyền Bảo Vệ Dữ Liệu Của Bạn",
+      "p1": "Chúng tôi muốn đảm bảo bạn nhận thức đầy đủ về tất cả các quyền bảo vệ dữ liệu của mình. Mọi người dùng đều có các quyền sau:",
+      "li1": "Quyền truy cập – Bạn có quyền yêu cầu bản sao dữ liệu cá nhân của mình.",
+      "li2": "Quyền sửa đổi – Bạn có quyền yêu cầu chúng tôi sửa đổi bất kỳ thông tin nào bạn cho là không chính xác.",
+      "li3": "Quyền xóa bỏ – Bạn có quyền yêu cầu chúng tôi xóa dữ liệu cá nhân của bạn trong các điều kiện nhất định.",
+      "li4": "Quyền hạn chế xử lý – Bạn có quyền yêu cầu chúng tôi hạn chế xử lý dữ liệu cá nhân của bạn."
+    },
+    "section6": {
+      "title": "6. Liên Hệ Với Chúng Tôi",
+      "p1": "Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào về Chính sách Bảo mật của chúng tôi, xin vui lòng liên hệ trực tiếp:",
+      "li1": "Email: nhat@kni.vn",
+      "li2": "Số điện thoại: +84 091-839-1099",
+      "li3": "Địa chỉ: Thành phố Hồ Chí Minh, Việt Nam"
     }
   }
 }

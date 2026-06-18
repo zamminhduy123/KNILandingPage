@@ -5,6 +5,7 @@
     "freeTest": "Free TestAS Practice",
     "contact": "Contact",
     "signup": "Sign Up for a Trial Lesson",
+    "privacyPolicy": "Privacy Policy",
     "heroTitle": "Expert Teaching. Proven Roadmap.",
     "heroSubtitle": "Afraid of failing TestAS and missing your chance to study in Germany? Join the center that has helped 95% of students pass—2 years leading in quality and materials in Vietnam!",
     "enrollNow": "Enroll Now",
@@ -240,6 +241,53 @@
       "email": "Email *",
       "howDidYouFindUs": "How did you find us? *",
       "submit": "Send Now"
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: June 18, 2026",
+    "intro": "At KNI Education, accessible from kni.vn, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by KNI Education and how we use it.",
+    "section1": {
+      "title": "1. Information We Collect",
+      "p1": "When you sign up for a free consultation, trial lesson, or download our TestAS practice tests, we collect the personal information you provide to us. This includes:",
+      "li1": "Full Name",
+      "li2": "Zalo Phone Number",
+      "li3": "Email Address",
+      "li4": "How you found us (referred, social media, etc.)",
+      "p2": "We do not collect any sensitive payment information or tracking data beyond standard web analytics."
+    },
+    "section2": {
+      "title": "2. How We Use Your Information",
+      "p1": "We use the information we collect in various ways, including to:",
+      "li1": "Send you the requested TestAS practice materials and updates.",
+      "li2": "Contact you via Zalo/phone/email to schedule free consultation calls or trial lessons.",
+      "li3": "Provide, operate, and maintain our website and services.",
+      "li4": "Improve, personalize, and expand our website and educational offerings.",
+      "li5": "Understand and analyze how you use our website."
+    },
+    "section3": {
+      "title": "3. Data Security and Third-Party Services",
+      "p1": "We value your trust in providing us your personal information, thus we are striving to use commercially acceptable means of protecting it. We use third-party services such as Brevo to handle and store your contact information for sending automated emails. We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties."
+    },
+    "section4": {
+      "title": "4. Cookies and Web Beacons",
+      "p1": "Like any other website, KNI Education uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.",
+      "p2": "We also use Google Analytics (G-22N9GX8CS1) to measure how users interact with our site content. You can choose to disable cookies through your individual browser options."
+    },
+    "section5": {
+      "title": "5. Your Data Protection Rights",
+      "p1": "We want to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:",
+      "li1": "The right to access – You have the right to request copies of your personal data.",
+      "li2": "The right to rectification – You have the right to request that we correct any information you believe is inaccurate.",
+      "li3": "The right to erasure – You have the right to request that we erase your personal data under certain conditions.",
+      "li4": "The right to restrict processing – You have the right to request that we restrict the processing of your personal data."
+    },
+    "section6": {
+      "title": "6. Contact Us",
+      "p1": "If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us:",
+      "li1": "Email: nhat@kni.vn",
+      "li2": "Phone: +84 091-839-1099",
+      "li3": "Location: Ho Chi Minh City, Vietnam"
     }
   }
 }
