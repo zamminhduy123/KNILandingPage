@@ -1,0 +1,17 @@
+{
+  "name": "KNI Education - TestAS Preparation & Study Abroad Guidance",
+  "short_name": "KNI Education",
+  "description": "Prepare for TestAS and study abroad with KNI Education. Expert guidance, free practice tests, and consultation for VGU and German universities.",
+  "start_url": "/vn/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff914d",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

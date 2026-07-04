@@ -5,9 +5,13 @@
     "freeTest": "Đề TestAS FREE",
     "contact": "Liên Hệ",
     "signup": "Đăng Ký Học Thử",
+    "course": "Khóa Học TestAS",
+    "knowledge": "Kiến Thức TestAS",
+    "about": "Về KNI",
     "privacyPolicy": "Chính sách bảo mật",
-    "heroTitle": "Chuyên gia dạy. Lộ trình hay.",
+    "heroTitle": "Luyện Thi TestAS Cùng Chuyên Gia – Lộ Trình Đậu 95%.",
     "heroSubtitle": "Sợ rớt TestAS, lo lỡ hẹn nước Đức? Đồng hành ngay với trung tâm đã giúp 95% học viên đậu—2 năm dẫn đầu chất lượng và tài liệu tại Việt Nam!",
+    "heroImageAlt": "KNI Education – Luyện thi TestAS chuyên nghiệp tại TP.HCM",
     "enrollNow": "Đăng Ký Ngay",
     "exploreCourses": "Khám Phá Khóa Học",
     "stats": {
@@ -138,6 +142,13 @@
       "line2": "Hay bạn muốn trải nghiệm thử một lớp KNI?",
       "line3": "Điền đơn sau và chúng mình sẽ liên hệ lại với bạn trong vòng 48 tiếng.",
       "line4": "Không bắt buộc, không chi phí."
+    },
+    "form": {
+      "name": "Họ và Tên *",
+      "zalo": "Zalo *",
+      "email": "Email *",
+      "howDidYouFindUs": "Bạn tìm được chúng mình qua đâu? *",
+      "submit": "Gửi ngay"
     }
   },
   "FreeTestAS": {
@@ -236,6 +247,13 @@
       "submit": "Gửi ngay"
     }
   },
+  "Blog": {
+    "title": "Kiến Thức TestAS",
+    "subtitle": "Tổng hợp kiến thức, kinh nghiệm và hướng dẫn về TestAS từ KNI Education.",
+    "readMore": "Đọc thêm",
+    "backToBlog": "Quay lại blog",
+    "relatedArticles": "Bài viết liên quan"
+  },
   "PrivacyPolicy": {
     "title": "Chính Sách Bảo Mật",
     "lastUpdated": "Cập nhật lần cuối: 18 tháng 6, 2026",
@@ -282,5 +300,74 @@
       "li2": "Số điện thoại: +84 091-839-1099",
       "li3": "Địa chỉ: Thành phố Hồ Chí Minh, Việt Nam"
     }
+  },
+  "MentorPage": {
+    "heroTitle": "Chào, Mình Là Nhật",
+    "heroSubtitle": "Giáo viên TestAS · Cựu sinh viên VGU MEN · TestAS 125/130",
+    "heroImageAlt": "Nhật - Giáo viên TestAS tại KNI Education",
+    "bioTitle": "Hành Trình Từ VGU Đến TestAS",
+    "bioDesc": "Mình là Nhật, tốt nghiệp Đại học Văn Lang (VGU) khóa MEN 18-22. Trong 4 năm đại học, mình nhận được học bổng liên tiếp với mức 50-50-100-50%. Sau đó mình tiếp tục học kỹ thuật robot tại ABB và đạt điểm 125/130 trong kỳ thi TestAS.",
+    "achievementTitle": "Thành Tích",
+    "achievement1": "Cựu sinh viên VGU MEN khóa 18-22",
+    "achievement2": "4 năm học bổng liên tiếp (50-50-100-50%)",
+    "achievement3": "Kỹ sư robot ABB",
+    "achievement4": "TestAS: 125/130",
+    "achievement5": "2 năm dạy TestAS – 95% học viên đậu",
+    "philosophyTitle": "Triết Lý Giáo Dục",
+    "philosophyQuote": "Mình tin rằng giáo dục tại Đức là cơ hội tốt nhất cho sự nghiệp sau này của sinh viên Việt Nam vì chất lượng mang tính toàn cầu và học phí gần như không. Chính vì thế mình cố gắng đem lại cơ hội tốt nhất đến những bạn trẻ quyết tâm nhất với mục tiêu này.",
+    "whyTitle": "Tại Sao Học Cùng Nhật",
+    "why1": "Điểm TestAS cao nhất: 125/130",
+    "why2": "Nắm rõ cấu trúc và cách ra đề thi",
+    "why3": "Kinh nghiệm thực tế du học và học tập tại Đức",
+    "why4": "Phương pháp giảng dạy cá nhân hóa",
+    "ctaTitle": "Đặt Lịch Tư Vấn Với Nhật",
+    "ctaSubtitle": "Đăng ký học thử miễn phí để trải nghiệm phương pháp giảng dạy của Nhật và nhận lộ trình ôn thi TestAS cá nhân hóa."
+  },
+  "CoursePage": {
+    "heroLabel": "Khóa Học Chất Lượng Cao",
+    "heroTitle": "Khóa Học TestAS Chuyên Sâu",
+    "heroSubtitle": "Lộ trình 4 bước từ cơ bản đến nâng cao. Cam kết hỗ trợ miễn phí đến khi đạt điểm mục tiêu.",
+    "heroImageAlt": "Giáo viên KNI hướng dẫn ôn thi TestAS",
+    "enrollNow": "Đăng Ký Học Thử Miễn Phí",
+    "freePractice": "Đề TestAS FREE",
+    "stat1_label": "Học viên đã tốt nghiệp",
+    "stat2_label": "Tỷ lệ đậu",
+    "stat3_label": "Năm kinh nghiệm",
+    "stat4_label": "Bước trong lộ trình",
+    "curriculumLabel": "Chương trình học",
+    "curriculumTitle": "Lộ trình 4 bước đạt mục tiêu",
+    "stepLabel": "Bước",
+    "step1_title": "Mẹo và Bí quyết",
+    "step1_desc": "Kỹ thuật giải nhanh, chiến lược làm bài hiệu quả cho từng phần thi TestAS.",
+    "step2_title": "Kiến thức chuyên ngành",
+    "step2_desc": "Tổng thể kiến thức chuyên ngành và chủ đề trọng điểm theo cấu trúc đề thi thật.",
+    "step3_title": "Tiếng Anh chuyên ngành",
+    "step3_desc": "Từ vựng tiếng Anh chuyên ngành của tất cả các phần trong đề thi TestAS.",
+    "step4_title": "Đề thi thực chiến",
+    "step4_desc": "Đề thi thử được cập nhật liên tục từ các đợt thi gần nhất.",
+    "optionsLabel": "Hình thức học",
+    "optionsTitle": "Chọn hình thức phù hợp nhất với bạn",
+    "onlineGroupTitle": "Học Online Nhóm",
+    "onlineGroupPrice": "4.500.000đ/khóa",
+    "inPersonTitle": "Học Tại Trung Tâm",
+    "inPersonPrice": "6.500.000đ/khóa",
+    "oneOnOneTitle": "Kèm 1 Kèm",
+    "oneOnOnePrice": "Liên hệ báo giá",
+    "feature1": "Tài liệu ôn thi TestAS cập nhật mới nhất",
+    "feature2": "Giáo viên VGU, TestAS 125/130",
+    "feature3": "Cam kết hỗ trợ miễn phí đến khi đậu",
+    "featureOnline": "Học online qua Zoom, ghi hình bài giảng",
+    "featureInPerson": "Học trực tiếp tại trung tâm TP.HCM",
+    "featureOneOnOne": "Lộ trình cá nhân hóa theo mục tiêu điểm số",
+    "whyLabel": "Tại sao chọn KNI",
+    "whyTitle": "Đồng hành cùng chuyên gia",
+    "whyItem1": "95% học viên đạt mục tiêu điểm số",
+    "whyItem2": "Giáo viên trực tiếp từ VGU, TestAS 125/130",
+    "whyItem3": "Tài liệu ôn thi TestAS cập nhật theo cấu trúc mới nhất",
+    "whyItem4": "Hỗ trợ miễn phí đến khi đạt điểm mục tiêu",
+    "learnMore": "Tìm hiểu về Nhật",
+    "tutorImageAlt": "Giáo viên Nhật - Chuyên gia luyện thi TestAS",
+    "ctaTitle": "Bắt đầu hành trình TestAS ngay hôm nay",
+    "ctaSubtitle": "Đăng ký học thử miễn phí để trải nghiệm phương pháp học tại KNI. Không ràng buộc, không chi phí."
   }
 }
