@@ -31,8 +31,8 @@ export default function RoadMap() {
   ];
 
   return (
-    <section className="min-h-[80vh] bg-white snap-center pt-16">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 w-full">
+    <section id="roadmap" className="min-h-[80vh] bg-white snap-center pt-16">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 w-full">
         {/* Header Section */}
         <div className="text-center mb-12">
           <button

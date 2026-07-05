@@ -2,11 +2,8 @@
 
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-
-import TutorMain from '@/public/images/tutor-main.avif'
-import TutorSec from '@/public/images/tutor-secondary.avif'
-import TutorLike from '@/public/images/tutor-like.jpg'
-import TutorGrad from '@/public/images/tutor-grad.png'
+import TutorLike from '@/public/images/tutor-like.webp'
+import TutorGrad from '@/public/images/tutor-grad.webp'
 import TutorSig from '@/public/images/tutor-sig.jpg'
 import TestAS from '@/public/images/TestASLogo.png'
 import EDU from '@/public/images/VGU.png'
@@ -33,7 +30,7 @@ export default function Tutor() {
 
   return (
     <section className="min-h-screen bg-gray-50 snap-center pt-32">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 w-full">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Left: Images */}
           <div className="relative order-2 md:order-1 h-full w-full">
@@ -42,7 +39,7 @@ export default function Tutor() {
               src={TutorGrad} // Replace with your actual image path
             //   width={300}
               height={550}
-              alt="Tutor Main"
+              alt="Giáo viên luyện thi TestAS tại KNI Education"
               className="rounded-lg shadow-md"
               data-aos="fade-right"
               data-aos-delay="100"
@@ -53,7 +50,7 @@ export default function Tutor() {
               src={TutorLike} // Replace with your actual image path
               width={350}
               height={200}
-              alt="Tutor Secondary"
+              alt="Học viên TestAS tại KNI Education"
               className="absolute bottom-0 right-0 shadow-md border-amber-50 border-5"
               data-aos="fade-right"
               data-aos-delay="200"
@@ -69,7 +66,7 @@ export default function Tutor() {
                 src={EDU} // Replace with your actual badge image path
                 width={100}
                 height={100}
-                alt="Education Award"
+                alt="Giải thưởng giáo dục VGU"
                 className="rounded-full"
                 priority
               />
@@ -116,7 +113,8 @@ export default function Tutor() {
                         src={TestAS} // Replace with your actual image path
                         width={25}
                         height={25}
-                        alt="Tutor Signature"
+                        alt=""
+                        role="presentation"
                         className="rounded-full"
                         priority
                     />
@@ -146,7 +144,7 @@ export default function Tutor() {
                 src={TutorSig} // Replace with your actual image path
                 width={50}
                 height={50}
-                alt="Tutor Signature"
+                alt="Chữ ký người sáng lập KNI Education – Nhật"
                 className="rounded-full"
                 priority
               />

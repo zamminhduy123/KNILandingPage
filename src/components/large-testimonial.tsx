@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MoneyBack from '@/public/images/money-back.webp'
+import MoneyBack from '@/public/images/mb.webp'
 
 export default function LargeTestimonial() {
   return (
