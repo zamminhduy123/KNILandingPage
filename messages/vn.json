@@ -22,39 +22,37 @@
     },
     "switchLocale": "",
     "whatIsTestAS": {
-      "label": "Chuẩn Bị Thông Minh",
+      "label": "Chuẩn bị thông minh",
       "title": "Vì sao chọn KNI?",
       "subtitle": "Chìa khóa để mở cánh cửa đại học mơ ước của bạn với sự tự tin",
       "features": {
         "crucial": {
-          "title": "Quan Trọng Để Thành Công",
-          "description": "TestAS là yếu tố cần thiết để đảm bảo bạn được nhận vào trường đại học mơ ước."
+          "title": "Quan trọng để thành công",
+          "description": "TestAS là yếu tố quan trọng giúp bạn tiến gần hơn đến VGU, học bổng và cơ hội du học Đức."
         },
         "difficulty": {
-          "title": "Độ Khó Bất Ngờ",
-          "description": "90% thí sinh nhận ra TestAS khó hơn nhiều so với dự kiến khi vào phòng thi."
+          "title": "Độ khó thật sự",
+          "description": "Nhiều thí sinh bất ngờ vì đề thi thực tế khó hơn dự kiến. KNI giúp bạn chuẩn bị đúng cách ngay từ đầu."
         },
         "sample": {
-          "title": "Mẫu So Với Thực Tế",
-          "description": "Các câu hỏi mẫu chính thức quá dễ so với bài thi TestAS thực tế."
+          "title": "Mẫu so với thực tế",
+          "description": "Các câu hỏi mẫu chính thức thường chưa phản ánh đầy đủ áp lực và độ khó của bài thi TestAS thật."
         },
         "trusted": {
-          "title": "Tin Tưởng Bởi Học Sinh Giỏi",
-          "description": "KNI đã hướng dẫn thành công các học sinh có điểm trung bình 9.5 và IELTS 7.0–8.0."
-        },
-        "preparation": {
-          "title": "Chuẩn Bị Là Chìa Khóa",
-          "description": "Đừng đối mặt với kỳ thi thay đổi cuộc đời mà không chuẩn bị—học tập đúng cách tạo nên sự khác biệt."
+          "title": "Tin tưởng bởi học sinh giỏi",
+          "description": "KNI đã đồng hành cùng nhiều học sinh có thành tích tốt, định hướng rõ ràng và mục tiêu lớn.",
+          "badge": "🏆 9.5 GPA • IELTS 7.0–8.0"
         },
         "competition": {
-          "title": "Vượt Qua Đối Thủ",
-          "description": "Chuẩn bị tận tâm với KNI giúp bạn vượt qua người khác và nắm bắt cơ hội hàng đầu."
+          "title": "Chuẩn bị là lợi thế cạnh tranh",
+          "description": "Chuẩn bị đúng chiến lượng giúp bạn tự tin hơn, tiết kiệm thời gian và vượt lên trước nhiều đối thủ.",
+          "badge": "✓ Cá nhân hoá • Luyện đúng điểm yếu"
         }
       },
       "tags": {
-        "expertGuidance": "Hướng Dẫn Chuyên Gia",
-        "provenResults": "Kết Quả Đã Được Chứng Minh",
-        "studentSuccess": "Thành Công Của Học Sinh"
+        "expertGuidance": "Hướng dẫn chuyên gia",
+        "provenResults": "Kết quả đã được chứng minh",
+        "studentSuccess": "Thành công của học sinh"
       }
     },
     "preparation": {
@@ -123,6 +121,67 @@
           "title": "Đề thi gần nhất",
           "description": "Đề thi được cập nhật liên tục từ các đợt thi gần nhất."
         }
+      }
+    },
+    "pricing": {
+      "title": "Đầu tư 8 tiếng để mở ra cơ hội lớn hơn.",
+      "subtitle": "Một khóa học rõ ràng, cá nhân hoá và thực tế để giúp bạn đi từ mơ hồ đến sẵn sàng cho TestAS.",
+      "cardLeft": {
+        "title": "Luyện thi TestAS hướng đến VGU",
+        "popular": "Phổ biến nhất",
+        "price": "8.100.000đ",
+        "btn": "Đăng ký học thử",
+        "features": [
+          "Core Test + Module tuỳ ngành",
+          "Học online hoặc offline tại TP.HCM",
+          "Lớp cá nhân hoá / nhóm nhỏ",
+          "Luyện đúng điểm yếu",
+          "Mock test và chấm chữa",
+          "Hỗ trợ định hướng VGU / học bổng / Đức"
+        ]
+      },
+      "cardRight": {
+        "title": "Giá trị bạn nhận được",
+        "totalLabel": "Tổng giá trị:",
+        "totalValue": "~16.675.785đ+",
+        "tuitionLabel": "Học phí:",
+        "tuitionValue": "8.100.0000đ",
+        "items": [
+          {
+            "label": "Học bổng khuyến học",
+            "val": "~1.000.000đ"
+          },
+          {
+            "label": "Video + bài tập theo lộ trình",
+            "val": "~4.000.000đ"
+          },
+          {
+            "label": "Gói mô phỏng thi thử",
+            "val": "~540,000đ"
+          },
+          {
+            "label": "Bộ sách luyện TestAS mới nhất của du học sinh toàn thế giới",
+            "val": "~2,135,785đ"
+          },
+          {
+            "label": "Cộng đồng hỗ trợ",
+            "val": "~1.000.000đ"
+          },
+          {
+            "label": "Tài liệu luyện TestAS",
+            "val": "~2,000,000đ"
+          },
+          {
+            "label": "Tư vấn 1:1",
+            "val": "~6,000,000đ"
+          }
+        ]
+      },
+      "bottomRow": {
+        "f1": "Thanh toán linh hoạt",
+        "f2": "Hỗ trợ trước khi đăng ký",
+        "f3": "Cá nhân hoá",
+        "f4": "Luyện đúng điểm yếu"
       }
     },
     "customerReviews": {
@@ -369,5 +428,156 @@
     "tutorImageAlt": "Giáo viên Nhật - Chuyên gia luyện thi TestAS",
     "ctaTitle": "Bắt đầu hành trình TestAS ngay hôm nay",
     "ctaSubtitle": "Đăng ký học thử miễn phí để trải nghiệm phương pháp học tại KNI. Không ràng buộc, không chi phí."
+  },
+  "WhyTestAS": {
+    "title": "TestAS không chỉ là một bài thi — đó là cánh cửa vào cơ hội.",
+    "card1": {
+      "title": "Bạn muốn vào VGU?",
+      "desc": "TestAS là một phần quan trọng trong hành trình xét tuyển và học bổng."
+    },
+    "card2": {
+      "title": "Bạn muốn học bổng?",
+      "desc": "Điểm TestAS tốt giúp bạn có lợi thế trong những cơ hội học tập giá trị."
+    },
+    "card3": {
+      "title": "Bạn muốn đi Đức?",
+      "desc": "KNI giúp bạn chuẩn bị năng lực học thuật, tư duy và chiến lược làm bài."
+    }
+  },
+  "StatsBar": {
+    "stat1": {
+      "value": "95%+",
+      "label": "Tỉ lệ học viên đạt mục tiêu"
+    },
+    "stat2": {
+      "value": "100+",
+      "label": "Học viên đã đồng hành"
+    },
+    "stat3": {
+      "value": "Online & Offline",
+      "label": "tại TP.HCM"
+    },
+    "stat4": {
+      "value": "1:1",
+      "label": "Lộ trình cá nhân hoá"
+    },
+    "stat5": {
+      "value": "100%",
+      "label": "Tập trung đúng điểm yếu"
+    }
+  },
+  "FAQ": {
+    "label": "Giải Đáp Thắc Mắc",
+    "title": "Câu hỏi thường gặp",
+    "subtitle": "Mọi thắc mắc về khóa học TestAS tại KNI đều có câu trả lời tại đây.",
+    "items": [
+      {
+        "q": "Khóa học phù hợp với ai?",
+        "a": "Khóa học phù hợp với tất cả học sinh, sinh viên đang có mục tiêu du học Đức và cần chuẩn bị cho kỳ thi TestAS — dù bạn mới bắt đầu tìm hiểu hay đã có nền tảng trước đó."
+      },
+      {
+        "q": "Học online hay offline?",
+        "a": "KNI cung cấp cả hai hình thức: học online qua Zoom (có ghi hình bài giảng) và học trực tiếp tại trung tâm TP.HCM. Bạn chọn hình thức phù hợp với lịch trình của mình."
+      },
+      {
+        "q": "Nếu mất giờ có học được không?",
+        "a": "Có. Mọi buổi học đều được ghi hình lại. Nếu bạn vắng buổi nào, bạn có thể xem lại video bài giảng bất cứ lúc nào trong thời gian khóa học."
+      },
+      {
+        "q": "Bao lâu thì có thể bắt đầu?",
+        "a": "Bạn có thể đăng ký học thử miễn phí ngay hôm nay. Khóa học chính thức khai giảng theo chu kỳ hàng tháng — KNI sẽ tư vấn lịch khai giảng gần nhất phù hợp với timeline của bạn."
+      },
+      {
+        "q": "Có học thử không?",
+        "a": "Có. KNI cung cấp buổi học thử miễn phí để bạn trải nghiệm phương pháp giảng dạy trước khi quyết định đăng ký. Không cần thanh toán, không ràng buộc."
+      },
+      {
+        "q": "Khóa học kéo dài bao lâu?",
+        "a": "Khóa học kéo dài từ 6 đến 12 tuần tùy theo lộ trình bạn chọn và timeline thi của bạn. KNI sẽ tư vấn lộ trình phù hợp sau buổi tư vấn đầu vào."
+      },
+      {
+        "q": "Có hỗ trợ ngoài giờ học không?",
+        "a": "Có. Học viên được hỗ trợ giải đáp qua cộng đồng trực tuyến và mentor nêng ngoài các buổi học chính thức."
+      },
+      {
+        "q": "Sau khi đăng ký tôi nhận tài liệu như thế nào?",
+        "a": "Sau khi đăng ký, bạn sẽ nhận được tài liệu học tập đầy đủ qua email và được thêm vào nhóm học tập riêng. Tất cả tài liệu được cập nhật theo cấu trúc đề thi TestAS mới nhất."
+      },
+      {
+        "q": "Có luyện Module chuyên ngành không?",
+        "a": "Có. KNI dạy đầy đủ cả phần Core và các Module chuyên ngành: Mathematics, Computer Science and Natural Sciences (MNS); Economics; Humanities, Cultural Studies and Social Sciences (HCS); và Engineering."
+      }
+    ],
+    "cta": "Còn thắc mắc? Tư vấn miễn phí ngay"
+  },
+  "seo": {
+    "home": {
+      "title": "TestAS Preparation | KNI Education — Luyện thi TestAS Đức chất lượng cao",
+      "description": "KNI Education cung cấp lộ trình luyện thi TestAS chuyên nghiệp, giáo viên Việt-Nam & Đức, tài liệu độc quyền. Đăng ký tư vấn miễn phí ngay.",
+      "ogTitle": "Luyện thi TestAS cùng KNI Education",
+      "ogDescription": "Lộ trình cá nhân hóa, 100% học viên đạt mục tiêu điểm số.",
+      "ogImageAlt": "KNI Education TestAS Preparation"
+    },
+    "consultation": {
+      "title": "Tư vấn TestAS miễn phí | KNI Education",
+      "description": "Đặt lịch tư vấn miễn phí với chuyên gia giáo dục Đức từ KNI. Đánh giá trình độ, lộ trình học cá nhân hóa.",
+      "ogTitle": "Tư vấn TestAS miễn phí — KNI Education",
+      "ogDescription": "Đăng ký tư vấn ngay, nhận lộ trình học cá nhân hóa trong 24h.",
+      "ogImageAlt": "Tư vấn TestAS miễn phí KNI Education"
+    },
+    "contact": {
+      "title": "Liên hệ KNI Education — Tư vấn du học Đức & TestAS",
+      "description": "Liên hệ KNI Education qua hotline, email hoặc đến trực tiếp văn phòng. Hỗ trợ tư vấn du học Đức và luyện thi TestAS.",
+      "ogTitle": "Liên hệ KNI Education",
+      "ogDescription": "Văn phòng tại TP.HCM & Hà Nội. Hotline: +84-91-839-1099.",
+      "ogImageAlt": "Liên hệ KNI Education"
+    },
+    "freeTestas": {
+      "title": "Làm thử TestAS miễn phí | KNI Education — Đánh giá trình độ ngay",
+      "description": "Làm bài test thử TestAS hoàn toàn miễn phí, nhận kết quả phân tích trình độ và lộ trình học cá nhân hóa từ KNI Education.",
+      "ogTitle": "Làm thử TestAS miễn phí — KNI Education",
+      "ogDescription": "Bài test thử chuẩn đề thi thật, phân tích chi tiết điểm mạnh/yếu.",
+      "ogImageAlt": "Làm thử TestAS miễn phí KNI Education"
+    },
+    "course": {
+      "title": "Khóa học TestAS | KNI Education — Lộ trình từ A1 đến B1",
+      "description": "Khám phá các khóa học TestAS từ cơ bản đến nâng cao tại KNI Education. Giáo viên bản xứ, tài liệu độc quyền, cam kết đầu ra.",
+      "ogTitle": "Khóa học TestAS — KNI Education",
+      "ogDescription": "Lộ trình A1→B1, cam kết đầu ra, học viên 9.0/10 hài lòng.",
+      "ogImageAlt": "Khóa học TestAS KNI Education"
+    },
+    "privacyPolicy": {
+      "title": "Chính sách bảo mật | KNI Education",
+      "description": "Chính sách bảo mật thông tin cá nhân của KNI Education. Chúng tôi cam kết bảo vệ dữ liệu khách hàng theo quy định pháp luật.",
+      "ogTitle": "Chính sách bảo mật — KNI Education",
+      "ogDescription": "Chính sách bảo mật thông tin cá nhân KNI Education.",
+      "ogImageAlt": "Chính sách bảo mật KNI Education"
+    },
+    "thankYou": {
+      "title": "Cảm ơn bạn | KNI Education — Chúng tôi sẽ liên hệ sớm nhất",
+      "description": "Cảm ơn bạn đã đăng ký. Đội ngũ KNI Education sẽ liên hệ tư vấn trong vòng 24 giờ.",
+      "ogTitle": "Cảm ơn bạn — KNI Education",
+      "ogDescription": "Đã nhận được đăng ký của bạn. Chúng tôi sẽ liên hệ sớm nhất.",
+      "ogImageAlt": "Cảm ơn bạn KNI Education"
+    },
+    "thankYouFreeConsult": {
+      "title": "Đăng ký thành công | KNI Education — Tư vấn miễn phí TestAS",
+      "description": "Đăng ký tư vấn miễn phí TestAS thành công. KNI Education sẽ liên hệ trong 24h.",
+      "ogTitle": "Đăng ký thành công — KNI Education",
+      "ogDescription": "Đã nhận đăng ký tư vấn. Liên hệ trong 24h.",
+      "ogImageAlt": "Đăng ký thành công KNI Education"
+    },
+    "blog": {
+      "title": "Kiến thức TestAS | Blog KNI Education",
+      "description": "Tổng hợp kiến thức, kinh nghiệm và hướng dẫn về TestAS từ KNI Education. Tài liệu luyện thi TestAS miễn phí.",
+      "ogTitle": "Blog Kiến thức TestAS — KNI Education",
+      "ogDescription": "Tài liệu, kinh nghiệm và hướng dẫn TestAS từ chuyên gia.",
+      "ogImageAlt": "Blog kiến thức TestAS KNI Education"
+    }
+  },
+  "NotFound": {
+    "title": "Không tìm thấy trang",
+    "description": "Trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển.",
+    "backToHome": "Quay về trang chủ"
   }
 }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MoneyBack from '@/public/images/money-back.png'
+import MoneyBack from '@/public/images/money-back.webp'
 
 export default function LargeTestimonial() {
   return (
@@ -13,7 +13,7 @@ export default function LargeTestimonial() {
                 src={MoneyBack}
                 width={120}
                 height={120}
-                alt="Large testimonial"
+                alt="Cam kết hỗ trợ miễn phí đến khi đạt điểm TestAS mong muốn – KNI Education"
               />
             </div>
             <p className="text-2xl font-bold text-gray-900">
@@ -22,7 +22,7 @@ export default function LargeTestimonial() {
             <div className="text-sm font-medium text-gray-500">
               <span className="text-gray-700">Khánh Nhật</span>{" "}
               <span className="text-gray-400">/</span>{" "}
-              <a className="text-orange-500" href="#0">
+              <a className="text-orange-500" href="/vn/consultation/">
                 CEO at KNI
               </a>
             </div>

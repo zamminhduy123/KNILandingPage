@@ -4,25 +4,93 @@ import { IoMdMail } from "react-icons/io";
 import { AiFillTikTok } from "react-icons/ai";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
-import {setRequestLocale} from 'next-intl/server';
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Metadata } from "next";
+import { routing } from "@/src/i18n/routing";
 import { FaEnvelope, FaMapMarkerAlt, FaBuilding } from "react-icons/fa";
 import { use } from "react";
 
-export default function Contact({params} : any) {
-  const {locale} = use<any>(params);
- 
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "seo.contact" });
+  return {
+    title: {
+      absolute: t("title"),
+    },
+    description: t("description"),
+    keywords: [
+      "liên hệ KNI",
+      "địa chỉ KNI Education",
+      "số điện thoại KNI",
+      "luyện thi TestAS TPHCM",
+    ],
+    robots: { index: true, follow: true },
+    alternates: {
+      canonical: `https://kni.vn/${locale}/contact/`,
+      languages: {
+        'en': `https://kni.vn/en/contact/`,
+        'vi': `https://kni.vn/vn/contact/`,
+        'x-default': `https://kni.vn/vn/contact/`,
+      },
+    },
+    openGraph: {
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      url: `https://kni.vn/${locale}/contact/`,
+      siteName: "KNI Education",
+      images: [
+        {
+          url: "https://kni.vn/images/og-image-contact.jpg",
+          width: 1200,
+          height: 630,
+          alt: t("ogImageAlt"),
+        },
+      ],
+      locale: locale === "en" ? "en_US" : "vi_VN",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      images: ["https://kni.vn/images/twitter-image-contact.jpg"],
+    },
+  };
+}
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export default async function Contact({ params }: Props) {
+  const { locale } = await params;
+
   // Enable static rendering
   setRequestLocale(locale);
-  
-  const t = useTranslations("Contact");
+
+  const t = await getTranslations({ locale, namespace: "Contact" });
+  const seoT = await getTranslations({ locale, namespace: "seo.contact" });
+
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: seoT('title'),
+    description: seoT('description'),
+    url: `https://kni.vn/${locale}/contact/`,
+    inLanguage: locale === 'en' ? 'en-US' : 'vi-VN',
+    publisher: {
+      '@type': 'EducationalOrganization',
+      name: 'KNI Education',
+      url: 'https://kni.vn/',
+      logo: 'https://kni.vn/images/logo.avif',
+    },
+  };
 
   const contactItems = [
-    // {
-    //   icon: <FaBuilding className="text-white text-2xl" />,
-    //   label: t("items.0.label"),
-    //   value: t("items.0.value"),
-    //   isHighlighted: true,
-    // },
     {
       icon: <FaPhone className="text-orange-600 text-2xl" />,
       label: t("items.1.label"),
@@ -44,8 +112,13 @@ export default function Contact({params} : any) {
   ];
 
   return (
-    <section id="contact" className="min-h-[50vh] bg-white snap-center pt-32">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 w-full">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <section id="contact" className="min-h-[50vh] bg-white snap-center pt-32">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 w-full">
         <h2
           className="text-4xl md:text-5xl font-bold text-black text-center mb-12"
           data-aos="fade-up"
@@ -120,5 +193,6 @@ export default function Contact({params} : any) {
         </div>
       </div>
     </section>
+    </>
   );
 }

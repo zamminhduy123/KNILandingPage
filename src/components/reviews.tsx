@@ -9,21 +9,21 @@ export default function CustomerReviews() {
   const reviews_1 = useMemo(() => {
     const r = [];
     for (let i = 1; i <= 14; i++) {
-      r.push(`/images/reviews/${i}.avif`);
+      r.push(`/images/reviews/${i}.webp`);
     }
     return r;
   }, []);
   const reviews_2 = useMemo(() => {
     const r = [];
     for (let i = 15; i <= 30; i++) {
-      r.push(`/images/reviews/${i}.avif`);
+      r.push(`/images/reviews/${i}.webp`);
     }
     return r;
   }, []);
   const reviews_3 = useMemo(() => {
     const r = [];
     for (let i = 30; i <= 44; i++) {
-      r.push(`/images/reviews/${i}.avif`);
+      r.push(`/images/reviews/${i}.webp`);
     }
     return r;
   }, []);
@@ -73,7 +73,7 @@ export default function CustomerReviews() {
                     src={review}
                     width={300} // Base width (will be scaled)
                     height={400} // Base height (will be scaled)
-                    alt={`Customer Review ${index + 1}`}
+                    alt={`Đánh giá học viên KNI #${(index % reviews_1.length) + 1} - Luyện thi TestAS`}
                     className="rounded-lg shadow-md object-cover"
                     style={{ objectFit: "contain", aspectRatio: "1" }}
                   />
@@ -99,7 +99,7 @@ export default function CustomerReviews() {
                     src={review}
                     width={300} // Base width (will be scaled)
                     height={400} // Base height (will be scaled)
-                    alt={`Customer Review ${index + 1}`}
+                    alt={`Đánh giá học viên KNI #${(index % reviews_2.length) + 15} - Luyện thi TestAS`}
                     className="rounded-lg shadow-md"
                     style={{ objectFit: "contain",  aspectRatio: "1/2"}}
                   />
@@ -122,7 +122,7 @@ export default function CustomerReviews() {
                     src={review}
                     width={300} // Base width (will be scaled)
                     height={400} // Base height (will be scaled)
-                    alt={`Customer Review ${index + 1}`}
+                    alt={`Đánh giá học viên KNI #${(index % reviews_3.length) + 30} - Luyện thi TestAS`}
                     className="rounded-lg shadow-md object-cover"
                     style={{ objectFit: "contain",  aspectRatio: "1/2" }}
                   />

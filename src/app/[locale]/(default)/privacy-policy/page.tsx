@@ -9,13 +9,45 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "PrivacyPolicy" });
+  const t = await getTranslations({ locale, namespace: "seo.privacyPolicy" });
   return {
-    title: `${t("title")} | KNI Education`,
-    description: t("intro").substring(0, 160),
+    title: {
+      absolute: t("title"),
+    },
+    description: t("description"),
     robots: {
       index: true,
       follow: true,
+    },
+    alternates: {
+      canonical: `https://kni.vn/${locale}/privacy-policy/`,
+      languages: {
+        'en': `https://kni.vn/en/privacy-policy/`,
+        'vi': `https://kni.vn/vn/privacy-policy/`,
+        'x-default': `https://kni.vn/vn/privacy-policy/`,
+      },
+    },
+    openGraph: {
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      url: `https://kni.vn/${locale}/privacy-policy/`,
+      siteName: "KNI Education",
+      images: [
+        {
+          url: "https://kni.vn/images/og-image-privacy.jpg",
+          width: 1200,
+          height: 630,
+          alt: t("ogImageAlt"),
+        },
+      ],
+      locale: locale === "en" ? "en_US" : "vi_VN",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("ogTitle"),
+      description: t("ogDescription"),
+      images: ["https://kni.vn/images/twitter-image-privacy.jpg"],
     },
   };
 }

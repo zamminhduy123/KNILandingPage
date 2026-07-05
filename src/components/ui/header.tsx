@@ -1,15 +1,16 @@
+"use client";
+
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
-import { useRouter, usePathname } from "next/navigation"; // Import usePathname
-import Logo from "@/public/images/logo.avif";
+import { useRouter, usePathname } from "next/navigation";
+import Logo from "@/public/images/logo.webp";
 
 export default function Header() {
   const t = useTranslations("HomePage");
   const locale = useLocale();
-  const router = useRouter();
-  const pathname = usePathname(); // Use usePathname to get the current path
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
   // Determine the other locale
@@ -17,47 +18,54 @@ export default function Header() {
 
   // Function to construct the new URL with the new locale
   const getLocalizedPath = (newLocale: string) => {
-    const pathSegments = pathname.split("/").filter(segment => segment);
-    const pathWithoutLocale = pathSegments.length > 0 && pathSegments[0] === locale
-      ? `/${pathSegments.slice(1).join("/")}`
-      : pathname;
+    const pathSegments = pathname.split("/").filter((segment) => segment);
+    const pathWithoutLocale =
+      pathSegments.length > 0 && pathSegments[0] === locale
+        ? `/${pathSegments.slice(1).join("/")}`
+        : pathname;
     return `/${newLocale}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`;
   };
 
   // Function to determine if a link is active
   const isActiveLink = (href: string) => {
-    // Strip the locale from the pathname
-    const pathSegments = pathname.split("/").filter(segment => segment);
-    const pathWithoutLocale = pathSegments.length > 0 && pathSegments[0] === locale
-      ? `/${pathSegments.slice(1).join("/")}`
-      : pathname;
+    const pathSegments = pathname.split("/").filter((segment) => segment);
+    const pathWithoutLocale =
+      pathSegments.length > 0 && pathSegments[0] === locale
+        ? `/${pathSegments.slice(1).join("/")}`
+        : pathname;
 
-    // Handle the root path ("/")
     if (href === "/") {
       return pathWithoutLocale === "/" || pathWithoutLocale === `/${locale}`;
     }
 
-    // Compare the href with the path without locale
     return pathWithoutLocale === href;
   };
-  const navClassName = (ref : string) => {
-    return `${isActiveLink(ref) ? "text-orange-500" : "text-gray-900"
-    } hover:text-orange-500 transition-colors`
-  }
+
+  const navClassName = (ref: string) => {
+    return `${
+      isActiveLink(ref) ? "text-orange-600 font-bold" : "text-slate-600 font-semibold"
+    } hover:text-slate-900 text-sm transition-colors duration-200`;
+  };
+
+  const mobileNavClassName = (ref: string) => {
+    return `${
+      isActiveLink(ref) ? "text-orange-600 font-bold" : "text-slate-600 font-semibold"
+    } hover:text-slate-900 text-base transition-colors duration-200 block py-2.5`;
+  };
 
   return (
-    <header className="bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="flex items-center justify-between h-16">
+    <header className="bg-white border-b border-slate-100 fixed top-0 left-0 right-0 z-50">
+      <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/">
+            <Link href="/" className="flex items-center">
               <Image
                 src={Logo}
-                width={48}
-                height={48}
+                width={42}
+                height={42}
                 alt="KNI Logo"
-                className="hover:opacity-80 transition-opacity"
+                className="hover:opacity-90 transition-opacity"
                 priority
               />
             </Link>
@@ -67,7 +75,8 @@ export default function Header() {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-900 focus:outline-none"
+              className="text-slate-900 focus:outline-none p-1.5 hover:bg-slate-50 rounded-lg transition-colors"
+              aria-label="Toggle menu"
             >
               <svg
                 className="w-6 h-6"
@@ -86,74 +95,102 @@ export default function Header() {
             </button>
           </div>
 
-          {/* Navigation Links */}
-          <nav
-            className={`${
-              isOpen ? "block" : "hidden"
-            } md:flex md:items-center md:space-x-6 absolute md:static top-16 left-0 right-0 bg-white md:bg-transparent p-4 md:p-0 shadow-md md:shadow-none`}
-          >
-            <div className="flex flex-col md:flex-row md:space-x-6 space-y-4 md:space-y-0">
-              <Link
-                href="/"
-                className={navClassName('/')}
-              >
-                {t("home")}
-              </Link>
-              <Link
-                href={`/${locale}/consultation`}
-                className={navClassName('/consultation')}
-              >
-                {t("consultation")}
-              </Link>
-              <Link
-                href={`/${locale}/free-testas`}
-                className={navClassName(`/free-testas`)}
-              >
-                {t("freeTest")}
-              </Link>
-              <Link
-                href={`/${locale}/contact`}
-                className={navClassName(`/contact`)}
-              >
-                {t("contact")}
-              </Link>
-              {/* Language Toggle */}
-              <div className="flex items-center space-x-2">
-                <Link
-                  href={getLocalizedPath("vn")}
-                  prefetch={false}
-                  className={`${
-                    locale === "vn" ? "text-orange-500" : "text-gray-900"
-                  } hover:text-orange-500 transition-colors`}
-                  aria-label="Switch to Vietnamese"
-                >
-                  VN
-                </Link>
-                <span className="text-gray-400">|</span>
-                <Link
-                  href={getLocalizedPath("en")}
-                  prefetch={false}
-                  className={`${
-                    locale === "en" ? "text-orange-500" : "text-gray-900"
-                  } hover:text-orange-500 transition-colors`}
-                  aria-label="Switch to English"
-                >
-                  EN
-                </Link>
-              </div>
-            </div>
+          {/* Navigation Links for Desktop */}
+          <nav className="hidden md:flex md:items-center md:space-x-8">
+            <Link href="/" className={navClassName("/")}>
+              {t("home")}
+            </Link>
+            <Link href={`/${locale}/blog`} className={navClassName("/blog")}>
+              {t("knowledge")}
+            </Link>
+            <Link href={`/${locale}/free-testas`} className={navClassName("/free-testas")}>
+              {t("freeTest")}
+            </Link>
+            <Link href={`/${locale}/contact`} className={navClassName("/contact")}>
+              {t("contact")}
+            </Link>
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* CTA Button + Language Toggle for Desktop */}
+          <div className="hidden md:flex md:items-center md:gap-6">
+            <Link
+              href={getLocalizedPath(otherLocale)}
+              prefetch={false}
+              className="flex items-center gap-1.5 text-xs font-semibold text-slate-500 hover:text-slate-900 transition-colors py-2"
+              aria-label={locale === 'vn' ? 'Switch to English' : 'Chuyển sang tiếng Việt'}
+            >
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
+                />
+              </svg>
+              {locale === "vn" ? "VN" : "EN"}
+            </Link>
             <Link
               href={`/${locale}/consultation`}
-              className="bg-orange-500 text-white px-5 py-2 rounded-full shadow-md hover:bg-orange-600 transition-colors"
+              className="bg-orange-600 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-orange-700 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
             >
               {t("signup")}
             </Link>
           </div>
         </div>
+      </div>
+
+      {/* Mobile Navigation Dropdown */}
+      <div
+        className={`${
+          isOpen ? "block" : "hidden"
+        } md:hidden absolute top-[72px] left-0 right-0 bg-white border-b border-slate-100 shadow-lg shadow-slate-200/40 px-5 py-6 z-40 transition-all duration-300`}
+      >
+        <nav className="flex flex-col space-y-2">
+          <Link href="/" onClick={() => setIsOpen(false)} className={mobileNavClassName("/")}>
+            {t("home")}
+          </Link>
+          <Link href={`/${locale}/blog`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/blog")}>
+            {t("knowledge")}
+          </Link>
+          <Link href={`/${locale}/free-testas`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/free-testas")}>
+            {t("freeTest")}
+          </Link>
+          <Link href={`/${locale}/contact`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/contact")}>
+            {t("contact")}
+          </Link>
+
+          {/* Divider */}
+          <div className="h-px bg-slate-100 my-4" />
+
+          {/* Language Toggle and CTA row for Mobile */}
+          <div className="flex items-center justify-between pt-2">
+            <Link
+              href={getLocalizedPath(otherLocale)}
+              onClick={() => setIsOpen(false)}
+              prefetch={false}
+              className="flex items-center gap-1.5 text-sm font-semibold text-slate-500 hover:text-slate-900 transition-colors"
+              aria-label={locale === 'vn' ? 'Switch to English' : 'Chuyển sang tiếng Việt'}
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"
+                />
+              </svg>
+              {locale === "vn" ? "Tiếng Việt (VN)" : "English (EN)"}
+            </Link>
+            
+            <Link
+              href={`/${locale}/consultation`}
+              onClick={() => setIsOpen(false)}
+              className="bg-orange-600 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-orange-700 transition-colors duration-200 text-center"
+            >
+              {t("signup")}
+            </Link>
+          </div>
+        </nav>
       </div>
     </header>
   );

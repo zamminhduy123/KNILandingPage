@@ -1,113 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://kni.vn/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <loc>https://kni.vn/vn/</loc>
+    <lastmod>2026-07-05</lastmod>
     <alternate hrefLang="en" href="https://kni.vn/en/"/>
   </url>
   <url>
     <loc>https://kni.vn/en/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/"/>
+    <lastmod>2026-07-05</lastmod>
+    <alternate hrefLang="vi" href="https://kni.vn/vn/"/>
   </url>
   <url>
-    <loc>https://kni.vn/free-testas/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <loc>https://kni.vn/vn/free-testas/</loc>
+    <lastmod>2026-07-05</lastmod>
     <alternate hrefLang="en" href="https://kni.vn/en/free-testas/"/>
   </url>
   <url>
     <loc>https://kni.vn/en/free-testas/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/free-testas/"/>
+    <lastmod>2026-07-05</lastmod>
+    <alternate hrefLang="vi" href="https://kni.vn/vn/free-testas/"/>
   </url>
   <url>
-    <loc>https://kni.vn/consultation/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <loc>https://kni.vn/vn/consultation/</loc>
+    <lastmod>2026-07-05</lastmod>
     <alternate hrefLang="en" href="https://kni.vn/en/consultation/"/>
   </url>
   <url>
     <loc>https://kni.vn/en/consultation/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/consultation/"/>
+    <lastmod>2026-07-05</lastmod>
+    <alternate hrefLang="vi" href="https://kni.vn/vn/consultation/"/>
   </url>
   <url>
-    <loc>https://kni.vn/contact/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <loc>https://kni.vn/vn/contact/</loc>
+    <lastmod>2026-07-05</lastmod>
     <alternate hrefLang="en" href="https://kni.vn/en/contact/"/>
   </url>
   <url>
     <loc>https://kni.vn/en/contact/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/contact/"/>
+    <lastmod>2026-07-05</lastmod>
+    <alternate hrefLang="vi" href="https://kni.vn/vn/contact/"/>
   </url>
   <url>
-    <loc>https://kni.vn/privacy-policy/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <loc>https://kni.vn/vn/privacy-policy/</loc>
+    <lastmod>2026-07-05</lastmod>
     <alternate hrefLang="en" href="https://kni.vn/en/privacy-policy/"/>
   </url>
   <url>
     <loc>https://kni.vn/en/privacy-policy/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/privacy-policy/"/>
+    <lastmod>2026-07-05</lastmod>
+    <alternate hrefLang="vi" href="https://kni.vn/vn/privacy-policy/"/>
   </url>
   <url>
-    <loc>https://kni.vn/thank-you/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="en" href="https://kni.vn/en/thank-you/"/>
-  </url>
-  <url>
-    <loc>https://kni.vn/en/thank-you/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/thank-you/"/>
-  </url>
-  <url>
-    <loc>https://kni.vn/thank-you-free-consult/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="en" href="https://kni.vn/en/thank-you-free-consult/"/>
-  </url>
-  <url>
-    <loc>https://kni.vn/en/thank-you-free-consult/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/thank-you-free-consult/"/>
-  </url>
-  <url>
-    <loc>https://kni.vn/blog/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <loc>https://kni.vn/vn/blog/</loc>
+    <lastmod>2026-07-05</lastmod>
     <alternate hrefLang="en" href="https://kni.vn/en/blog/"/>
   </url>
   <url>
     <loc>https://kni.vn/en/blog/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/blog/"/>
+    <lastmod>2026-07-05</lastmod>
+    <alternate hrefLang="vi" href="https://kni.vn/vn/blog/"/>
   </url>
   <url>
-    <loc>https://kni.vn/blog/testas-la-gi/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <loc>https://kni.vn/vn/blog/testas-la-gi/</loc>
+    <lastmod>2026-07-05</lastmod>
     <alternate hrefLang="en" href="https://kni.vn/en/blog/testas-la-gi/"/>
   </url>
   <url>
     <loc>https://kni.vn/en/blog/testas-la-gi/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/blog/testas-la-gi/"/>
+    <lastmod>2026-07-05</lastmod>
+    <alternate hrefLang="vi" href="https://kni.vn/vn/blog/testas-la-gi/"/>
   </url>
   <url>
-    <loc>https://kni.vn/khoa-hoc-testas/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <loc>https://kni.vn/vn/khoa-hoc-testas/</loc>
+    <lastmod>2026-07-05</lastmod>
     <alternate hrefLang="en" href="https://kni.vn/en/khoa-hoc-testas/"/>
   </url>
   <url>
     <loc>https://kni.vn/en/khoa-hoc-testas/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/khoa-hoc-testas/"/>
-  </url>
-  <url>
-    <loc>https://kni.vn/ve-nhat/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="en" href="https://kni.vn/en/ve-nhat/"/>
-  </url>
-  <url>
-    <loc>https://kni.vn/en/ve-nhat/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <alternate hrefLang="vi" href="https://kni.vn/ve-nhat/"/>
+    <lastmod>2026-07-05</lastmod>
+    <alternate hrefLang="vi" href="https://kni.vn/vn/khoa-hoc-testas/"/>
   </url>
 </urlset>

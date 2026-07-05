@@ -27,28 +27,26 @@
       "subtitle": "The key to unlocking your dream university with confidence",
       "features": {
         "crucial": {
-          "title": "Crucial for Success",
-          "description": "TestAS is essential to ensure you get accepted into your dream university."
+          "title": "Important for Success",
+          "description": "TestAS is a crucial factor that brings you closer to VGU, scholarships, and opportunities to study in Germany."
         },
         "difficulty": {
-          "title": "Unexpected Difficulty",
-          "description": "90% of test-takers realize TestAS is much harder than expected when they enter the exam room."
+          "title": "The Real Difficulty",
+          "description": "Many candidates are surprised that the actual exam is harder than expected. KNI helps you prepare the right way from the start."
         },
         "sample": {
           "title": "Sample vs. Reality",
-          "description": "Official sample questions are far too easy compared to the actual TestAS exam."
+          "description": "Official sample questions often do not fully reflect the pressure and difficulty of the real TestAS exam."
         },
         "trusted": {
           "title": "Trusted by Top Students",
-          "description": "KNI has successfully guided students with a 9.5 GPA and IELTS scores of 7.0–8.0."
-        },
-        "preparation": {
-          "title": "Preparation Is Key",
-          "description": "Don’t face a life-changing exam unprepared—studying the right way makes all the difference."
+          "description": "KNI has accompanied many students with excellent achievements, clear orientation, and big goals.",
+          "badge": "🏆 9.5 GPA • IELTS 7.0–8.0"
         },
         "competition": {
-          "title": "Outshine the Competition",
-          "description": "Dedicated preparation with KNI helps you surpass others and seize top opportunities."
+          "title": "Preparation is a Competitive Edge",
+          "description": "Preparing with the right strategy helps you be more confident, save time, and stand out from competitors.",
+          "badge": "✓ Personalized • Direct target on weak points"
         }
       },
       "tags": {
@@ -123,6 +121,67 @@
           "title": "Latest Practice Tests",
           "description": "Practice tests continuously updated from the most recent exams."
         }
+      }
+    },
+    "pricing": {
+      "title": "Invest 8 hours to open up bigger opportunities.",
+      "subtitle": "A clear, personalized, and practical course to help you go from clueless to ready for TestAS.",
+      "cardLeft": {
+        "title": "TestAS Prep Target VGU",
+        "popular": "Most Popular",
+        "price": "8.100.000đ",
+        "btn": "Sign Up for Free Trial",
+        "features": [
+          "Core Test + Specialized Module",
+          "Study online or offline in Ho Chi Minh City",
+          "Personalized / small group class",
+          "Focused on your weak spots",
+          "Mock tests with feedback & scoring",
+          "Direction support for VGU / scholarships / Germany"
+        ]
+      },
+      "cardRight": {
+        "title": "The value you receive",
+        "totalLabel": "Total value:",
+        "totalValue": "~16.675.785đ+",
+        "tuitionLabel": "Tuition:",
+        "tuitionValue": "8.100.0000đ",
+        "items": [
+          {
+            "label": "Scholarship",
+            "val": "~1.000.000đ"
+          },
+          {
+            "label": "Video + roadmap practice",
+            "val": "~4.000.000đ"
+          },
+          {
+            "label": "Mock exam simulation package",
+            "val": "~540,000đ"
+          },
+          {
+            "label": "Latest TestAS preparation books from international students",
+            "val": "~2,135,785đ"
+          },
+          {
+            "label": "Supportive community",
+            "val": "~1.000.000đ"
+          },
+          {
+            "label": "TestAS preparation materials",
+            "val": "~2,000,000đ"
+          },
+          {
+            "label": "1-on-1 consultation",
+            "val": "~6,000,000đ"
+          }
+        ]
+      },
+      "bottomRow": {
+        "f1": "Flexible Payment",
+        "f2": "Pre-enrollment Support",
+        "f3": "Personalized",
+        "f4": "Targeted Weak Points"
       }
     },
     "customerReviews": {
@@ -369,5 +428,156 @@
     "tutorImageAlt": "Instructor Nhật - TestAS Expert",
     "ctaTitle": "Start your TestAS journey today",
     "ctaSubtitle": "Sign up for a free trial to experience KNI teaching methods. No commitment, no cost."
+  },
+  "WhyTestAS": {
+    "title": "TestAS is not just an exam — it is a gateway to opportunity.",
+    "card1": {
+      "title": "Want to enter VGU?",
+      "desc": "TestAS is an important part of the admission and scholarship process."
+    },
+    "card2": {
+      "title": "Want a scholarship?",
+      "desc": "A good TestAS score gives you an edge in valuable educational opportunities."
+    },
+    "card3": {
+      "title": "Want to go to Germany?",
+      "desc": "KNI helps you prepare academic capacity, mindset, and test-taking strategies."
+    }
+  },
+  "StatsBar": {
+    "stat1": {
+      "value": "95%+",
+      "label": "Student pass rate"
+    },
+    "stat2": {
+      "value": "100+",
+      "label": "Students trained"
+    },
+    "stat3": {
+      "value": "Online & Offline",
+      "label": "in Ho Chi Minh City"
+    },
+    "stat4": {
+      "value": "1:1",
+      "label": "Personalised roadmap"
+    },
+    "stat5": {
+      "value": "100%",
+      "label": "Focused on your weak spots"
+    }
+  },
+  "FAQ": {
+    "label": "Got Questions?",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our TestAS preparation course at KNI.",
+    "items": [
+      {
+        "q": "Who is this course for?",
+        "a": "The course is suitable for all students planning to study in Germany and preparing for the TestAS exam — whether you are just starting out or already have some background knowledge."
+      },
+      {
+        "q": "Online or in-person?",
+        "a": "KNI offers both formats: online via Zoom (with recorded lectures) and in-person at our Ho Chi Minh City center. Choose the format that fits your schedule."
+      },
+      {
+        "q": "What if I miss a session?",
+        "a": "No problem. Every session is recorded. If you miss a class, you can watch the lecture video at any time during the course period."
+      },
+      {
+        "q": "How soon can I start?",
+        "a": "You can register for a free trial lesson today. The main course opens monthly — KNI will advise you on the nearest start date that fits your timeline."
+      },
+      {
+        "q": "Is there a free trial?",
+        "a": "Yes. KNI offers a free trial session so you can experience our teaching method before committing. No payment required, no strings attached."
+      },
+      {
+        "q": "How long is the course?",
+        "a": "The course runs 6 to 12 weeks depending on the roadmap you choose and your exam date. KNI will recommend the right roadmap during your initial consultation."
+      },
+      {
+        "q": "Is there support outside of class hours?",
+        "a": "Yes. Students can get help through our online community and dedicated mentoring sessions outside of formal class hours."
+      },
+      {
+        "q": "How do I receive the study materials after enrolling?",
+        "a": "After enrolling, you will receive the full study package via email and be added to a private study group. All materials are updated to the latest TestAS exam structure."
+      },
+      {
+        "q": "Do you cover the specialized modules?",
+        "a": "Yes. KNI covers both the Core section and all specialized modules: Mathematics, Computer Science and Natural Sciences (MNS); Economics; Humanities, Cultural Studies and Social Sciences (HCS); and Engineering."
+      }
+    ],
+    "cta": "Still have questions? Get free advice"
+  },
+  "seo": {
+    "home": {
+      "title": "TestAS Preparation | KNI Education — High-Quality TestAS Prep",
+      "description": "KNI Education provides professional TestAS preparation roadmaps, Vietnamese & German instructors, and exclusive study materials. Register for a free consultation today.",
+      "ogTitle": "Prepare for TestAS with KNI Education",
+      "ogDescription": "Personalized roadmaps, 100% of students achieve their target score.",
+      "ogImageAlt": "KNI Education TestAS Preparation"
+    },
+    "consultation": {
+      "title": "Free TestAS Consultation | KNI Education",
+      "description": "Book a free consultation session with German education experts from KNI. Assess your level and get a personalized roadmap.",
+      "ogTitle": "Free TestAS Consultation — KNI Education",
+      "ogDescription": "Sign up for a consultation now and get your personalized roadmap within 24 hours.",
+      "ogImageAlt": "Free TestAS Consultation KNI Education"
+    },
+    "contact": {
+      "title": "Contact KNI Education — Study in Germany & TestAS Prep",
+      "description": "Contact KNI Education via phone, email, or visit our office. Support for German study abroad advice and TestAS preparation.",
+      "ogTitle": "Contact KNI Education",
+      "ogDescription": "Office in HCMC & Hanoi. Hotline: +84-91-839-1099.",
+      "ogImageAlt": "Contact KNI Education"
+    },
+    "freeTestas": {
+      "title": "Free TestAS Practice Test | KNI Education — Assess Your Level Now",
+      "description": "Take a practice TestAS exam completely for free and receive level analysis and a personalized study plan from KNI Education.",
+      "ogTitle": "Free TestAS Practice Test — KNI Education",
+      "ogDescription": "Practice tests styled after actual exams, detailing your strengths and weaknesses.",
+      "ogImageAlt": "Free TestAS Practice Test KNI Education"
+    },
+    "course": {
+      "title": "TestAS Preparation Course | KNI Education — Roadmap from A1 to B1",
+      "description": "Explore basic to advanced TestAS prep courses at KNI Education. Native teachers, exclusive materials, and guaranteed outcomes.",
+      "ogTitle": "TestAS Prep Course — KNI Education",
+      "ogDescription": "Roadmap from A1 to B1, guaranteed outcomes, 9.0/10 student satisfaction rate.",
+      "ogImageAlt": "TestAS Prep Course KNI Education"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy | KNI Education",
+      "description": "Privacy policy regarding personal data at KNI Education. We commit to protecting client information according to legal regulations.",
+      "ogTitle": "Privacy Policy — KNI Education",
+      "ogDescription": "Privacy policy regarding personal data at KNI Education.",
+      "ogImageAlt": "Privacy Policy KNI Education"
+    },
+    "thankYou": {
+      "title": "Thank You | KNI Education — We Will Reach Out Soon",
+      "description": "Thank you for registering. The KNI Education team will contact you for a consultation within 24 hours.",
+      "ogTitle": "Thank You — KNI Education",
+      "ogDescription": "We have received your registration and will contact you shortly.",
+      "ogImageAlt": "Thank You KNI Education"
+    },
+    "thankYouFreeConsult": {
+      "title": "Registration Successful | KNI Education — Free TestAS Advice",
+      "description": "Successfully registered for a free TestAS consultation. KNI Education will contact you within 24 hours.",
+      "ogTitle": "Registration Successful — KNI Education",
+      "ogDescription": "We have received your request for free consultation and will contact you within 24 hours.",
+      "ogImageAlt": "Registration Successful KNI Education"
+    },
+    "blog": {
+      "title": "TestAS Knowledge | Blog KNI Education",
+      "description": "Comprehensive TestAS knowledge, tips, and guides from KNI Education. Free TestAS preparation materials.",
+      "ogTitle": "TestAS Knowledge Blog — KNI Education",
+      "ogDescription": "TestAS prep materials, experience, and guides from experts.",
+      "ogImageAlt": "TestAS Knowledge Blog KNI Education"
+    }
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "backToHome": "Back to Home"
   }
 }

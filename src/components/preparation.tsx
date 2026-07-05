@@ -74,7 +74,7 @@ export default function Preparation() {
       data-aos="fade-up"
       data-aos-delay="100"
     >
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 w-full">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 w-full">
         {/* Header Section */}
         <div className="text-center mb-16">
           <p className="text-sm uppercase text-orange-500 font-semibold tracking-wider mb-2">
