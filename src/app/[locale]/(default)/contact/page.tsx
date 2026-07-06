@@ -22,12 +22,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       absolute: t("title"),
     },
     description: t("description"),
-    keywords: [
-      "liên hệ KNI",
-      "địa chỉ KNI Education",
-      "số điện thoại KNI",
-      "luyện thi TestAS TPHCM",
-    ],
     robots: { index: true, follow: true },
     alternates: {
       canonical: `https://kni.vn/${locale}/contact/`,

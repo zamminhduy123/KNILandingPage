@@ -19,13 +19,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       absolute: t("title"),
     },
     description: t("description"),
-    keywords: [
-      "tư vấn TestAS",
-      "học thử TestAS",
-      "tư vấn du học Đức",
-      "VGU tư vấn",
-      "KNI Education",
-    ],
     robots: { index: true, follow: true },
     alternates: {
       canonical: `https://kni.vn/${locale}/consultation/`,
@@ -125,7 +118,7 @@ export default async function Consultation({ params }: Props) {
               src={ConsultSrc}
               width={400}
               height={400}
-              alt="Tư vấn miễn phí luyện thi TestAS tại KNI Education"
+              alt={t("imageAlt")}
               className="rounded-lg shadow-md"
               data-aos="fade-left"
               data-aos-delay="100"

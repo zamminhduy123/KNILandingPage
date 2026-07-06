@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
 import TutorLike from '@/public/images/tutor-like.webp'
 import TutorGrad from '@/public/images/tutor-grad.webp'
@@ -16,6 +16,7 @@ import { renderDescriptionWithMultipleHighlights } from '@/src/utils/render-util
 
 export default function Tutor() {
   const t = useTranslations("HomePage.tutor");
+  const locale = useLocale();
 
   const listItem = (children: any, ICON : any, iconColor="orange") => {
     return <li className="flex items-center">
@@ -39,7 +40,7 @@ export default function Tutor() {
               src={TutorGrad} // Replace with your actual image path
             //   width={300}
               height={550}
-              alt="Giáo viên luyện thi TestAS tại KNI Education"
+              alt={locale === 'en' ? 'TestAS preparation instructor at KNI Education' : 'Giáo viên luyện thi TestAS tại KNI Education'}
               className="rounded-lg shadow-md"
               data-aos="fade-right"
               data-aos-delay="100"
@@ -50,7 +51,7 @@ export default function Tutor() {
               src={TutorLike} // Replace with your actual image path
               width={350}
               height={200}
-              alt="Học viên TestAS tại KNI Education"
+              alt={locale === 'en' ? 'TestAS student at KNI Education' : 'Học viên TestAS tại KNI Education'}
               className="absolute bottom-0 right-0 shadow-md border-amber-50 border-5"
               data-aos="fade-right"
               data-aos-delay="200"
@@ -66,7 +67,7 @@ export default function Tutor() {
                 src={EDU} // Replace with your actual badge image path
                 width={100}
                 height={100}
-                alt="Giải thưởng giáo dục VGU"
+                alt={locale === 'en' ? 'VGU educational partner logo' : 'Giải thưởng giáo dục VGU'}
                 className="rounded-full"
                 priority
               />
@@ -144,7 +145,7 @@ export default function Tutor() {
                 src={TutorSig} // Replace with your actual image path
                 width={50}
                 height={50}
-                alt="Chữ ký người sáng lập KNI Education – Nhật"
+                alt={locale === 'en' ? "Signature of KNI Education founder – Nhat" : "Chữ ký người sáng lập KNI Education – Nhật"}
                 className="rounded-full"
                 priority
               />

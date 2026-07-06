@@ -196,10 +196,11 @@
     "label": "Liên hệ",
     "title": "Tư vấn + Học thử",
     "free": "miễn phí",
+    "imageAlt": "Tư vấn miễn phí luyện thi TestAS tại KNI Education",
     "description": {
       "line1": "Bạn muốn biết tất cả thông tin về TestAS, VGU hay du học Đức cho hành trình sắp tới của bạn?",
       "line2": "Hay bạn muốn trải nghiệm thử một lớp KNI?",
-      "line3": "Điền đơn sau và chúng mình sẽ liên hệ lại với bạn trong vòng 48 tiếng.",
+      "line3": "Điền đơn sau và chúng mình sẽ liên hệ lại với bạn trong vòng 24 tiếng.",
       "line4": "Không bắt buộc, không chi phí."
     },
     "form": {
@@ -257,7 +258,7 @@
   },
   "ThankYouFreeConsult": {
     "title": "Cảm ơn nhé",
-    "subtitle_1": "Giáo viên của bọn mình sẽ liên hệ với bạn qua điện thoại trong vòng 48 tiếng.",
+    "subtitle_1": "Giáo viên của bọn mình sẽ liên hệ với bạn qua điện thoại trong vòng 24 tiếng.",
     "subtitle_2": "Trong lúc đó bạn, có thể đọc qua các bài blog của bọn mình để có thêm nhiều tips và tricks về học tập ở Đức!"
   },
   "brevoForm": {

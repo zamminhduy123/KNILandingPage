@@ -80,7 +80,7 @@ export default async function BlogPage({ params }: Props) {
   const t = await getTranslations({ locale, namespace: "Blog" });
   const ht = await getTranslations({ locale, namespace: "HomePage" });
 
-  const posts = getAllBlogPosts() as BlogFrontmatter[];
+  const posts = getAllBlogPosts(locale) as BlogFrontmatter[];
 
   const breadcrumbs = {
     "@context": "https://schema.org",

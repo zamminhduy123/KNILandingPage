@@ -23,13 +23,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       absolute: t("title"),
     },
     description: t("description"),
-    keywords: [
-      "khóa học TestAS",
-      "luyện thi TestAS",
-      "trung tâm TestAS",
-      "học TestAS TPHCM",
-      "TestAS course Vietnam",
-    ],
     robots: { index: true, follow: true },
     alternates: {
       canonical: `https://kni.vn/${locale}/khoa-hoc-testas/`,

@@ -14,7 +14,7 @@ export const dynamic = "force-static";
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  const post = await getBlogPostBySlug(slug);
+  const post = await getBlogPostBySlug(slug, locale);
   if (!post) return { title: "Not Found" };
 
   return {
@@ -93,7 +93,7 @@ function getRelatedArticles(
 export default async function BlogPostPage({ params }: Props) {
   const { locale, slug } = await params;
 
-  const post = await getBlogPostBySlug(slug);
+  const post = await getBlogPostBySlug(slug, locale);
   if (!post) notFound();
 
   const { frontmatter, html } = post;

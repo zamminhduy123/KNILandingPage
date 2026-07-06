@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 
 export default function CustomerReviews() {
   // List of review images (replace with your actual image paths)
@@ -29,6 +29,7 @@ export default function CustomerReviews() {
   }, []);
 
   const t = useTranslations("HomePage.customerReviews");
+  const locale = useLocale();
 
   // Duplicate the reviews array to create a seamless infinite scroll
   const duplicatedReviews_1 = useMemo(
@@ -73,7 +74,11 @@ export default function CustomerReviews() {
                     src={review}
                     width={300} // Base width (will be scaled)
                     height={400} // Base height (will be scaled)
-                    alt={`Đánh giá học viên KNI #${(index % reviews_1.length) + 1} - Luyện thi TestAS`}
+                    alt={
+                      locale === "en"
+                        ? `KNI Student Review #${(index % reviews_1.length) + 1} - TestAS Preparation`
+                        : `Đánh giá học viên KNI #${(index % reviews_1.length) + 1} - Luyện thi TestAS`
+                    }
                     className="rounded-lg shadow-md object-cover"
                     style={{ objectFit: "contain", aspectRatio: "1" }}
                   />
@@ -99,7 +104,11 @@ export default function CustomerReviews() {
                     src={review}
                     width={300} // Base width (will be scaled)
                     height={400} // Base height (will be scaled)
-                    alt={`Đánh giá học viên KNI #${(index % reviews_2.length) + 15} - Luyện thi TestAS`}
+                    alt={
+                      locale === "en"
+                        ? `KNI Student Review #${(index % reviews_2.length) + 15} - TestAS Preparation`
+                        : `Đánh giá học viên KNI #${(index % reviews_2.length) + 15} - Luyện thi TestAS`
+                    }
                     className="rounded-lg shadow-md"
                     style={{ objectFit: "contain",  aspectRatio: "1/2"}}
                   />
@@ -122,7 +131,11 @@ export default function CustomerReviews() {
                     src={review}
                     width={300} // Base width (will be scaled)
                     height={400} // Base height (will be scaled)
-                    alt={`Đánh giá học viên KNI #${(index % reviews_3.length) + 30} - Luyện thi TestAS`}
+                    alt={
+                      locale === "en"
+                        ? `KNI Student Review #${(index % reviews_3.length) + 30} - TestAS Preparation`
+                        : `Đánh giá học viên KNI #${(index % reviews_3.length) + 30} - Luyện thi TestAS`
+                    }
                     className="rounded-lg shadow-md object-cover"
                     style={{ objectFit: "contain",  aspectRatio: "1/2" }}
                   />

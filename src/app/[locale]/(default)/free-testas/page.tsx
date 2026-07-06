@@ -20,13 +20,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       absolute: t("title"),
     },
     description: t("description"),
-    keywords: [
-      "đề thi thử TestAS",
-      "testas free",
-      "luyện thi TestAS",
-      "đề TestAS 2026",
-      "testas practice",
-    ],
     robots: { index: true, follow: true },
     alternates: {
       canonical: `https://kni.vn/${locale}/free-testas/`,
@@ -132,7 +125,11 @@ export default function FreeTestAS({ params }: Props) {
                 src={documentSrc}
                 width={500}
                 height={500}
-                alt="Đề thi thử TestAS miễn phí 2026 - KNI Education"
+                alt={
+                  locale === "en"
+                    ? "Free TestAS practice tests 2026 - KNI Education"
+                    : "Đề thi thử TestAS miễn phí 2026 - KNI Education"
+                }
                 className="rounded-lg shadow-md"
                 data-aos="fade-left"
                 data-aos-delay="100"

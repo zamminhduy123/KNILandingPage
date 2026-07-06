@@ -26,15 +26,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       absolute: t("title"),
     },
     description: t("description"),
-    keywords: [
-      "luyện thi TestAS",
-      "testas tphcm",
-      "du học đức",
-      "vgu testas",
-      "kni education",
-      "đề thi thử testas",
-      "tư vấn du học đức",
-    ],
     robots: { index: true, follow: true },
     alternates: {
       canonical: `https://kni.vn/${locale}/`,
