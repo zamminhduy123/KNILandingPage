@@ -576,6 +576,26 @@
       "ogImageAlt": "Blog kiến thức TestAS KNI Education"
     }
   },
+  "TestimonialSection": {
+    "label": "KẾT QUẢ THẬT TỪ HỌC VIÊN KNI",
+    "title": "Điểm số, tin nhắn và kết quả được ghi lại từ hành trình học thật.",
+    "badges": {
+      "all": "Tất cả",
+      "vgu": "VGU",
+      "scholarship": "Học bổng",
+      "highScore": "Điểm cao",
+      "feedback": "Feedback"
+    },
+    "proofWall": {
+      "title": "Minh chứng thật từ học viên",
+      "subtitle": "Tin nhắn, điểm số, thư trúng tuyển và học bổng.",
+      "viewAll": "Xem tất cả minh chứng"
+    },
+    "cta": {
+      "question": "Bạn muốn biết mình có thể đạt mục tiêu nào?",
+      "button": "Đăng ký học thử"
+    }
+  },
   "NotFound": {
     "title": "Không tìm thấy trang",
     "description": "Trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển.",

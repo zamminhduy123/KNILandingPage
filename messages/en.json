@@ -576,6 +576,26 @@
       "ogImageAlt": "TestAS Knowledge Blog KNI Education"
     }
   },
+  "TestimonialSection": {
+    "label": "REAL RESULTS FROM KNI STUDENTS",
+    "title": "Scores, messages, and outcomes recorded from real learning journeys.",
+    "badges": {
+      "all": "All",
+      "vgu": "VGU",
+      "scholarship": "Scholarship",
+      "highScore": "High Score",
+      "feedback": "Feedback"
+    },
+    "proofWall": {
+      "title": "Real proof from students",
+      "subtitle": "Messages, scores, admission letters and scholarships.",
+      "viewAll": "View all proof"
+    },
+    "cta": {
+      "question": "Want to know what goal you can achieve?",
+      "button": "Book a Trial Lesson"
+    }
+  },
   "NotFound": {
     "title": "Page Not Found",
     "description": "The page you are looking for does not exist or has been moved.",

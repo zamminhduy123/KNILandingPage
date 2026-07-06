@@ -7,7 +7,7 @@ import Tutor from "@/src/components/tutor";
 import RoadMap from "@/src/components/roadmap";
 import Pricing from "@/src/components/pricing";
 import FAQ from "@/src/components/faq"
-import CustomerReviews from "@/src/components/reviews";
+import TestimonialSection from "@/src/components/testimonial-section/TestimonialSection";
 import LargeTestimonial from "@/src/components/large-testimonial";
 import Cta from "@/src/components/cta";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -104,7 +104,7 @@ export default async function Home({ params }: Props) {
       <Pricing />
       <FAQ />
       {/* <FeaturesPlanet /> */}
-      <CustomerReviews />
+      <TestimonialSection />
       <LargeTestimonial />
       <Cta />
     </>
