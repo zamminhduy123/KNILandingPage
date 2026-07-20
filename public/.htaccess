@@ -1,0 +1,10 @@
+# 301 Permanent Redirects to consolidate HTTP & www backlink equity onto https://kni.vn
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTP to HTTPS
+  RewriteCond %{HTTPS} off [OR]
+  # Force www to non-www
+  RewriteCond %{HTTP_HOST} ^www\.kni\.vn$ [NC]
+  RewriteRule ^(.*)$ https://kni.vn/$1 [R=301,L]
+</IfModule>

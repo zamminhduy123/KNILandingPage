@@ -1,0 +1,4 @@
+# 301 Permanent Redirects to consolidate HTTP & www backlink equity onto https://kni.vn
+http://kni.vn/* https://kni.vn/:splat 301!
+http://www.kni.vn/* https://kni.vn/:splat 301!
+https://www.kni.vn/* https://kni.vn/:splat 301!

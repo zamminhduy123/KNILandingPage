@@ -619,6 +619,7 @@ Check hero section images. Add `fetchPriority="high"` to the hero LCP image:
 | 7 | Phase 7 (Sitemap) | Small | — | **✅ DONE** — All pages present, hreflang alternates consistent, lastmod current |
 | 8 | Phase 8 (Manifest + Favicon) | Small | Generate new icon files | **✅ DONE** — Added 192x192 & 512x512 icons, updated layout with apple-touch-icon, WebSite + AggregateRating schemas already present |
 | 9 | Phase 9 (Minor boosters) | Small | — | **✅ DONE** — Added 404 page (`not-found.tsx`), language toggle `aria-label` already present, removed dead code `hero-home.tsx`, reviews alt text already unique |
+| 10 | Phase 10 (HTTP -> HTTPS 301 Redirect) | Small | — | **✅ DONE** — Added 301 redirects across `middleware.js`, `vercel.json`, `public/_redirects`, and `public/.htaccess` to stack HTTP/www backlink equity onto `https://kni.vn` |
 
 ---
 
