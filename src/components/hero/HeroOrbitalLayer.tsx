@@ -268,7 +268,7 @@ export default function HeroOrbitalLayer() {
     <div className="pointer-events-none absolute inset-0 z-10 mx-auto max-w-7xl">
       <OrbitField />
 
-      <div className="block">
+      <div className="hidden md:block">
         <FloatCard className="absolute sm:left-0 md:left-[2%] top-[10%] w-[250px] -rotate-6" distance={12}>
           <ScoreCard />
         </FloatCard>

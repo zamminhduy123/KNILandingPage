@@ -17,7 +17,7 @@ export default function HeroSection() {
         aria-hidden="true"
       />
 
-      <div className="relative mx-auto flex min-h-[calc(100svh-72px)] max-w-7xl items-start justify-center px-6 sm:px-8">
+      <div className="relative mx-auto flex sm:min-h-[calc(100svh-72px)] max-w-7xl items-center sm:items-start justify-center px-6 sm:px-8">
         <HeroOrbitalLayer />
 
         <div className="relative z-20 pt-16 mx-auto flex max-w-4xl flex-col justify-start items-center text-center">
