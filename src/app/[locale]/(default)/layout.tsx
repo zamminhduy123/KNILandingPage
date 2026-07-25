@@ -99,63 +99,63 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           </ClientLayout>
         </NextIntlClientProvider>
         {/* EducationalOrganization & AggregateRating Structured Data */}
-        <Script
+        <script
           type="application/ld+json"
-          strategy="afterInteractive"
-        >
-          {JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'EducationalOrganization',
-            name: 'KNI Education',
-            url: 'https://kni.vn',
-            logo: 'https://kni.vn/images/logo.avif',
-            description:
-              'Trung tâm luyện thi TestAS uy tín tại TP.HCM với tỷ lệ đậu 95%. Tư vấn du học Đức và VGU miễn phí.',
-            contactPoint: [
-              {
-                '@type': 'ContactPoint',
-                telephone: '+84-91-839-1099',
-                contactType: 'customer service',
-                areaServed: 'VN',
-                availableLanguage: ['English', 'Vietnamese'],
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'EducationalOrganization',
+              name: 'KNI Education',
+              url: 'https://kni.vn',
+              logo: 'https://kni.vn/images/logo.avif',
+              description:
+                'Trung tâm luyện thi TestAS uy tín tại TP.HCM với tỷ lệ đậu 95%. Tư vấn du học Đức và VGU miễn phí.',
+              contactPoint: [
+                {
+                  '@type': 'ContactPoint',
+                  telephone: '+84-91-839-1099',
+                  contactType: 'customer service',
+                  areaServed: 'VN',
+                  availableLanguage: ['English', 'Vietnamese'],
+                },
+              ],
+              address: {
+                '@type': 'PostalAddress',
+                addressLocality: 'Thành phố Hồ Chí Minh',
+                addressCountry: 'VN',
               },
-            ],
-            address: {
-              '@type': 'PostalAddress',
-              addressLocality: 'Thành phố Hồ Chí Minh',
-              addressCountry: 'VN',
-            },
-            sameAs: [
-              'https://www.facebook.com/testascandidates',
-              'https://www.instagram.com/khanhnhatinstitute/',
-              'https://www.tiktok.com/@khanhnhat.institute',
-            ],
-            aggregateRating: {
-              '@type': 'AggregateRating',
-              ratingValue: '9.0',
-              reviewCount: '44',
-              bestRating: '10',
-              worstRating: '1',
-            },
-          })}
-        </Script>
+              sameAs: [
+                'https://www.facebook.com/testascandidates',
+                'https://www.instagram.com/khanhnhatinstitute/',
+                'https://www.tiktok.com/@khanhnhat.institute',
+              ],
+              aggregateRating: {
+                '@type': 'AggregateRating',
+                ratingValue: '9.0',
+                reviewCount: '44',
+                bestRating: '10',
+                worstRating: '1',
+              },
+            })
+          }}
+        />
         {/* WebSite Structured Data */}
-        <Script
+        <script
           type="application/ld+json"
-          strategy="afterInteractive"
-        >
-          {JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'WebSite',
-            name: 'KNI Education',
-            url: 'https://kni.vn/',
-            potentialAction: {
-              '@type': 'SearchAction',
-              target: 'https://kni.vn/{search_term_string}',
-              'query-input': 'required name=search_term_string',
-            },
-          })}
-        </Script>
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              name: 'KNI Education',
+              url: 'https://kni.vn/',
+              potentialAction: {
+                '@type': 'SearchAction',
+                target: 'https://kni.vn/{search_term_string}',
+                'query-input': 'required name=search_term_string',
+              },
+            })
+          }}
+        />
         <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-22N9GX8CS1"></Script>
         <Script>
           {`
