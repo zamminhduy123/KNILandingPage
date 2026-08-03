@@ -136,148 +136,270 @@ export default async function BlogPostPage({ params }: Props) {
       />
       <section className="bg-white pt-32 pb-20 min-h-screen">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        {/* Breadcrumbs */}
-        <nav className="mb-8">
-          <ol className="flex items-center space-x-2 text-sm text-gray-500">
-            <li>
-              <Link
-                href={`/${locale}`}
-                className="hover:text-orange-500 transition-colors"
-              >
-                {locale === "vn" ? "Trang chủ" : "Home"}
-              </Link>
-            </li>
-            <li className="text-gray-300">/</li>
-            <li>
-              <Link
-                href={`/${locale}/blog`}
-                className="hover:text-orange-500 transition-colors"
-              >
-                {t("title")}
-              </Link>
-            </li>
-            <li className="text-gray-300">/</li>
-            <li className="text-gray-900 font-medium truncate max-w-[200px]">
-              {frontmatter.title}
-            </li>
-          </ol>
-        </nav>
+          {/* Breadcrumbs */}
+          <nav className="mb-8">
+            <ol className="flex items-center space-x-2 text-sm text-gray-500">
+              <li>
+                <Link
+                  href={`/${locale}`}
+                  className="hover:text-orange-500 transition-colors"
+                >
+                  {locale === "vn" ? "Trang chủ" : "Home"}
+                </Link>
+              </li>
+              <li className="text-gray-300">/</li>
+              <li>
+                <Link
+                  href={`/${locale}/blog`}
+                  className="hover:text-orange-500 transition-colors"
+                >
+                  {t("title")}
+                </Link>
+              </li>
+              <li className="text-gray-300">/</li>
+              <li className="text-gray-900 font-medium truncate max-w-[200px]">
+                {frontmatter.title}
+              </li>
+            </ol>
+          </nav>
 
-        {/* Article Header */}
-        <div className="mb-10">
-          {/* Featured Image */}
-          <div className="relative h-64 sm:h-80 w-full overflow-hidden rounded-2xl mb-8 bg-gray-100">
-            <Image
-              src={frontmatter.image}
-              alt={frontmatter.title}
-              fill
-              className="object-cover"
-              sizes="(max-width: 768px) 100vw, 800px"
-              priority
-            />
+          {/* Article Header - Featured Image Banner */}
+          <div className="mb-10">
+            <div className="relative h-64 sm:h-[400px] w-full overflow-hidden rounded-2xl mb-8 bg-gray-100">
+              <Image
+                src={frontmatter.image}
+                alt={frontmatter.title}
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 1200px"
+                priority
+              />
+            </div>
           </div>
 
-          <div className="flex items-center gap-3 mb-4">
-            <span className="inline-flex items-center rounded-full bg-orange-100 px-3 py-1 text-xs font-medium text-orange-700">
-              {frontmatter.category}
-            </span>
-            <span className="text-sm text-gray-400">{formatDate(frontmatter.date)}</span>
+          {/* 2-Column Grid Layout */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mt-12">
+            
+            {/* Left Column: Article Content (2/3 width) */}
+            <div className="lg:col-span-2">
+              <div className="flex items-center gap-3 mb-4">
+                <span className="inline-flex items-center rounded-full bg-orange-100 px-3 py-1 text-xs font-medium text-orange-700">
+                  {frontmatter.category}
+                </span>
+                <span className="text-sm text-gray-400">{formatDate(frontmatter.date)}</span>
+              </div>
+
+              <h1 className="text-3xl sm:text-[2.75rem] lg:text-[3.25rem] font-extrabold text-slate-900 tracking-tight leading-[1.15] mb-6">
+                {frontmatter.title}
+              </h1>
+
+              <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                {frontmatter.description}
+              </p>
+
+              <hr className="border-t border-slate-100 my-8" />
+
+              {/* Article Content */}
+              <article
+                className="prose prose-lg prose-slate max-w-none mb-16 prose-headings:text-slate-900 prose-headings:font-bold prose-a:text-orange-600 hover:prose-a:text-orange-700"
+                dangerouslySetInnerHTML={{ __html: html }}
+              />
+
+              {/* Custom Styles for Inline Images */}
+              <style dangerouslySetInnerHTML={{ __html: `
+                .prose img {
+                  max-height: 420px;
+                  width: 100%;
+                  object-fit: cover;
+                  border-radius: 1rem;
+                  margin-left: auto;
+                  margin-right: auto;
+                }
+              ` }} />
+            </div>
+
+            {/* Right Column: Sidebar (1/3 width) */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-28 space-y-8">
+                
+                {/* Author Card */}
+                <div className="rounded-2xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/50">
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">
+                    {locale === "vn" ? "Tác giả bài viết" : "Author"}
+                  </h3>
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="relative h-12 w-12 rounded-full overflow-hidden bg-orange-100 flex-shrink-0 border border-slate-100">
+                      <Image
+                        src="/images/tutor-sig.jpg"
+                        alt="KNI Mentor"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-slate-900 text-sm">
+                        {locale === "vn" ? "Cựu Sinh Viên VGU" : "VGU Alumnus"}
+                      </h4>
+                      <p className="text-xs text-slate-500">
+                        {locale === "vn" ? "4 Năm Học Bổng VGU" : "4-Year Scholarship Holder"}
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-xs text-slate-600 leading-relaxed">
+                    {locale === "vn" 
+                      ? "Người sáng lập KNI Education, với hơn 3 năm đào tạo TestAS thực chiến, hỗ trợ hàng trăm học viên đạt điểm cao xét học bổng VGU & du học Đức."
+                      : "Founder of KNI Education, with 3+ years of TestAS training, supporting hundreds of students in VGU admissions and study in Germany."}
+                  </p>
+                </div>
+
+                {/* Table of Contents (Mục lục) */}
+                <div className="rounded-2xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/50">
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">
+                    {locale === "vn" ? "Mục lục bài viết" : "Table of Contents"}
+                  </h3>
+                  <nav className="space-y-3 text-xs">
+                    {locale === "vn" ? (
+                      <>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          1. TestAS thực sự là gì?
+                        </div>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          2. Ai cần & không cần TestAS?
+                        </div>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          3. Nội dung & hình thức thi
+                        </div>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          4. Cách tính điểm đặc thù
+                        </div>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          5. Những quy định ngầm
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          1. What is TestAS?
+                        </div>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          2. Who Needs TestAS?
+                        </div>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          3. Formats & Content
+                        </div>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          4. How Scoring Works
+                        </div>
+                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
+                          5. Hidden Rules
+                        </div>
+                      </>
+                    )}
+                  </nav>
+                </div>
+
+                {/* Sidebar CTA */}
+                <div className="rounded-2xl bg-slate-900 p-6 text-white shadow-xl">
+                  <h4 className="font-bold text-base text-white mb-2">
+                    {locale === "vn" ? "Tư vấn TestAS miễn phí" : "Free TestAS Consultation"}
+                  </h4>
+                  <p className="text-xs text-slate-400 mb-4 leading-relaxed">
+                    {locale === "vn"
+                      ? "Nhận lộ trình học cá nhân hóa giúp tối ưu hóa điểm số của bạn tại VGU & du học Đức."
+                      : "Receive a personalized study roadmap to optimize your scores for VGU admissions."}
+                  </p>
+                  <Link
+                    href={`/${locale}/consultation`}
+                    className="block w-full text-center bg-orange-600 text-white font-semibold py-2.5 rounded-lg hover:bg-orange-700 transition-colors text-xs"
+                  >
+                    {locale === "vn" ? "Đăng ký ngay" : "Register Now"}
+                  </Link>
+                </div>
+
+              </div>
+            </div>
+
           </div>
 
-          <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4 tracking-tight leading-tight">
-            {frontmatter.title}
-          </h1>
+          {/* CTA Section */}
+          <div className="mt-16 max-w-3xl">
+            <div className="rounded-2xl bg-gray-900 px-6 py-12 text-center shadow-xl md:px-12 md:py-16">
+              <h2 className="text-2xl font-bold text-gray-200 mb-4 md:text-3xl">
+                {ht("cta.contact")}
+              </h2>
+              <p className="text-gray-400 mb-8 max-w-lg mx-auto">
+                {locale === "vn"
+                  ? "Đừng ngần ngại liên hệ để được tư vấn miễn phí về lộ trình ôn thi TestAS!"
+                  : "Don't hesitate to contact us for free TestAS preparation consultation!"}
+              </p>
+              <Link
+                href={`/${locale}/consultation`}
+                className="inline-flex items-center bg-orange-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition-colors shadow-md"
+              >
+                {ht("cta.registerNow")}{" "}
+                <span className="ml-2">→</span>
+              </Link>
+            </div>
+          </div>
 
-          <p className="text-lg text-gray-600 leading-relaxed">
-            {frontmatter.description}
-          </p>
-        </div>
+          {/* Related Articles */}
+          {relatedArticles.length > 0 && (
+            <div className="border-t border-gray-100 pt-12 mt-16">
+              <h2 className="text-2xl font-bold text-gray-900 mb-8">
+                {t("relatedArticles")}
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {relatedArticles.map((related) => (
+                  <article key={related.slug}>
+                    <Link
+                      href={`/${locale}/blog/${related.slug}`}
+                      className="group block"
+                    >
+                      <div className="relative h-36 w-full overflow-hidden rounded-xl mb-3 bg-gray-100">
+                        <Image
+                          src={related.image}
+                          alt={related.title}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform"
+                          sizes="(max-width: 768px) 100vw, 33vw"
+                        />
+                      </div>
+                      <h3 className="text-sm font-semibold text-gray-900 group-hover:text-orange-500 transition-colors line-clamp-2">
+                        {related.title}
+                      </h3>
+                      <p className="text-xs text-gray-400 mt-1">
+                        {formatDate(related.date)}
+                      </p>
+                    </Link>
+                  </article>
+                ))}
+              </div>
+            </div>
+          )}
 
-        {/* Article Content */}
-        <article
-          className="prose prose-lg prose-gray max-w-none mb-16"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
-
-        {/* CTA Section */}
-        <div className="mb-16">
-          <div className="rounded-2xl bg-gray-900 px-6 py-12 text-center shadow-xl md:px-12 md:py-16">
-            <h2 className="text-2xl font-bold text-gray-200 mb-4 md:text-3xl">
-              {ht("cta.contact")}
-            </h2>
-            <p className="text-gray-400 mb-8 max-w-lg mx-auto">
-              {locale === "vn"
-                ? "Đừng ngần ngại liên hệ để được tư vấn miễn phí về lộ trình ôn thi TestAS!"
-                : "Don't hesitate to contact us for free TestAS preparation consultation!"}
-            </p>
+          {/* Back to Blog Link */}
+          <div className="mt-12 pt-8 border-t border-gray-100">
             <Link
-              href={`/${locale}/consultation`}
-              className="inline-flex items-center bg-orange-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition-colors shadow-md"
+              href={`/${locale}/blog`}
+              className="inline-flex items-center text-orange-500 hover:text-orange-600 font-semibold transition-colors"
             >
-              {ht("cta.registerNow")}{" "}
-              <span className="ml-2">→</span>
+              <svg
+                className="mr-2 w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+              {t("backToBlog")}
             </Link>
           </div>
         </div>
-
-        {/* Related Articles */}
-        {relatedArticles.length > 0 && (
-          <div className="border-t border-gray-100 pt-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">
-              {t("relatedArticles")}
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {relatedArticles.map((related) => (
-                <article key={related.slug}>
-                  <Link
-                    href={`/${locale}/blog/${related.slug}`}
-                    className="group block"
-                  >
-                    <div className="relative h-36 w-full overflow-hidden rounded-xl mb-3 bg-gray-100">
-                      <Image
-                        src={related.image}
-                        alt={related.title}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform"
-                        sizes="(max-width: 768px) 100vw, 33vw"
-                      />
-                    </div>
-                    <h3 className="text-sm font-semibold text-gray-900 group-hover:text-orange-500 transition-colors line-clamp-2">
-                      {related.title}
-                    </h3>
-                    <p className="text-xs text-gray-400 mt-1">
-                      {formatDate(related.date)}
-                    </p>
-                  </Link>
-                </article>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Back to Blog Link */}
-        <div className="mt-12 pt-8 border-t border-gray-100">
-          <Link
-            href={`/${locale}/blog`}
-            className="inline-flex items-center text-orange-500 hover:text-orange-600 font-semibold transition-colors"
-          >
-            <svg
-              className="mr-2 w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M15 19l-7-7 7-7"
-              />
-            </svg>
-            {t("backToBlog")}
-          </Link>
-        </div>
-      </div>
 
       {/* BreadcrumbList Structured Data */}
       <Script
