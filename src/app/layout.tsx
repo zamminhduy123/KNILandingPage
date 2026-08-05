@@ -1,5 +1,6 @@
 import {ReactNode} from 'react';
 import {SpeedInsights} from '@vercel/speed-insights/next';
+import {Analytics} from '@vercel/analytics/next';
 import './css/style.css';
 
 type Props = {
@@ -13,6 +14,7 @@ export default function RootLayout({children}: Props) {
       <body className="bg-gray-50 font-inter tracking-tight text-gray-900 antialiased">
         {children}
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
