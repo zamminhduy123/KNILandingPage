@@ -7,7 +7,7 @@ category: "Guides"
 image: "/images/blog/TestAS_all.webp"
 ---
 
-# Tất tần tật về TestAS: Cẩm nang toàn diện từ cựu sinh viên VGU
+# Tất tần tật về TestAS: Lộ trình chinh phục đại học Việt Đức
 
 Làn sóng du học Đức hệ Đại học và xu hướng xét tuyển vào Trường Đại học Việt Đức (VGU) đang trở thành một làn sóng mới, thu hút sự quan tâm của rất nhiều học sinh và phụ huynh tại Việt Nam. Thế nhưng, nếu nhìn xung quanh, bạn sẽ thấy có quá ít nguồn thông tin nói về TestAS một cách đầy đủ nhất. Đặc biệt là những "quy định ngầm" hay các mẹo thực tế mà đa số mọi người thường bỏ lỡ khi bắt đầu ôn luyện.
 
