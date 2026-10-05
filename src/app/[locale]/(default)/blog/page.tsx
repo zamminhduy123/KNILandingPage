@@ -136,12 +136,12 @@ export default async function BlogPage({ params }: Props) {
                   className="flex flex-col rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-lg transition-shadow overflow-hidden"
                 >
                   {/* Image */}
-                  <div className="relative h-48 w-full overflow-hidden bg-gray-100">
+                  <div className="relative h-48 w-full overflow-hidden bg-slate-50 border-b border-slate-100 p-2">
                     <Image
                       src={post.image}
                       alt={post.title}
                       fill
-                      className="object-cover"
+                      className="object-contain"
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     />
                   </div>

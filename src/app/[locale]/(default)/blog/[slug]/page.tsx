@@ -90,13 +90,172 @@ function getRelatedArticles(
     .slice(0, 3);
 }
 
+function getFaqEntities(slug: string, locale: string) {
+  if (slug === "xet-tuyen-vgu-bang-testas") {
+    return [
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Đang học lớp 12 chưa có bằng tốt nghiệp THPT có được thi TestAS vào VGU không?"
+          : "Can current 12th graders without high school diplomas register for VGU TestAS?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Được. VGU khuyến khích học sinh lớp 12 tham gia thi đợt tháng 5 hoặc tháng 6. Bạn chỉ cần nộp CCCD và học bạ hiện có khi đăng ký, sau đó bổ sung giấy chứng nhận tốt nghiệp THPT sau kỳ thi quốc gia."
+            : "Yes. Current 12th graders are encouraged to sit May or June sessions. You submit national ID and current transcripts, later supplementing provisional graduation certificates after national exams.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Nếu điểm thi TestAS không đạt, tôi có thể xét tuyển VGU bằng phương thức khác không?"
+          : "If my TestAS score is unsatisfactory, can I apply via another mode?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Có. VGU xét tuyển theo 5 phương thức độc lập. Nếu kết quả TestAS chưa đạt mong muốn, bạn hoàn toàn có thể nộp học bạ THPT (Phương thức 2) hoặc điểm thi tốt nghiệp THPT (Phương thức 5)."
+            : "Yes. VGU operates five independent modes. Unsatisfactory TestAS scores do not penalize your eligibility for GPA transcript admission (Mode 2) or graduation exam admission (Mode 5).",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Chứng chỉ TestAS có giá trị bao lâu và có dùng đi du học Đức được không?"
+          : "How long are TestAS certificates valid, and can they be used in Germany?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Chứng chỉ TestAS có giá trị vô thời hạn và được công nhận quốc tế. Kết quả này được dùng để xét tuyển vào VGU và dùng làm hồ sơ APS, xin visa du học trực tiếp tại Đức."
+            : "TestAS certificates never expire and hold full international recognition. Scores are fully valid for APS certificates, German student visas, and direct university applications across Germany.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Đề thi Digital TestAS tại VGU dùng ngôn ngữ gì?"
+          : "What language is the Digital TestAS at VGU conducted in?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Toàn bộ bài thi Digital TestAS tổ chức tại VGU được thực hiện bằng tiếng Anh, đánh giá tư duy logic và năng lực học thuật chuyên ngành."
+            : "All exams administered at VGU are conducted entirely in English. The exam evaluates academic aptitude, logic, and data analysis rather than English grammar.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Chưa có chứng chỉ IELTS thì có được đăng ký thi TestAS không?"
+          : "Can I register if I do not yet have an IELTS score?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Được. Thí sinh chưa có IELTS 5.0 trở lên có thể đăng ký bài thi tiếng Anh VGU ETEST 4 kỹ năng do trường tổ chức. Đạt từ 75/100 điểm là đủ điều kiện ngoại ngữ."
+            : "Yes. Simply indicate this during registration. VGU will schedule the 4-skill VGU ETEST exam (fee: 1,000,000 VND). Scoring >= 75/100 fulfills the language prerequisite.",
+        },
+      },
+    ];
+  }
+
+  if (slug === "digital-testas-la-gi-so-sanh-paper-va-digital") {
+    return [
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Giá trị của chứng chỉ Digital TestAS có khác gì Paper TestAS không?"
+          : "Is Digital TestAS recognized the same as Paper TestAS?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Không khác nhau. Cả hai dạng chứng chỉ đều do Viện TestDaF cấp, có giá trị quốc tế ngang nhau và đều có thời hạn vĩnh viễn. Các trường đại học tại Đức và VGU chấp nhận cả hai hình thức thi."
+            : "Yes, absolutely. Both formats are issued by the TestDaF Institute, carry identical international validity, and never expire. German universities and VGU accept both without preference.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Em có thể mang máy tính bỏ túi vào phòng thi Digital TestAS không?"
+          : "Can I bring a personal calculator into the Digital TestAS room?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Không. Cả hai hình thức thi TestAS đều nghiêm cấm thí sinh mang máy tính bỏ túi cá nhân vào phòng thi. Với bài thi Digital, hệ thống sẽ tích hợp sẵn máy tính cơ bản trên phần mềm ở những phần thi cho phép tính toán."
+            : "No. Personal calculators are strictly forbidden for both formats. For Digital TestAS, an integrated on-screen basic calculator is provided automatically during sections where calculations are permitted.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Em có được chuyển đổi giữa bài thi tiếng Anh và tiếng Đức không?"
+          : "Can I switch test languages during the exam?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Không. Khi đăng ký dự thi trực tuyến trên hệ thống testas.de, bạn phải chọn trước ngôn ngữ làm bài (tiếng Anh hoặc tiếng Đức). Đề thi hiển thị đúng ngôn ngữ bạn đã đăng ký từ đầu và không thể thay đổi trong lúc thi."
+            : "No. You must choose your testing language (English or German) during registration on testas.de. The test software will only present the exam in the language selected beforehand.",
+        },
+      },
+    ];
+  }
+
+  return [
+    {
+      "@type": "Question",
+      name: locale === "vn"
+        ? "TestAS thi bằng tiếng Anh hay tiếng Đức?"
+        : "Is TestAS in English or German?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: locale === "vn"
+          ? "Bạn có thể chọn thi bằng tiếng Anh hoặc tiếng Đức. Tùy vào chương trình bạn đăng ký mà sẽ có yêu cầu ngôn ngữ khác nhau."
+          : "You can choose to take the test in English or German, depending on the program you apply to.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: locale === "vn"
+        ? "TestAS bao nhiêu điểm để xét tuyển?"
+        : "What score is required for TestAS?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: locale === "vn"
+          ? "Điểm yêu cầu phụ thuộc vào từng trường đại học. Hầu hết các trường top đầu yêu cầu điểm chuẩn hóa từ 100 đến 115 trở lên."
+          : "Score requirements depend on each university. Most top universities require a standard score between 100 and 115 or higher.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: locale === "vn"
+        ? "Có cần IELTS để thi TestAS không?"
+        : "Is IELTS required for TestAS?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: locale === "vn"
+          ? "Không, TestAS không yêu cầu IELTS. Tuy nhiên, nhiều trường đại học tại Đức cũng yêu cầu chứng chỉ ngôn ngữ (IELTS hoặc TestDaF) riêng biệt khi nộp hồ sơ."
+          : "No, TestAS does not require IELTS. However, many German universities also require separate language certificates (IELTS or TestDaF) when applying.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: locale === "vn"
+        ? "TestAS Digital và Paper khác nhau như thế nào?"
+        : "What is the difference between TestAS Digital and Paper?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: locale === "vn"
+          ? "TestAS Digital thi trên máy tính với thời gian rút ngắn 3.5 tiếng, cơ chế làm bài một chiều và không dùng giấy nháp. TestAS Paper thi trên giấy truyền thống cho phép lật xem trước và dùng giấy nháp."
+          : "TestAS Digital is taken on a computer lasting 3.5 hours with one-way navigation and no scratch paper. TestAS Paper is the traditional paper-based format with free navigation and physical scratch paper.",
+      },
+    },
+  ];
+}
+
 export default async function BlogPostPage({ params }: Props) {
   const { locale, slug } = await params;
 
   const post = await getBlogPostBySlug(slug, locale);
   if (!post) notFound();
 
-  const { frontmatter, html } = post;
+  const { frontmatter, html, headings } = post;
 
   const t = await getTranslations({ locale, namespace: "Blog" });
   const ht = await getTranslations({ locale, namespace: "HomePage" });
@@ -165,12 +324,12 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* Article Header - Featured Image Banner */}
           <div className="mb-10">
-            <div className="relative h-64 sm:h-[400px] w-full overflow-hidden rounded-2xl mb-8 bg-gray-100">
+            <div className="relative h-64 sm:h-[420px] md:h-[480px] w-full overflow-hidden rounded-2xl mb-8 bg-slate-50 border border-slate-100 flex items-center justify-center p-3 sm:p-6 shadow-sm">
               <Image
                 src={frontmatter.image}
                 alt={frontmatter.title}
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width: 768px) 100vw, 1200px"
                 priority
               />
@@ -205,15 +364,67 @@ export default async function BlogPostPage({ params }: Props) {
                 dangerouslySetInnerHTML={{ __html: html }}
               />
 
-              {/* Custom Styles for Inline Images */}
+              {/* Custom Styles for Inline Images and Tables */}
               <style dangerouslySetInnerHTML={{ __html: `
                 .prose img {
-                  max-height: 420px;
-                  width: 100%;
-                  object-fit: cover;
+                  max-height: 580px;
+                  width: auto;
+                  max-width: 100%;
+                  object-fit: contain;
                   border-radius: 1rem;
+                  margin-top: 1.5rem;
+                  margin-bottom: 1.5rem;
                   margin-left: auto;
                   margin-right: auto;
+                  display: block;
+                  background-color: #f8fafc;
+                  border: 1px solid #e2e8f0;
+                  box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+                }
+                .blog-table-wrapper {
+                  overflow-x: auto;
+                  margin-top: 2rem;
+                  margin-bottom: 2rem;
+                  border-radius: 0.75rem;
+                  border: 1px solid #e2e8f0;
+                  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+                  background: #ffffff;
+                }
+                .blog-table {
+                  width: 100%;
+                  min-width: 520px;
+                  border-collapse: collapse;
+                  font-size: 0.875rem;
+                  line-height: 1.5;
+                  text-align: left;
+                }
+                .blog-table th {
+                  background-color: #f8fafc;
+                  color: #0f172a;
+                  font-weight: 700;
+                  padding: 0.85rem 1rem;
+                  border-bottom: 2px solid #cbd5e1;
+                  border-right: 1px solid #e2e8f0;
+                  white-space: nowrap;
+                }
+                .blog-table th:last-child {
+                  border-right: none;
+                }
+                .blog-table td {
+                  padding: 0.85rem 1rem;
+                  color: #334155;
+                  border-top: 1px solid #e2e8f0;
+                  border-right: 1px solid #e2e8f0;
+                  vertical-align: top;
+                }
+                .blog-table td:last-child {
+                  border-right: none;
+                }
+                .blog-table tbody tr:nth-child(even) {
+                  background-color: #f8fafc;
+                }
+                .blog-table tbody tr:hover {
+                  background-color: #f1f5f9;
                 }
               ` }} />
             </div>
@@ -253,50 +464,24 @@ export default async function BlogPostPage({ params }: Props) {
                 </div>
 
                 {/* Table of Contents (Mục lục) */}
-                <div className="rounded-2xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/50">
-                  <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">
-                    {locale === "vn" ? "Mục lục bài viết" : "Table of Contents"}
-                  </h3>
-                  <nav className="space-y-3 text-xs">
-                    {locale === "vn" ? (
-                      <>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          1. TestAS thực sự là gì?
-                        </div>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          2. Ai cần & không cần TestAS?
-                        </div>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          3. Nội dung & hình thức thi
-                        </div>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          4. Cách tính điểm đặc thù
-                        </div>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          5. Những quy định ngầm
-                        </div>
-                      </>
-                    ) : (
-                      <>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          1. What is TestAS?
-                        </div>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          2. Who Needs TestAS?
-                        </div>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          3. Formats & Content
-                        </div>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          4. How Scoring Works
-                        </div>
-                        <div className="text-slate-600 hover:text-orange-600 transition-colors font-medium">
-                          5. Hidden Rules
-                        </div>
-                      </>
-                    )}
-                  </nav>
-                </div>
+                {headings.length > 0 && (
+                  <div className="rounded-2xl border border-slate-100 bg-white p-6 shadow-lg shadow-slate-200/50">
+                    <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-4">
+                      {locale === "vn" ? "Mục lục bài viết" : "Table of Contents"}
+                    </h3>
+                    <nav className="space-y-2.5 text-xs">
+                      {headings.map((heading) => (
+                        <a
+                          key={heading.id}
+                          href={`#${heading.id}`}
+                          className="block text-slate-600 hover:text-orange-600 transition-colors font-medium leading-relaxed"
+                        >
+                          {heading.text}
+                        </a>
+                      ))}
+                    </nav>
+                  </div>
+                )}
 
                 {/* Sidebar CTA */}
                 <div className="rounded-2xl bg-slate-900 p-6 text-white shadow-xl">
@@ -334,7 +519,7 @@ export default async function BlogPostPage({ params }: Props) {
               </p>
               <Link
                 href={`/${locale}/consultation`}
-                className="inline-flex items-center bg-orange-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition-colors shadow-md"
+                className="inline-flex items-center bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors duration-200"
               >
                 {ht("cta.registerNow")}{" "}
                 <span className="ml-2">→</span>
@@ -355,12 +540,12 @@ export default async function BlogPostPage({ params }: Props) {
                       href={`/${locale}/blog/${related.slug}`}
                       className="group block"
                     >
-                      <div className="relative h-36 w-full overflow-hidden rounded-xl mb-3 bg-gray-100">
+                      <div className="relative h-36 w-full overflow-hidden rounded-xl mb-3 bg-slate-50 border border-slate-100 p-2">
                         <Image
                           src={related.image}
                           alt={related.title}
                           fill
-                          className="object-cover group-hover:scale-105 transition-transform"
+                          className="object-contain group-hover:scale-105 transition-transform"
                           sizes="(max-width: 768px) 100vw, 33vw"
                         />
                       </div>
@@ -442,64 +627,7 @@ export default async function BlogPostPage({ params }: Props) {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: [
-            {
-              "@type": "Question",
-              name:
-                locale === "vn"
-                  ? "TestAS thi bằng tiếng Anh hay tiếng Đức?"
-                  : "Is TestAS in English or German?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text:
-                  locale === "vn"
-                    ? "Bạn có thể chọn thi bằng tiếng Anh hoặc tiếng Đức. Tùy vào chương trình bạn đăng ký mà sẽ có yêu cầu ngôn ngữ khác nhau."
-                    : "You can choose to take the test in English or German, depending on the program you apply to.",
-              },
-            },
-            {
-              "@type": "Question",
-              name:
-                locale === "vn"
-                  ? "TestAS bao nhiêu điểm để xét tuyển?"
-                  : "What score is required for TestAS?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text:
-                  locale === "vn"
-                    ? "Điểm yêu cầu phụ thuộc vào từng trường đại học. Hầu hết các trường top đầu yêu cầu từ 1.2 đến 1.8."
-                    : "Score requirements depend on each university. Most top universities require a score between 1.2 and 1.8.",
-              },
-            },
-            {
-              "@type": "Question",
-              name:
-                locale === "vn"
-                  ? "Có cần IELTS để thi TestAS không?"
-                  : "Is IELTS required for TestAS?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text:
-                  locale === "vn"
-                    ? "Không, TestAS không yêu cầu IELTS. Tuy nhiên, nhiều trường đại học tại Đức cũng yêu cầu chứng chỉ ngôn ngữ (IELTS hoặc TestDaF) riêng biệt khi nộp hồ sơ."
-                    : "No, TestAS does not require IELTS. However, many German universities also require separate language certificates (IELTS or TestDaF) when applying.",
-              },
-            },
-            {
-              "@type": "Question",
-              name:
-                locale === "vn"
-                  ? "TestAS Digital và Paper khác nhau như thế nào?"
-                  : "What is the difference between TestAS Digital and Paper?",
-              acceptedAnswer: {
-                "@type": "Answer",
-                text:
-                  locale === "vn"
-                    ? "TestAS Digital thi trên máy tính với giao diện trực quan, có chức năng highlight và note. TestAS Paper thi trên giấy truyền thống. Nội dung và cấu trúc đề thi giống nhau hoàn toàn."
-                    : "TestAS Digital is taken on a computer with a visual interface featuring highlight and note functions. TestAS Paper is the traditional paper-based test. The content and structure are exactly the same.",
-              },
-            },
-          ],
+          mainEntity: getFaqEntities(frontmatter.slug, locale),
         })}
       </Script>
     </section>

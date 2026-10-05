@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
+import remarkGfm from "remark-gfm";
 import remarkHtml from "remark-html";
 
 export interface BlogFrontmatter {
@@ -11,6 +12,11 @@ export interface BlogFrontmatter {
   description: string;
   category: string;
   image: string;
+}
+
+export interface BlogHeading {
+  id: string;
+  text: string;
 }
 
 const blogDir = path.join(process.cwd(), "content/blog");
@@ -125,19 +131,65 @@ export function getAllBlogPosts(locale: string = "vn"): BlogFrontmatter[] {
 
 /**
  * Get a single blog post by slug and locale.
- * Returns { frontmatter, html } or null if not found.
+ * Returns { frontmatter, html, headings } or null if not found.
  */
 export async function getBlogPostBySlug(slug: string, locale: string = "vn"): Promise<{
   frontmatter: BlogFrontmatter;
   html: string;
+  headings: BlogHeading[];
 } | null> {
   const post = getBlogPostBySlugSync(slug, locale);
   if (!post) return null;
 
-  const html = await remark().use(remarkHtml).process(post.content);
+  // Extract H2 headings from markdown content for table of contents
+  const headingRegex = /^##\s+(.+)$/gm;
+  const headings: BlogHeading[] = [];
+  let match;
+  while ((match = headingRegex.exec(post.content)) !== null) {
+    const rawText = match[1].trim();
+    const cleanText = rawText
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      .replace(/[*_`]/g, "")
+      .trim();
+    const id = cleanText
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/(^-|-$)/g, "");
+    if (cleanText) {
+      headings.push({ id, text: cleanText });
+    }
+  }
+
+  let html = (
+    await remark()
+      .use(remarkGfm)
+      .use(remarkHtml)
+      .process(post.content)
+  ).toString();
+
+  // Wrap tables in responsive overflow container with blog-table classes
+  html = html.replace(/<table>([\s\S]*?)<\/table>/gi, (_match, tableInner) => {
+    return `<div class="blog-table-wrapper not-prose overflow-x-auto my-6 rounded-xl border border-slate-200 shadow-sm bg-white"><table class="blog-table w-full">${tableInner}</table></div>`;
+  });
+
+  // Inject id attributes into <h2> elements so TOC anchor links work
+  let headingIndex = 0;
+  html = html.replace(/<h2>(.*?)<\/h2>/gi, (headingMatch, headingInner) => {
+    const clean = headingInner.replace(/<[^>]+>/g, "").trim();
+    const id = clean
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/(^-|-$)/g, "") || `section-${++headingIndex}`;
+    return `<h2 id="${id}">${headingInner}</h2>`;
+  });
 
   return {
     frontmatter: post.frontmatter,
-    html: html.toString(),
+    html,
+    headings,
   };
 }
