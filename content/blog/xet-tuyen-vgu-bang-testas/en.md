@@ -13,6 +13,8 @@ Vietnamese-German University (VGU) admits students via TestAS through its dedica
 
 This pathway enables 12th-grade students to secure early admission offers by May or June, while opening opportunities for merit scholarships covering up to 100% of first-year tuition.
 
+![Overview of VGU Entrance Examination with TestAS 2026](/images/blog/testas-vgu-2026-tong-quan.webp)
+
 ---
 
 ## 1. What is VGU and Why Does It Use TestAS for Admissions?
@@ -30,6 +32,8 @@ To understand basic test structure, fees, and scoring rubrics, review our founda
 ---
 
 ## 2. Five Admission Modes at VGU for 2026
+
+![Five Admission Modes to Vietnamese-German University VGU](/images/blog/cach-xet-tuyen-vgu-bang-testas-2026-chi-tiet.webp)
 
 For 2026, VGU offers 1,195 enrollment quotas across 13 undergraduate degree programs through five independent pathways:
 
@@ -88,6 +92,8 @@ Subject modules are assigned as follows:
 ## 5. Scoring Formula and Admission Thresholds
 
 ### 1. Composite Score Calculation
+
+![Latest TestAS Composite Score Calculation Formula for VGU](/images/blog/cong-thuc-tinh-diem-testas-vgu-moi-nhat.webp)
 
 $$\text{Composite Score} = (\text{Core Test Score} \times 0.4) + (\text{Subject Module Score} \times 0.6)$$
 
@@ -179,6 +185,12 @@ All exams administered at VGU are conducted entirely in English. The exam evalua
 
 ### 5. Can I register if I do not yet have an IELTS score?
 Yes. Simply indicate this during registration. VGU will schedule the 4-skill VGU ETEST exam (fee: 1,000,000 VND). Scoring $\ge$ 75/100 fulfills the language prerequisite.
+
+### Expert Tip: Why Take TestAS Early from Grade 11?
+
+![Roadmap for 11th Graders Taking TestAS Early for VGU Admission](/images/blog/lop-11-thi-lay-chung-chi-testas-vgu.webp)
+
+Because TestAS credentials hold permanent lifetime validity, students are strongly encouraged to prepare and test in Grade 11. Achieving target VGU admission scores early secures your university placement ahead of time. In Grade 12, you can focus peacefully on standard high school graduation exams without dual-track testing stress.
 
 ---
 

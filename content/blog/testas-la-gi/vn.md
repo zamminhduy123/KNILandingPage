@@ -9,7 +9,9 @@ image: "/images/blog/testas-la-gi.jpg"
 
 # TestAS là gì? Tất cả những điều bạn cần biết về kỳ thi quan trọng với du học Đức
 
-TestAS (Test für Akademische Studien) là một kỳ thi chuẩn hóa được tổ chức bởi Gesellschaft für Internationale Zusammenarbeit (GIZ) của Đức. Kỳ thi này đánh giá kiến thức và kỹ năng tư duy của học sinh quốc tế muốn theo học các chương trình đại học tại Đức bằng tiếng Anh.
+TestAS (Test für Akademische Studien) là một kỳ thi chuẩn hóa được tổ chức bởi Gesellschaft für Internationale Zusammenarbeit (GIZ) và tổ chức g.a.s.t. của Đức. Kỳ thi này đánh giá kiến thức và kỹ năng tư duy của học sinh quốc tế muốn theo học các chương trình đại học tại Đức bằng tiếng Anh hoặc tiếng Đức.
+
+![Tổng quan bài thi TestAS là gì cho du học Đức](/images/blog/testas-la-gi-tong-quan.webp)
 
 ## Tại sao TestAS quan trọng với sinh viên Việt Nam?
 
@@ -39,14 +41,17 @@ Phần thi này đánh giá năng lực tư duy tổng quát mà không phụ th
 
 ### 2. Fachtest (Phần thi chuyên ngành)
 
-Thí sinh chọn một trong ba lĩnh vực để thi:
+Thí sinh chọn một trong các lĩnh vực chuyên môn phù hợp với ngành học tương lai (4 khối đối với thi giấy và 6 khối đối với thi máy tính):
 - Kỹ thuật (Engineering)
-- Toán học, Khoa học máy tính (Mathematics, Computer Science)
-- Kinh tế (Economics)
+- Toán học, Tin học và Khoa học Tự nhiên (Mathematics, Computer Science and Natural Sciences)
+- Kinh tế học (Economics)
+- Khoa học Xã hội và Nhân văn (Humanities and Social Sciences)
 
-Mỗi phần thi kéo dài 105 phút với 24 câu hỏi. Nội dung phản ánh kiến thức năm đầu đại học tại Đức.
+![Cấu trúc bài thi TestAS phần Core Test và phần thi chuyên ngành Fachtest](/images/blog/cau-truc-bai-thi-testas-tong-quan.webp)
 
-Phần Fachtest là yếu tố quyết định lớn nhất đến điểm số tổng thể của bạn. Kiến thức trong phần này tương đương với năm đầu tiên của chương trình đại học tại Đức, bao gồm cả các khái niệm cơ bản và nâng cao.
+Mỗi phần thi kéo dài từ 90 đến 150 phút tùy theo hình thức thi. Nội dung phản ánh năng lực tư duy cần thiết cho chương trình đại học tại Đức.
+
+*Đọc hướng dẫn chi tiết cách chọn khối thi:* [Hướng dẫn chọn khối ngành thi TestAS cho VGU và du học Đức](/vn/blog/huong-dan-chon-khoi-nganh-thi-testas).
 
 ### 3. Sprachtest (Phần thi ngôn ngữ)
 
@@ -54,27 +59,25 @@ Thí sinh có thể chọn thi bằng tiếng Anh hoặc tiếng Đức. Phần 
 
 Lưu ý: Sprachtest không ảnh hưởng trực tiếp đến điểm TestAS tổng thể, nhưng một số trường đại học có thể yêu cầu kết quả Sprachtest như một phần của hồ sơ nhập học.
 
-## Lệ phí và lịch thi TestAS 2026
+*Xem chi tiết giải đáp:* [Hỏi đáp về kỳ thi TestAS: Những điều học sinh và phụ huynh cần biết](/vn/blog/hoi-dap-ve-ky-thi-testas).
 
-Lệ phí đăng ký TestAS khoảng 125 Euro (tương đương 3.2 triệu VND). Lịch thi thường diễn ra 3 lần mỗi năm:
+## Lệ phí và lịch thi TestAS 2026 - 2027
 
-- Tháng 5 (kỳ thi chính)
-- Tháng 7 (kỳ thi phụ)
-- Tháng 11 (kỳ thi cuối năm)
+Lệ phí đăng ký TestAS tiêu chuẩn quốc tế là **150 Euro** (tương đương khoảng 4.0 - 4.3 triệu VND). Lịch thi thường diễn ra 6 đợt mỗi năm trên toàn cầu (gồm cả thi giấy và thi máy tính).
 
-Thí sinh có thể thi tại nhiều địa điểm trên toàn thế giới, bao gồm cả Việt Nam.
+*Cập nhật lịch thi chính thức:* [Lịch thi TestAS 2027 mới nhất: Lệ phí, cấu trúc đề và cách đăng ký](/vn/blog/lich-thi-testas-2027).
 
-Việc lựa chọn thời điểm thi phù hợp rất quan trọng. Bạn nên tính toán để thi trước thời hạn nộp hồ sơ của trường ít nhất 2-3 tháng. Kỳ thi tháng 5 thường là lựa chọn phổ biến nhất vì nó trùng với thời điểm các trường đại học Đức bắt đầu nhận hồ sơ.
+Thí sinh tại Việt Nam có thể dự thi tại Hà Nội (Trung tâm Việt - Đức, ĐHBK Hà Nội) hoặc TP.HCM (Viện Goethe TP.HCM) và Đại học Việt Đức (VGU).
 
 ## Cách đăng ký thi TestAS
 
 Quy trình đăng ký khá đơn giản:
 
-1. Truy cập trang web chính thức của TestAS
+1. Truy cập trang web chính thức của TestAS ([www.testas.de](https://www.testas.de))
 2. Tạo tài khoản và điền thông tin cá nhân
 3. Chọn kỳ thi và địa điểm thi
 4. Thanh toán lệ phí
-5. Nhận giấy báo dự thi qua email
+5. Nhận giấy báo dự thi (Admission Ticket) qua email
 
 Nên đăng ký trước ít nhất 4 tuần để đảm bảo có chỗ thi. Một số lưu ý quan trọng khi đăng ký:
 
@@ -85,18 +88,13 @@ Nên đăng ký trước ít nhất 4 tuần để đảm bảo có chỗ thi. M
 
 ## Điểm TestAS và xét tuyển đại học Đức
 
-Hệ thống điểm TestAS từ 1.0 (tốt nhất) đến 4.0 (yếu). Hầu hết các trường đại học top đầu yêu cầu điểm từ 1.5 trở xuống. Một số trường cụ thể:
+![Điểm TestAS và cơ hội xét tuyển vào các trường đại học tại Đức](/images/blog/diem-testas-va-xet-tuyen-dai-hoc-duc.webp)
 
-- TU Munich: yêu cầu 1.2-1.5
-- TU Berlin: yêu cầu 1.5
-- Heidelberg: yêu cầu 1.5-1.8
-- Các trường khác: 1.8-2.5
+Bài thi TestAS chuẩn hóa quốc tế không tính đỗ hay trượt mà thể hiện qua Điểm tiêu chuẩn (Standard Score từ 70 - 130) và Thứ hạng phần trăm (Percentile Rank từ 1 - 100). Hầu hết các trường đại học top đầu yêu cầu điểm tiêu chuẩn từ 110 - 120 trở lên.
 
-Để tính điểm TestAS tổng thể, nhà trường sẽ kết hợp điểm TestAS với bảng điểm trung học phổ thông của bạn. Công thức tính thường là:
+*Xem chi tiết điều kiện điểm số:* [Điều kiện du học Đức bằng TestAS: Quy định mới, chọn module và mức điểm an toàn](/vn/blog/du-hoc-duc-dieu-kien).
 
-**Điểm tổng = (Điểm TestAS × 0.5) + (Điểm GPA × 0.5)**
-
-Do đó, ngay cả khi điểm TestAS không quá cao, bạn vẫn có thể cải thiện điểm tổng thể bằng cách duy trì GPA tốt ở cấp 3.
+Tại Việt Nam, kết quả TestAS còn là phương thức tuyển sinh trực tiếp và xét học bổng lên tới 100% tại [Đại học Việt Đức (VGU)](/vn/blog/xet-tuyen-vgu-bang-testas).
 
 ## Bí quyết ôn thi TestAS hiệu quả
 

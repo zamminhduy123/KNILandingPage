@@ -197,6 +197,165 @@ function getFaqEntities(slug: string, locale: string) {
     ];
   }
 
+  if (slug === "du-hoc-duc-dieu-kien") {
+    return [
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Học sinh THPT tại Việt Nam có bắt buộc phải thi TestAS để du học Đức không?"
+          : "Is TestAS mandatory for high school graduates from Vietnam studying in Germany?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Có. Đối với học sinh tốt nghiệp THPT tại Việt Nam, bài thi TestAS là điều kiện bắt buộc để hoàn thiện hồ sơ thẩm tra APS diện phổ thông và xin visa du học Đức."
+            : "Yes. For Vietnamese high school graduates, TestAS is strictly required to secure the APS certificate from the German Embassy and apply for student visas.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Chứng chỉ TestAS có giá trị trong bao lâu?"
+          : "How long is the TestAS certificate valid?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Chứng chỉ TestAS có giá trị vĩnh viễn và không bị hết hạn. Thí sinh có thể thi từ năm lớp 11 và bảo lưu kết quả trọn đời để làm hồ sơ du học."
+            : "TestAS certificates never expire. Scores remain valid indefinitely, allowing students to test in Grade 11 and retain results permanently.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Có được thi TestAS nhiều lần để cải thiện điểm không?"
+          : "Can I retake TestAS to improve my score?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Được. Kỳ thi TestAS không giới hạn số lần dự thi. Bạn có thể đăng ký thi lại ở các kỳ tiếp theo và chọn phiếu điểm cao nhất để nộp hồ sơ."
+            : "Yes. There is no limit on retake attempts. Candidates can retest in subsequent sessions and submit their highest scorecard.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Nên chọn thi TestAS bằng tiếng Anh hay tiếng Đức?"
+          : "Should I take TestAS in English or German?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Bạn nên chọn ngôn ngữ mà bản thân có phản xạ đọc hiểu nhanh nhất. Nếu tiếng Đức chưa đạt B2 vững vàng, thi bằng tiếng Anh là lựa chọn an toàn hơn."
+            : "Choose the language in which you reason fastest. If your German has not reached a firm B2 level, taking the exam in English is far safer.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Trong bài thi Digital TestAS có được quay lại câu hỏi trước để sửa đáp án không?"
+          : "Can I return to previous questions in Digital TestAS?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Không. Bài thi Digital TestAS áp dụng cơ chế đếm ngược thời gian riêng cho từng câu hỏi (70-90 giây/câu). Khi hết giờ, hệ thống sẽ tự động chuyển tiếp và khóa câu trước đó."
+            : "No. Digital TestAS enforces item-level countdowns (70-90 seconds per question). Once time runs out, the system automatically advances and permanently locks the question.",
+        },
+      },
+    ];
+  }
+
+  if (slug === "hoi-dap-ve-ky-thi-testas") {
+    return [
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Bài thi TestAS trên giấy gồm các phần thi nào?"
+          : "What sections constitute the Paper-based TestAS?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Bài thi trên giấy gồm 2 phần: Kerntest (phần thi chính bắt buộc kéo dài 110 phút) và phần thi chuyên ngành tự chọn (kéo dài 145-150 phút)."
+            : "The paper exam consists of the mandatory Core Test (Kerntest, 110 minutes) and one elective Subject Module (145-150 minutes).",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Kỳ thi TestAS có giới hạn độ tuổi không?"
+          : "Are there age restrictions for taking TestAS?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Kỳ thi hoàn toàn không giới hạn độ tuổi. Học sinh lớp 11 hoặc lớp 12 đều có quyền đăng ký tham gia thi sớm."
+            : "There are no age restrictions. Students in Grade 11 or 12 are fully eligible to sit the exam.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Bạn thi TestAS ở đâu tại Việt Nam?"
+          : "Where can you take TestAS in Vietnam?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Tại Hà Nội: Trung tâm Việt - Đức (VDZ) tại ĐHBK Hà Nội. Tại TP.HCM: Viện Goethe TP.HCM (Deutsches Haus). Tại Bình Dương: Đại học Việt Đức (VGU)."
+            : "In Hanoi: Vietnamese-German Centre (VDZ) at HUST. In Ho Chi Minh City: Goethe-Institut (Deutsches Haus). In Binh Duong: Vietnamese-German University (VGU).",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Điểm chuẩn hóa Standardwert có ý nghĩa gì?"
+          : "What does the Standard Score (Standardwert) mean?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Thang điểm Standardwert dao động từ 70 đến 130 điểm, với 100 điểm là mức trung bình chuẩn toàn cầu. Điểm trên 110 thuộc nhóm năng lực xuất sắc."
+            : "The Standard Score scale spans from 70 to 130 points, with 100 representing the global mean. Scores above 110 reflect superior academic aptitude.",
+        },
+      },
+    ];
+  }
+
+  if (slug === "lich-thi-testas-2027") {
+    return [
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Lịch thi TestAS 2027 có bao nhiêu đợt thi?"
+          : "How many TestAS test dates are scheduled in 2027?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Năm 2027 có 6 đợt thi chính thức từ g.a.s.t., gồm 3 đợt thi trên giấy (tháng 2, 4, 10) và 3 đợt thi trên máy tính Digital (tháng 3, 6, 11)."
+            : "In 2027, g.a.s.t. schedules 6 official test dates: 3 paper sessions (February, April, October) and 3 Digital sessions (March, June, November).",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Lệ phí thi TestAS 2027 là bao nhiêu?"
+          : "What is the TestAS examination fee in 2027?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Lệ phí thi quốc tế tiêu chuẩn là 150 Euro cho mỗi lượt đăng ký (tương đương khoảng 4.000.000 đến 4.300.000 VNĐ tùy tỷ giá ngân hàng)."
+            : "The standard international fee is 150 Euro per registration (approximately 4,000,000 to 4,300,000 VND depending on currency exchange rates).",
+        },
+      },
+      {
+        "@type": "Question",
+        name: locale === "vn"
+          ? "Học sinh lớp 11 có nên thi TestAS từ sớm không?"
+          : "Should 11th graders take TestAS early?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: locale === "vn"
+            ? "Có. Vì chứng chỉ có giá trị vĩnh viễn, học sinh lớp 11 thi sớm giúp giảm tải áp lực cho năm lớp 12 và có cơ hội thi lại nếu cần nâng điểm."
+            : "Yes. Because scores never expire, taking TestAS in Grade 11 relieves senior-year stress and leaves ample time for score improvements.",
+        },
+      },
+    ];
+  }
+
   return [
     {
       "@type": "Question",
@@ -586,50 +745,17 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
         </div>
 
-      {/* BreadcrumbList Structured Data */}
-      <Script
-        type="application/ld+json"
-        strategy="afterInteractive"
-        suppressHydrationWarning
-      >
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "BreadcrumbList",
-          itemListElement: [
-            {
-              "@type": "ListItem",
-              position: 1,
-              name: locale === "vn" ? "Trang chủ" : "Home",
-              item: `https://kni.vn/${locale === "vn" ? "" : locale}/`,
-            },
-            {
-              "@type": "ListItem",
-              position: 2,
-              name: t("title"),
-              item: `https://kni.vn/${locale === "vn" ? "" : locale}/blog/`,
-            },
-            {
-              "@type": "ListItem",
-              position: 3,
-              name: frontmatter.title,
-              item: `https://kni.vn/${locale === "vn" ? "" : locale}/blog/${frontmatter.slug}/`,
-            },
-          ],
-        })}
-      </Script>
-
       {/* FAQPage Structured Data */}
-      <Script
+      <script
         type="application/ld+json"
-        strategy="afterInteractive"
-        suppressHydrationWarning
-      >
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: getFaqEntities(frontmatter.slug, locale),
-        })}
-      </Script>
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: getFaqEntities(frontmatter.slug, locale),
+          }),
+        }}
+      />
     </section>
     </>
   );

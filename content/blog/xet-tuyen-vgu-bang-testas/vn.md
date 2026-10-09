@@ -13,6 +13,8 @@ Trường Đại học Việt Đức (VGU) xét tuyển bằng TestAS qua kỳ t
 
 Phương thức này giúp học sinh lớp 12 nhận thông báo trúng tuyển sớm ngay từ tháng 5 hoặc tháng 6, đồng thời mở ra cơ hội nhận học bổng tài năng lên đến 100% học phí cho năm học đầu tiên.
 
+![Tổng quan kỳ thi tuyển sinh TestAS Đại học Việt Đức VGU 2026](/images/blog/testas-vgu-2026-tong-quan.webp)
+
 ---
 
 ## 1. VGU là gì và vì sao trường dùng TestAS để xét tuyển?
@@ -30,6 +32,8 @@ Nếu bạn chưa nắm rõ dạng bài hay quy cách chấm điểm chuẩn hó
 ---
 
 ## 2. 5 phương thức tuyển sinh của VGU năm 2026
+
+![5 phương thức xét tuyển vào Đại học Việt Đức VGU](/images/blog/cach-xet-tuyen-vgu-bang-testas-2026-chi-tiet.webp)
 
 Năm 2026, VGU tuyển sinh 1.195 chỉ tiêu trên 13 ngành đào tạo thông qua 5 phương thức độc lập. Bạn có quyền nộp hồ sơ tham gia nhiều phương thức cùng lúc để tăng cơ hội trúng tuyển:
 
@@ -90,6 +94,8 @@ Bạn chỉ dùng bài thi chuyên ngành tương ứng để xét tuyển vào 
 ## 5. Cách tính điểm và điều kiện trúng tuyển
 
 ### 1. Công thức tính điểm tổng hợp
+
+![Công thức tính điểm TestAS mới nhất xét tuyển VGU](/images/blog/cong-thuc-tinh-diem-testas-vgu-moi-nhat.webp)
 
 Điểm tổng hợp xét tuyển Digital TestAS được tính theo công thức:
 
@@ -188,6 +194,12 @@ Toàn bộ đề thi Digital TestAS tổ chức tại VGU được thực hiện
 
 ### 5. Em chưa có chứng chỉ IELTS thì có được đăng ký thi TestAS không?
 Bạn hoàn toàn được đăng ký thi bình thường. Khi nộp hồ sơ, bạn chỉ cần đánh dấu chưa có chứng chỉ tiếng Anh. VGU sẽ sắp xếp cho bạn làm bài kiểm tra tiếng Anh VGU ETEST (lệ phí 1.000.000 VNĐ). Đạt từ 75/100 điểm là bạn đủ điều kiện ngoại ngữ để xét trúng tuyển.
+
+### Lời khuyên: Vì sao học sinh nên thi TestAS sớm từ năm lớp 11?
+
+![Lộ trình học sinh lớp 11 thi lấy chứng chỉ TestAS sớm](/images/blog/lop-11-thi-lay-chung-chi-testas-vgu.webp)
+
+Vì bài thi TestAS có giá trị trọn đời, học sinh nên chủ động ôn tập và dự thi ngay từ năm lớp 11. Đạt mức điểm chuẩn TestAS VGU từ sớm giúp bạn yên tâm giữ chỗ tại trường. Lên lớp 12, bạn chỉ cần tập trung hoàn thành tốt kỳ thi tốt nghiệp THPT là đủ điều kiện nhập học chính thức, giảm tải áp lực thi cử căng thẳng.
 
 ---
 

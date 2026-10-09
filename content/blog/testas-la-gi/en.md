@@ -9,7 +9,9 @@ image: "/images/blog/testas-la-gi.jpg"
 
 # What is TestAS? Everything You Need to Know About this Crucial Exam for Studying in Germany
 
-TestAS (Test für Akademische Studien) is a standardized aptitude test for international students who wish to apply for an undergraduate program at a German university. The exam evaluates the cognitive and academic skills necessary for successful study in Germany.
+TestAS (Test für Akademische Studien) is a standardized aptitude test organized by g.a.s.t. and ITB Consulting for international students wishing to apply for undergraduate programs at German universities. The exam evaluates cognitive and academic reasoning skills necessary for higher education in Germany in either English or German.
+
+![Overview of what TestAS is for German university admissions](/images/blog/testas-la-gi-tong-quan.webp)
 
 ## Why is TestAS Important for Vietnamese Students?
 
@@ -39,14 +41,17 @@ This core test evaluates general cognitive abilities independent of any specific
 
 ### 2. Subject-Specific Test Modules (Phần thi chuyên ngành)
 
-Candidates choose one of the following subject modules to take:
+Candidates choose one specialized module matching their prospective academic discipline (4 fields for paper sessions, 6 for digital):
 - Engineering (Kỹ thuật)
 - Mathematics, Computer Science and Natural Sciences (Toán, Tin học và Khoa học Tự nhiên)
 - Economics (Kinh tế)
+- Humanities, Cultural Studies and Social Sciences (Nhân văn và Xã hội)
 
-Each subject module lasts 105 minutes with 24 questions. The content reflects foundational academic skills required in the first year of university in Germany.
+![TestAS Exam Structure Breakdown for Core Test and Subject Modules](/images/blog/cau-truc-bai-thi-testas-tong-quan.webp)
 
-The Subject-Specific Test is the most significant factor in your overall evaluation. The knowledge tested in this module is equivalent to the first year of a German undergraduate program, covering both basic and advanced concepts.
+Each module lasts 90 to 150 minutes depending on the test format, evaluating essential cognitive readiness for university courses.
+
+*Read our detailed module selection guide:* [How to Choose Your TestAS Subject Module for VGU and Germany](/en/blog/huong-dan-chon-khoi-nganh-thi-testas).
 
 ### 3. Language Test (Phần thi ngôn ngữ)
 
@@ -54,27 +59,25 @@ Candidates can choose to take the exam in either English or German. This section
 
 Note: The Language Test does not directly affect your overall TestAS score, but some universities may require the Language Test results as part of the admission application.
 
-## TestAS Fees and Schedule 2026
+*Read frequently asked questions:* [TestAS FAQ: Everything Students and Parents Need to Know](/en/blog/hoi-dap-ve-ky-thi-testas).
 
-The registration fee for TestAS is approximately 125 Euros (around 3.2 million VND). The exam is typically held 3 times a year:
+## TestAS Fees and Schedule 2026 – 2027
 
-- May (Main session)
-- July (Supplementary session)
-- November (Year-end session)
+The standard international registration fee for TestAS is **150 Euros** (around 4.0 to 4.3 million VND). The exam is administered across 6 global test dates annually (both paper and computer formats).
 
-Candidates can take the exam at various test centers worldwide, including Vietnam.
+*Check the official timetable:* [Official TestAS Exam Dates 2027: Fees, Structure, and Registration Guide](/en/blog/lich-thi-testas-2027).
 
-Choosing the right exam timing is crucial. You should plan to take the exam at least 2–3 months before your university's application deadline. The May session is usually the most popular choice as it aligns with when German universities start accepting applications.
+Candidates in Vietnam can sit the exam in Hanoi (Vietnamese-German Centre at HUST), Ho Chi Minh City (Goethe-Institut), or at Vietnamese-German University (VGU).
 
 ## How to Register for TestAS
 
 The registration process is simple:
 
-1. Access the official TestAS website
+1. Access the official TestAS website ([www.testas.de](https://www.testas.de))
 2. Create an account and fill in your personal details
 3. Choose the exam session and test center
-4. Pay the registration fee
-5. Receive your admission ticket via email
+4. Pay the registration fee online
+5. Receive your official admission ticket via email
 
 You should register at least 4 weeks in advance to secure a seat. Important notes when registering:
 
@@ -85,18 +88,13 @@ You should register at least 4 weeks in advance to secure a seat. Important note
 
 ## TestAS Scores and German University Admissions
 
-The German grading equivalent system ranges from 1.0 (best) to 4.0 (weakest). Most top universities require a score of 1.5 or better. Some examples:
+![TestAS Scores and German University Admissions Evaluation](/images/blog/diem-testas-va-xet-tuyen-dai-hoc-duc.webp)
 
-- TU Munich: requires 1.2–1.5
-- TU Berlin: requires 1.5
-- Heidelberg University: requires 1.5–1.8
-- Other universities: 1.8–2.5
+Standardized TestAS scoring does not issue pass or fail verdicts. Instead, performance is reported via Standard Scores (70 to 130) and Percentile Ranks (1 to 100). Top universities typically look for scores above 110 to 120.
 
-To calculate the overall admission score, universities combine your TestAS results with your high school GPA. The calculation formula is typically:
+*Read admission guidelines and score targets:* [Germany Study Abroad Requirements with TestAS and Safe Scores](/en/blog/du-hoc-duc-dieu-kien).
 
-**Overall Score = (TestAS Score × 0.5) + (GPA × 0.5)**
-
-Therefore, even if your TestAS score is not exceptionally high, you can still improve your overall admission score by maintaining a good GPA in high school.
+In Vietnam, TestAS scores serve as a primary entrance examination and scholarship criterion (up to 100% tuition) at [Vietnamese-German University (VGU)](/en/blog/xet-tuyen-vgu-bang-testas).
 
 ## Tips for Effective TestAS Preparation
 
