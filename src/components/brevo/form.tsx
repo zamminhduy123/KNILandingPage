@@ -33,7 +33,7 @@ export default function BrevoForm() {
             >
               {/* Title */}
               <div style={{ padding: "8px 0" }}>
-                <div
+                <h1
                   className="sib-form-block"
                   style={{
                     fontSize: "32px",
@@ -46,9 +46,9 @@ export default function BrevoForm() {
                   }}
 
                 >
-                  <p>{t("title")}</p>
-                  <p>{t("freeLabel")}</p>
-                </div>
+                  <div style={{ margin: "1em 0" }}>{t("title")}</div>
+                  <div style={{ margin: "1em 0" }}>{t("freeLabel")}</div>
+                </h1>
               </div>
 
               {/* Description */}

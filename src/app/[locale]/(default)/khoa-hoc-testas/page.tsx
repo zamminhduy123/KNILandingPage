@@ -124,7 +124,7 @@ const CourseCard = ({
       ))}
     </ul>
     <a
-      href={`/${locale}/consultation`}
+      href={`/${locale}/consultation/`}
       className={`block w-full text-center py-3 rounded-full font-bold transition ${
         highlight ? "bg-white text-orange-600 hover:bg-gray-100" : "bg-orange-500 text-white hover:bg-orange-600"
       }`}
@@ -142,7 +142,7 @@ export default async function CoursePage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("CoursePage");
-  const localePath = locale === "vn" ? "" : `/${locale}`;
+  const localePath = `/${locale}`;
 
   return (
     <>
@@ -156,13 +156,13 @@ export default async function CoursePage({
               <p className="text-lg text-gray-300 mb-8 leading-relaxed">{t("heroSubtitle")}</p>
               <div className="flex flex-wrap gap-6">
                 <a
-                  href={`${localePath}/consultation`}
+                  href={`${localePath}/consultation/`}
                   className="bg-orange-500 text-white px-8 py-4 rounded-full font-bold shadow-lg shadow-orange-500/30 hover:bg-orange-600 transition flex items-center gap-2"
                 >
                   {t("enrollNow")} <span>→</span>
                 </a>
                 <a
-                  href={`${localePath}/free-testas`}
+                  href={`${localePath}/free-testas/`}
                   className="border border-gray-600 text-white px-8 py-4 rounded-full font-bold hover:border-orange-500 transition"
                 >
                   {t("freePractice")}
@@ -280,12 +280,6 @@ export default async function CoursePage({
                   </li>
                 ))}
               </ul>
-              <a
-                href={`${localePath}/ve-nhat`}
-                className="inline-block border border-gray-600 text-white px-6 py-3 rounded-full hover:border-orange-500 transition"
-              >
-                {t("learnMore")} →
-              </a>
             </div>
             <div className="order-1 lg:order-2 flex justify-center">
               <div className="relative">
@@ -311,7 +305,7 @@ export default async function CoursePage({
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">{t("ctaTitle")}</h2>
           <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">{t("ctaSubtitle")}</p>
           <a
-            href={`${localePath}/consultation`}
+            href={`${localePath}/consultation/`}
             className="inline-block bg-white text-orange-600 px-10 py-4 rounded-full font-bold shadow-lg hover:bg-gray-100 transition text-lg"
           >
             {t("enrollNow")} <span className="ml-2">→</span>

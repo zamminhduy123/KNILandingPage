@@ -41,7 +41,7 @@ export default function HeroCopy() {
 
       <div className="flex w-full flex-col items-center justify-center gap-4 sm:w-auto sm:flex-row md:flex-col lg:flex-row">
         <Link
-          href={`/${locale}/consultation`}
+          href={`/${locale}/consultation/`}
           className="inline-flex min-h-[62px] w-full items-center justify-center rounded-xl bg-orange-600 px-9 text-base font-bold text-white shadow-[0_14px_28px_rgba(234,88,12,0.22)] transition-colors duration-200 hover:bg-orange-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 sm:w-auto"
         >
           {isEn ? "Book a trial class" : "Đăng ký học thử"}

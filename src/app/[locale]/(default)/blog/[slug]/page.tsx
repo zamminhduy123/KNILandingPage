@@ -42,8 +42,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: [
         {
           url: `https://kni.vn${post.frontmatter.image}`,
-          width: 1200,
-          height: 630,
           alt: post.frontmatter.title,
         },
       ],
@@ -71,9 +69,9 @@ export function generateStaticParams() {
   );
 }
 
-function formatDate(dateStr: string): string {
+function formatDate(dateStr: string, locale: string = "vn"): string {
   const date = new Date(dateStr);
-  return date.toLocaleDateString("vi-VN", {
+  return date.toLocaleDateString(locale === "en" ? "en-US" : "vi-VN", {
     day: "2-digit",
     month: "2-digit",
     year: "numeric",
@@ -356,56 +354,7 @@ function getFaqEntities(slug: string, locale: string) {
     ];
   }
 
-  return [
-    {
-      "@type": "Question",
-      name: locale === "vn"
-        ? "TestAS thi bằng tiếng Anh hay tiếng Đức?"
-        : "Is TestAS in English or German?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: locale === "vn"
-          ? "Bạn có thể chọn thi bằng tiếng Anh hoặc tiếng Đức. Tùy vào chương trình bạn đăng ký mà sẽ có yêu cầu ngôn ngữ khác nhau."
-          : "You can choose to take the test in English or German, depending on the program you apply to.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: locale === "vn"
-        ? "TestAS bao nhiêu điểm để xét tuyển?"
-        : "What score is required for TestAS?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: locale === "vn"
-          ? "Điểm yêu cầu phụ thuộc vào từng trường đại học. Hầu hết các trường top đầu yêu cầu điểm chuẩn hóa từ 100 đến 115 trở lên."
-          : "Score requirements depend on each university. Most top universities require a standard score between 100 and 115 or higher.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: locale === "vn"
-        ? "Có cần IELTS để thi TestAS không?"
-        : "Is IELTS required for TestAS?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: locale === "vn"
-          ? "Không, TestAS không yêu cầu IELTS. Tuy nhiên, nhiều trường đại học tại Đức cũng yêu cầu chứng chỉ ngôn ngữ (IELTS hoặc TestDaF) riêng biệt khi nộp hồ sơ."
-          : "No, TestAS does not require IELTS. However, many German universities also require separate language certificates (IELTS or TestDaF) when applying.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: locale === "vn"
-        ? "TestAS Digital và Paper khác nhau như thế nào?"
-        : "What is the difference between TestAS Digital and Paper?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: locale === "vn"
-          ? "TestAS Digital thi trên máy tính với thời gian rút ngắn 3.5 tiếng, cơ chế làm bài một chiều và không dùng giấy nháp. TestAS Paper thi trên giấy truyền thống cho phép lật xem trước và dùng giấy nháp."
-          : "TestAS Digital is taken on a computer lasting 3.5 hours with one-way navigation and no scratch paper. TestAS Paper is the traditional paper-based format with free navigation and physical scratch paper.",
-      },
-    },
-  ];
+  return [];
 }
 
 export default async function BlogPostPage({ params }: Props) {
@@ -446,11 +395,44 @@ export default async function BlogPostPage({ params }: Props) {
     ],
   };
 
+  const blogPosting = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": frontmatter.title,
+    "description": frontmatter.description,
+    "image": `https://kni.vn${frontmatter.image}`,
+    "datePublished": frontmatter.date,
+    "dateModified": frontmatter.updated || frontmatter.date,
+    "inLanguage": locale === 'en' ? 'en-US' : 'vi-VN',
+    "author": {
+      "@type": "Organization",
+      "name": "KNI Education"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "KNI Education",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://kni.vn/images/logo.avif"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://kni.vn/${locale}/blog/${frontmatter.slug}/`
+    }
+  };
+
+  const faqs = getFaqEntities(frontmatter.slug, locale);
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbs) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPosting) }}
       />
       <section className="bg-white pt-32 pb-20 min-h-screen">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
@@ -468,7 +450,7 @@ export default async function BlogPostPage({ params }: Props) {
               <li className="text-gray-300">/</li>
               <li>
                 <Link
-                  href={`/${locale}/blog`}
+                  href={`/${locale}/blog/`}
                   className="hover:text-orange-500 transition-colors"
                 >
                   {t("title")}
@@ -504,7 +486,7 @@ export default async function BlogPostPage({ params }: Props) {
                 <span className="inline-flex items-center rounded-full bg-orange-100 px-3 py-1 text-xs font-medium text-orange-700">
                   {frontmatter.category}
                 </span>
-                <span className="text-sm text-gray-400">{formatDate(frontmatter.date)}</span>
+                <span className="text-sm text-gray-400">{formatDate(frontmatter.date, locale)}</span>
               </div>
 
               <h1 className="text-3xl sm:text-[2.75rem] lg:text-[3.25rem] font-extrabold text-slate-900 tracking-tight leading-[1.15] mb-6">
@@ -653,7 +635,7 @@ export default async function BlogPostPage({ params }: Props) {
                       : "Receive a personalized study roadmap to optimize your scores for VGU admissions."}
                   </p>
                   <Link
-                    href={`/${locale}/consultation`}
+                    href={`/${locale}/consultation/`}
                     className="block w-full text-center bg-orange-600 text-white font-semibold py-2.5 rounded-lg hover:bg-orange-700 transition-colors text-xs"
                   >
                     {locale === "vn" ? "Đăng ký ngay" : "Register Now"}
@@ -677,7 +659,7 @@ export default async function BlogPostPage({ params }: Props) {
                   : "Don't hesitate to contact us for free TestAS preparation consultation!"}
               </p>
               <Link
-                href={`/${locale}/consultation`}
+                href={`/${locale}/consultation/`}
                 className="inline-flex items-center bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-700 transition-colors duration-200"
               >
                 {ht("cta.registerNow")}{" "}
@@ -712,7 +694,7 @@ export default async function BlogPostPage({ params }: Props) {
                         {related.title}
                       </h3>
                       <p className="text-xs text-gray-400 mt-1">
-                        {formatDate(related.date)}
+                        {formatDate(related.date, locale)}
                       </p>
                     </Link>
                   </article>
@@ -724,7 +706,7 @@ export default async function BlogPostPage({ params }: Props) {
           {/* Back to Blog Link */}
           <div className="mt-12 pt-8 border-t border-gray-100">
             <Link
-              href={`/${locale}/blog`}
+              href={`/${locale}/blog/`}
               className="inline-flex items-center text-orange-500 hover:text-orange-600 font-semibold transition-colors"
             >
               <svg
@@ -746,16 +728,18 @@ export default async function BlogPostPage({ params }: Props) {
         </div>
 
       {/* FAQPage Structured Data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            mainEntity: getFaqEntities(frontmatter.slug, locale),
-          }),
-        }}
-      />
+      {faqs.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs,
+            }),
+          }}
+        />
+      )}
     </section>
     </>
   );

@@ -270,7 +270,7 @@ export default function Pricing() {
 
             {/* CTA Button */}
             <a
-              href={`/${locale}/consultation`}
+              href={`/${locale}/consultation/`}
               className="w-full bg-orange-600 text-white font-bold py-4 px-6 rounded-xl hover:bg-orange-700 transition-colors duration-200 flex items-center justify-center gap-2 mt-8 shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
             >
               <span>{t("cardLeft.btn")}</span>

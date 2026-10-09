@@ -113,7 +113,7 @@ export default function FAQ() {
         {/* Bottom CTA */}
         <div className="mt-8 text-center">
           <a
-            href={`/${locale}/consultation`}
+            href={`/${locale}/consultation/`}
             className="inline-flex items-center gap-2 rounded-lg bg-orange-600 px-7 py-3.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-orange-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
           >
             {t("cta")}

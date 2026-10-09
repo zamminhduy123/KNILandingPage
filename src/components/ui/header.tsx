@@ -59,7 +59,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center">
+            <Link href={`/${locale}/`} className="flex items-center">
               <Image
                 src={Logo}
                 width={42}
@@ -97,16 +97,16 @@ export default function Header() {
 
           {/* Navigation Links for Desktop */}
           <nav className="hidden md:flex md:items-center md:space-x-8">
-            <Link href="/" className={navClassName("/")}>
+            <Link href={`/${locale}/`} className={navClassName("/")}>
               {t("home")}
             </Link>
-            <Link href={`/${locale}/blog`} className={navClassName("/blog")}>
+            <Link href={`/${locale}/blog/`} className={navClassName("/blog")}>
               {t("knowledge")}
             </Link>
-            <Link href={`/${locale}/free-testas`} className={navClassName("/free-testas")}>
+            <Link href={`/${locale}/free-testas/`} className={navClassName("/free-testas")}>
               {t("freeTest")}
             </Link>
-            <Link href={`/${locale}/contact`} className={navClassName("/contact")}>
+            <Link href={`/${locale}/contact/`} className={navClassName("/contact")}>
               {t("contact")}
             </Link>
           </nav>
@@ -130,7 +130,7 @@ export default function Header() {
               {locale === "vn" ? "VN" : "EN"}
             </Link>
             <Link
-              href={`/${locale}/consultation`}
+              href={`/${locale}/consultation/`}
               className="bg-orange-600 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-orange-700 transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
             >
               {t("signup")}
@@ -146,16 +146,16 @@ export default function Header() {
         } md:hidden absolute top-[72px] left-0 right-0 bg-white border-b border-slate-100 shadow-lg shadow-slate-200/40 px-5 py-6 z-40 transition-all duration-300`}
       >
         <nav className="flex flex-col space-y-2">
-          <Link href="/" onClick={() => setIsOpen(false)} className={mobileNavClassName("/")}>
+          <Link href={`/${locale}/`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/")}>
             {t("home")}
           </Link>
-          <Link href={`/${locale}/blog`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/blog")}>
+          <Link href={`/${locale}/blog/`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/blog")}>
             {t("knowledge")}
           </Link>
-          <Link href={`/${locale}/free-testas`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/free-testas")}>
+          <Link href={`/${locale}/free-testas/`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/free-testas")}>
             {t("freeTest")}
           </Link>
-          <Link href={`/${locale}/contact`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/contact")}>
+          <Link href={`/${locale}/contact/`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/contact")}>
             {t("contact")}
           </Link>
 
@@ -183,7 +183,7 @@ export default function Header() {
             </Link>
             
             <Link
-              href={`/${locale}/consultation`}
+              href={`/${locale}/consultation/`}
               onClick={() => setIsOpen(false)}
               className="bg-orange-600 text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-orange-700 transition-colors duration-200 text-center"
             >

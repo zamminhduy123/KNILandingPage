@@ -19,13 +19,15 @@ export default function Footer({ border = false }: { border?: boolean }) {
             {/* Left: Logo + Copyright */}
             <div className="space-y-2">
               <div>
-                <Logo />
+                <Link href={`/${locale}/`}>
+                  <Logo />
+                </Link>
               </div>
               <div className="text-sm text-gray-600 flex flex-wrap items-center gap-x-3 gap-y-1">
                 <span>&copy; KNI.vn - All rights reserved.</span>
                 <span className="text-gray-300" aria-hidden="true">|</span>
                 <Link
-                  href={`/${locale}/privacy-policy`}
+                  href={`/${locale}/privacy-policy/`}
                   className="hover:text-orange-500 transition-colors"
                 >
                   {t("privacyPolicy")}

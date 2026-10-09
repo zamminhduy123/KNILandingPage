@@ -113,13 +113,13 @@ export default async function Contact({ params }: Props) {
       />
       <section id="contact" className="min-h-[50vh] bg-white snap-center pt-32">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 w-full">
-        <h2
+        <h1
           className="text-4xl md:text-5xl font-bold text-black text-center mb-12"
           data-aos="fade-up"
           data-aos-delay="100"
         >
           {t("title")}
-        </h2>
+        </h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {contactItems.map((item, index) => (
             <div

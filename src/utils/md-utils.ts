@@ -9,6 +9,7 @@ export interface BlogFrontmatter {
   title: string;
   slug: string;
   date: string;
+  updated?: string;
   description: string;
   category: string;
   image: string;
@@ -140,6 +141,20 @@ export async function getBlogPostBySlug(slug: string, locale: string = "vn"): Pr
 } | null> {
   const post = getBlogPostBySlugSync(slug, locale);
   if (!post) return null;
+
+  // H1 fix: strip leading `# Title` line
+  post.content = post.content.replace(/^\s*#\s+.*$/m, '');
+
+  // M4 fix: normalize internal markdown links
+  // regex looks for `[text](/vn/...` or `[text](/en/...` and ensures trailing slash
+  post.content = post.content.replace(/\[([^\]]+)\]\(\/(vn|en)(\/[^)]+)?\)/g, (match, text, loc, pathPart) => {
+    let urlPath = `/${loc}${pathPart || ''}`;
+    // don't add trailing slash if it has anchor, query, file extension, or already has trailing slash
+    if (!urlPath.endsWith('/') && !urlPath.includes('#') && !urlPath.includes('?') && !/\.[a-z0-9]+$/i.test(urlPath)) {
+      urlPath += '/';
+    }
+    return `[${text}](${urlPath})`;
+  });
 
   // Extract H2 headings from markdown content for table of contents
   const headingRegex = /^##\s+(.+)$/gm;

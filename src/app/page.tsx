@@ -1,10 +1,12 @@
 import { Metadata } from 'next';
+import {SpeedInsights} from '@vercel/speed-insights/next';
+import {Analytics} from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: "Luyện thi TestAS chuẩn cam kết đầu ra | KNI Education",
   description: "KNI Education cung cấp lộ trình luyện thi TestAS chuyên nghiệp, giáo viên Việt-Nam & Đức, tài liệu độc quyền. Đăng ký tư vấn miễn phí ngay.",
   alternates: {
-    canonical: "https://kni.vn/",
+    canonical: "https://kni.vn/vn/",
   },
   icons: {
     icon: [
@@ -17,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Luyện thi TestAS chuẩn cam kết đầu ra | KNI Education",
     description: "KNI Education cung cấp lộ trình luyện thi TestAS chuyên nghiệp, giáo viên Việt-Nam & Đức, tài liệu độc quyền. Đăng ký tư vấn miễn phí ngay.",
-    url: "https://kni.vn/",
+    url: "https://kni.vn/vn/",
     siteName: "KNI Education",
     images: [
       {
@@ -65,33 +67,37 @@ export default function RootPage() {
   };
 
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: 'window.location.replace("/vn/");',
-        }}
-      />
-      <main style={{ padding: '4rem 2rem', textAlign: 'center', fontFamily: 'sans-serif', maxWidth: '600px', margin: '0 auto' }}>
-        <h1 style={{ fontSize: '2.25rem', fontWeight: 'bold', color: '#0f172a', marginBottom: '1.5rem', lineHeight: '1.2' }}>
-          Luyện Thi TestAS Chất Lượng Cao | KNI Education
-        </h1>
-        <p style={{ color: '#475569', fontSize: '1.05rem', lineHeight: '1.6', marginBottom: '2rem' }}>
-          KNI Education cung cấp lộ trình luyện thi TestAS chuyên nghiệp, giáo viên Việt-Nam &amp; Đức, cùng tài liệu học tập độc quyền. Đăng ký tư vấn và kiểm tra năng lực TestAS miễn phí để bắt đầu lộ trình du học Đức hoặc xét tuyển Đại học Việt Đức (VGU) của bạn ngay hôm nay.
-        </p>
-        <p style={{ color: '#64748b', fontSize: '0.9rem', marginBottom: '1rem' }}>
-          Đang tự động chuyển hướng đến trang chủ tiếng Việt... / Redirecting to the Vietnamese homepage...
-        </p>
-        <p>
-          Nếu trình duyệt không tự động chuyển hướng, vui lòng click{' '}
-          <a href="/vn/" style={{ color: '#ea580c', fontWeight: 'bold', textDecoration: 'underline' }}>
-            vào đây để tiếp tục
-          </a>.
-        </p>
-      </main>
-    </>
+    <html lang="vi">
+      <body className="bg-gray-50 font-inter tracking-tight text-gray-900 antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: 'window.location.replace("/vn/");',
+          }}
+        />
+        <main style={{ padding: '4rem 2rem', textAlign: 'center', fontFamily: 'sans-serif', maxWidth: '600px', margin: '0 auto' }}>
+          <h1 style={{ fontSize: '2.25rem', fontWeight: 'bold', color: '#0f172a', marginBottom: '1.5rem', lineHeight: '1.2' }}>
+            Luyện Thi TestAS Chất Lượng Cao | KNI Education
+          </h1>
+          <p style={{ color: '#475569', fontSize: '1.05rem', lineHeight: '1.6', marginBottom: '2rem' }}>
+            KNI Education cung cấp lộ trình luyện thi TestAS chuyên nghiệp, giáo viên Việt-Nam &amp; Đức, cùng tài liệu học tập độc quyền. Đăng ký tư vấn và kiểm tra năng lực TestAS miễn phí để bắt đầu lộ trình du học Đức hoặc xét tuyển Đại học Việt Đức (VGU) của bạn ngay hôm nay.
+          </p>
+          <p style={{ color: '#64748b', fontSize: '0.9rem', marginBottom: '1rem' }}>
+            Đang tự động chuyển hướng đến trang chủ tiếng Việt... / Redirecting to the Vietnamese homepage...
+          </p>
+          <p>
+            Nếu trình duyệt không tự động chuyển hướng, vui lòng click{' '}
+            <a href="/vn/" style={{ color: '#ea580c', fontWeight: 'bold', textDecoration: 'underline' }}>
+              vào đây để tiếp tục
+            </a>.
+          </p>
+        </main>
+        <SpeedInsights />
+        <Analytics />
+      </body>
+    </html>
   );
 }

@@ -9,7 +9,9 @@ import ClientLayout from './index'
 import AOSInitializer from '@/src/components/AOSInitializer'
 import '../../css/style.css'
 import Script from 'next/script';
-import { Metadata } from 'next';
+import { Metadata, Viewport } from 'next';
+import {SpeedInsights} from '@vercel/speed-insights/next';
+import {Analytics} from '@vercel/analytics/next';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,15 +24,37 @@ type Props = {
   params: Promise<{locale: string}>;
 };
 
-// Site-wide defaults that all pages inherit
-export const metadata: Metadata = {
-  metadataBase: new URL('https://kni.vn'),
-  title: {
-    template: "%s | KNI Education",
-    default: "KNI Education",
-  },
-  description: 'KNI - Trung tâm luyện thi TestAS uy tín tại TP.HCM. Tỷ lệ đậu 95%, tư vấn du học Đức & VGU miễn phí.',
+// themeColor is a viewport field in Next 15+; putting it in `metadata` silently drops the tag.
+export const viewport: Viewport = {
+  themeColor: '#ff914d',
 };
+
+// Site-wide defaults that all pages inherit
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    metadataBase: new URL('https://kni.vn'),
+    title: {
+      template: "%s | KNI Education",
+      default: "KNI Education",
+    },
+    description: 'KNI - Trung tâm luyện thi TestAS uy tín tại TP.HCM. Tỷ lệ đậu 95%, tư vấn du học Đức & VGU miễn phí.',
+    manifest: '/manifest.json',
+    icons: {
+      icon: [
+        { url: '/icon.png', sizes: '32x32', type: 'image/png' },
+        { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+        { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+      ],
+      apple: '/icon-192.png',
+    },
+    openGraph: {
+      siteName: "KNI Education",
+      type: "website",
+      locale: locale === "en" ? "en_US" : "vi_VN",
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
@@ -47,7 +71,7 @@ export default async function DefaultLayout({
   }
 
   return (
-    <html lang={locale} className="scroll-smooth">
+    <html lang={locale === 'vn' ? 'vi' : 'en'} className="scroll-smooth">
       {/* Google Tag Manager */}
       <script
         dangerouslySetInnerHTML={{
@@ -65,20 +89,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link rel="preconnect" href="https://www.googletagmanager.com" />
 
-      {/* Favicon */}
-      <link rel="apple-touch-icon" href="/icon-192.png" />
-      <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
-      <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
-      <link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512" />
-
-      {/* Web App Manifest */}
-      <link rel="manifest" href="/manifest.json" />
-      <meta name="theme-color" content="#ff914d" />
-
-      {/* Open Graph defaults — pages override with page-specific values */}
-      <meta property="og:site_name" content="KNI Education" />
-      <meta property="og:type" content="website" />
-      <meta property="og:locale" content={locale === "en" ? "en_US" : "vi_VN"} />
       <body
         className={`${inter.variable} bg-gray-50 font-inter tracking-tight text-gray-900 antialiased`}
       >
@@ -98,7 +108,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <AOSInitializer />{children}
           </ClientLayout>
         </NextIntlClientProvider>
-        {/* EducationalOrganization & AggregateRating Structured Data */}
+        {/* EducationalOrganization Structured Data */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -128,14 +138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 'https://www.facebook.com/testascandidates',
                 'https://www.instagram.com/khanhnhatinstitute/',
                 'https://www.tiktok.com/@khanhnhat.institute',
-              ],
-              aggregateRating: {
-                '@type': 'AggregateRating',
-                ratingValue: '9.0',
-                reviewCount: '44',
-                bestRating: '10',
-                worstRating: '1',
-              },
+              ]
             })
           }}
         />
@@ -147,12 +150,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               '@context': 'https://schema.org',
               '@type': 'WebSite',
               name: 'KNI Education',
-              url: 'https://kni.vn/',
-              potentialAction: {
-                '@type': 'SearchAction',
-                target: 'https://kni.vn/{search_term_string}',
-                'query-input': 'required name=search_term_string',
-              },
+              url: 'https://kni.vn/'
             })
           }}
         />
@@ -166,6 +164,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             gtag('config', 'G-22N9GX8CS1');
           `}
         </Script>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
