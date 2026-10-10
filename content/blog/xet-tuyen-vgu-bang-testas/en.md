@@ -2,7 +2,9 @@
 title: "How to Apply to Vietnamese-German University (VGU) with TestAS in 2026"
 slug: "xet-tuyen-vgu-bang-testas"
 date: "2026-09-02"
+updated: "2026-10-09"
 description: "Comprehensive guide to VGU admissions via TestAS in 2026: admission criteria, application process, Digital TestAS structure, deadlines, fees, and up to 100% scholarships."
+quickAnswer: "Vietnamese-German University (VGU) admits students via TestAS through on-campus exams (Mode 1) or international test certificates (Mode 4). Admission score formula: 40% Core Test + 60% Subject Module. Minimum passing threshold is 50/100 points per Digital TestAS section. Early candidates receive admission offers in May–June with talent scholarships ranging from 25% to 100%."
 category: "Admissions"
 image: "/images/blog/xet-tuyen-vgu-bang-testas-2026.webp"
 ---

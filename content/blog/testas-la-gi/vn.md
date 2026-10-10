@@ -2,14 +2,16 @@
 title: "TestAS là gì? Cấu trúc đề thi, lệ phí và cách đăng ký 2026"
 slug: "testas-la-gi"
 date: "2026-06-18"
+updated: "2026-10-09"
 description: "TestAS là gì? Tìm hiểu cấu trúc đề thi, lệ phí, cách đăng ký và vai trò của TestAS trong xét tuyển đại học Đức. Hướng dẫn chi tiết cho học sinh Việt Nam."
+quickAnswer: "TestAS (Test für Akademische Studien) là bài thi chuẩn hóa quốc tế đánh giá năng lực tư duy logic và khả năng học thuật của sinh viên ngoài EU muốn học đại học tại Đức. Bài thi do tổ chức g.a.s.t. điều phối, gồm phần thi chung (Core Test) và Module chuyên ngành tự chọn (Toán & Tin, Kỹ thuật, Kinh tế, Xã hội...), có thể thi bằng tiếng Anh hoặc tiếng Đức. Kết quả TestAS có giá trị vĩnh viễn, là điều kiện bắt buộc để xin chứng nhận APS và xét tuyển vào VGU cũng như các trường đại học tại Đức."
 category: "Pillar"
 image: "/images/blog/testas-la-gi.jpg"
 ---
 
 # TestAS là gì? Tất cả những điều bạn cần biết về kỳ thi quan trọng với du học Đức
 
-TestAS (Test für Akademische Studien) là một kỳ thi chuẩn hóa được tổ chức bởi Gesellschaft für Internationale Zusammenarbeit (GIZ) và tổ chức g.a.s.t. của Đức. Kỳ thi này đánh giá kiến thức và kỹ năng tư duy của học sinh quốc tế muốn theo học các chương trình đại học tại Đức bằng tiếng Anh hoặc tiếng Đức.
+TestAS (*Test für Akademische Studien*) là một kỳ thi chuẩn hóa được điều phối bởi tổ chức [g.a.s.t.](https://www.testas.de) và Viện TestDaF của Đức. Kỳ thi này đánh giá kiến thức và kỹ năng tư duy học thuật của học sinh quốc tế muốn theo học các chương trình đại học tại Đức bằng tiếng Anh hoặc tiếng Đức.
 
 ![Tổng quan bài thi TestAS là gì cho du học Đức](/images/blog/testas-la-gi-tong-quan.webp)
 

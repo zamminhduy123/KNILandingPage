@@ -144,8 +144,79 @@ export default async function CoursePage({
   const t = await getTranslations("CoursePage");
   const localePath = `/${locale}`;
 
+  const courseSchema = {
+    "@context": "https://schema.org",
+    "@type": "Course",
+    "@id": `https://kni.vn/${locale}/khoa-hoc-testas/#course`,
+    "name": t("heroTitle"),
+    "description": t("heroSubtitle"),
+    "provider": {
+      "@type": "EducationalOrganization",
+      "@id": "https://kni.vn/#organization",
+      "name": "KNI Education",
+      "url": "https://kni.vn"
+    },
+    "hasCourseInstance": [
+      {
+        "@type": "CourseInstance",
+        "name": t("onlineGroupTitle"),
+        "description": `${t("feature1")}. ${t("feature2")}. ${t("featureOnline")}`,
+        "courseMode": "online",
+        "offers": {
+          "@type": "Offer",
+          "price": "4500000",
+          "priceCurrency": "VND",
+          "availability": "https://schema.org/InStock",
+          "url": `https://kni.vn/${locale}/consultation/`,
+          "validFrom": "2024-01-01"
+        }
+      },
+      {
+        "@type": "CourseInstance",
+        "name": t("inPersonTitle"),
+        "description": `${t("feature1")}. ${t("feature2")}. ${t("featureInPerson")}`,
+        "courseMode": "onsite",
+        "location": {
+          "@type": "Place",
+          "name": "KNI Education Center",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Thành phố Hồ Chí Minh",
+            "addressCountry": "VN"
+          }
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "6500000",
+          "priceCurrency": "VND",
+          "availability": "https://schema.org/InStock",
+          "url": `https://kni.vn/${locale}/consultation/`,
+          "validFrom": "2024-01-01"
+        }
+      },
+      {
+        "@type": "CourseInstance",
+        "name": t("oneOnOneTitle"),
+        "description": `${t("feature1")}. ${t("feature2")}. ${t("featureOneOnOne")}`,
+        "courseMode": "blended",
+        "offers": {
+          "@type": "Offer",
+          "price": "8500000",
+          "priceCurrency": "VND",
+          "availability": "https://schema.org/InStock",
+          "url": `https://kni.vn/${locale}/consultation/`,
+          "validFrom": "2024-01-01"
+        }
+      }
+    ]
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }}
+      />
       {/* Hero */}
       <section className="relative bg-gray-900 text-white min-h-[80vh] flex items-center py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 w-full">

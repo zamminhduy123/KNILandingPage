@@ -2,14 +2,16 @@
 title: "What is TestAS? Exam Structure, Fees, and Registration Guide 2026"
 slug: "testas-la-gi"
 date: "2026-06-18"
+updated: "2026-10-09"
 description: "What is TestAS? Find out about the exam structure, fees, registration process, and the role of TestAS in German university admissions. Detailed guide for students."
+quickAnswer: "TestAS (Test für Akademische Studien) is a standardized cognitive aptitude test for non-EU students seeking undergraduate admission to German universities. Administered by g.a.s.t., the test consists of a Core Test and a chosen Subject Module (Mathematics/CS, Engineering, Economics, or Social Sciences), available in English or German. TestAS certificates never expire and are mandatory for German APS verification and admissions to VGU and top German universities."
 category: "Pillar"
 image: "/images/blog/testas-la-gi.jpg"
 ---
 
 # What is TestAS? Everything You Need to Know About this Crucial Exam for Studying in Germany
 
-TestAS (Test für Akademische Studien) is a standardized aptitude test organized by g.a.s.t. and ITB Consulting for international students wishing to apply for undergraduate programs at German universities. The exam evaluates cognitive and academic reasoning skills necessary for higher education in Germany in either English or German.
+TestAS (*Test für Akademische Studien*) is a standardized aptitude test organized by [g.a.s.t.](https://www.testas.de) and the TestDaF Institute for international students wishing to apply for undergraduate programs at German universities. The exam evaluates cognitive and academic reasoning skills necessary for higher education in Germany in either English or German.
 
 ![Overview of what TestAS is for German university admissions](/images/blog/testas-la-gi-tong-quan.webp)
 

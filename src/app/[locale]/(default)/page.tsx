@@ -71,20 +71,37 @@ export default async function Home({ params }: Props) {
   setRequestLocale(locale);
 
   const seoT = await getTranslations({ locale, namespace: "seo.home" });
+  const faqT = await getTranslations({ locale, namespace: "FAQ" });
 
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
+    '@id': `https://kni.vn/${locale}/#webpage`,
     name: seoT('title'),
     description: seoT('description'),
     url: `https://kni.vn/${locale}/`,
     inLanguage: locale === 'en' ? 'en-US' : 'vi-VN',
-    publisher: {
-      '@type': 'EducationalOrganization',
-      name: 'KNI Education',
-      url: 'https://kni.vn/',
-      logo: 'https://kni.vn/images/logo.avif',
+    isPartOf: {
+      '@id': 'https://kni.vn/#website',
     },
+    publisher: {
+      '@id': 'https://kni.vn/#organization',
+    },
+  };
+
+  const faqItems = [0, 1, 2, 3, 4, 5, 6, 7, 8].map((i) => ({
+    '@type': 'Question',
+    name: faqT(`items.${i}.q`),
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faqT(`items.${i}.a`),
+    },
+  }));
+
+  const faqStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems,
   };
 
   return (
@@ -92,6 +109,10 @@ export default async function Home({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqStructuredData) }}
       />
       <HeroSection />
       <StatsBar />

@@ -405,16 +405,21 @@ export default async function BlogPostPage({ params }: Props) {
     "dateModified": frontmatter.updated || frontmatter.date,
     "inLanguage": locale === 'en' ? 'en-US' : 'vi-VN',
     "author": {
-      "@type": "Organization",
-      "name": "KNI Education"
+      "@type": "Person",
+      "@id": "https://kni.vn/#founder",
+      "name": "Khánh Nhật",
+      "jobTitle": "Founder & TestAS Lead Instructor",
+      "worksFor": {
+        "@id": "https://kni.vn/#organization"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Vietnamese-German University (VGU)"
+      },
+      "url": `https://kni.vn/${locale}/contact/`
     },
     "publisher": {
-      "@type": "Organization",
-      "name": "KNI Education",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://kni.vn/images/logo.avif"
-      }
+      "@id": "https://kni.vn/#organization"
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -441,7 +446,7 @@ export default async function BlogPostPage({ params }: Props) {
             <ol className="flex items-center space-x-2 text-sm text-gray-500">
               <li>
                 <Link
-                  href={`/${locale}`}
+                  href={`/${locale}/`}
                   className="hover:text-orange-500 transition-colors"
                 >
                   {locale === "vn" ? "Trang chủ" : "Home"}
@@ -482,20 +487,39 @@ export default async function BlogPostPage({ params }: Props) {
             
             {/* Left Column: Article Content (2/3 width) */}
             <div className="lg:col-span-2">
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex flex-wrap items-center gap-3 mb-4">
                 <span className="inline-flex items-center rounded-full bg-orange-100 px-3 py-1 text-xs font-medium text-orange-700">
                   {frontmatter.category}
                 </span>
                 <span className="text-sm text-gray-400">{formatDate(frontmatter.date, locale)}</span>
+                {frontmatter.updated && (
+                  <span className="text-sm text-slate-500 font-medium">
+                    • {locale === "vn" ? "Cập nhật:" : "Updated:"} {formatDate(frontmatter.updated, locale)}
+                  </span>
+                )}
               </div>
 
               <h1 className="text-3xl sm:text-[2.75rem] lg:text-[3.25rem] font-extrabold text-slate-900 tracking-tight leading-[1.15] mb-6">
                 {frontmatter.title}
               </h1>
 
-              <p className="text-lg text-slate-600 leading-relaxed mb-8">
-                {frontmatter.description}
-              </p>
+              {/* AEO Answer-First Callout Box */}
+              {frontmatter.quickAnswer ? (
+                <div className="rounded-2xl border border-slate-200 bg-slate-50 p-6 mb-8 shadow-sm">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-xs font-bold uppercase tracking-wider text-orange-700">
+                      {locale === "vn" ? "Tóm tắt cốt lõi" : "Key Takeaways"}
+                    </span>
+                  </div>
+                  <p className="text-base text-slate-700 leading-relaxed font-medium">
+                    {frontmatter.quickAnswer}
+                  </p>
+                </div>
+              ) : (
+                <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                  {frontmatter.description}
+                </p>
+              )}
 
               <hr className="border-t border-slate-100 my-8" />
 

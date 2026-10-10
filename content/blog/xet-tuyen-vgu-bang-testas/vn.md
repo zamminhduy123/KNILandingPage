@@ -2,7 +2,9 @@
 title: "Cách Xét Tuyển Vào Đại Học Việt Đức (VGU) Bằng TestAS Năm 2026"
 slug: "xet-tuyen-vgu-bang-testas"
 date: "2026-09-02"
+updated: "2026-10-09"
 description: "Hướng dẫn chi tiết cách xét tuyển VGU bằng TestAS năm 2026: điều kiện trúng tuyển, quy trình nộp hồ sơ, cấu trúc bài thi Digital TestAS, lệ phí, mốc thời gian và bảng học bổng tới 100%."
+quickAnswer: "Đại học Việt Đức (VGU) xét tuyển bằng TestAS qua 2 phương thức: thi tuyển sinh riêng tại VGU (PT1) hoặc nộp chứng chỉ TestAS quốc tế (PT4). Điểm trúng tuyển tính theo công thức: 40% Core Test + 60% Module chuyên ngành. Điểm sàn tối thiểu là 50/100 mỗi phần thi Digital TestAS. Thí sinh thi sớm có cơ hội nhận kết quả trúng tuyển từ tháng 5–6 và săn học bổng tài năng 25–100% học phí."
 category: "Luyện thi TestAS"
 image: "/images/blog/xet-tuyen-vgu-bang-testas-2026.webp"
 ---

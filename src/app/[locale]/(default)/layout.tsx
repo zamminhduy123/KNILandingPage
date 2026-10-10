@@ -72,6 +72,18 @@ export default async function DefaultLayout({
 
   return (
     <html lang={locale === 'vn' ? 'vi' : 'en'} className="scroll-smooth">
+      {/* Pre-check intro animation to prevent page flicker */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            try {
+              if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.documentElement.classList.add('kni-intro-pending');
+              }
+            } catch(e) {}
+          `,
+        }}
+      />
       {/* Google Tag Manager */}
       <script
         dangerouslySetInnerHTML={{
@@ -115,11 +127,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'EducationalOrganization',
+              '@id': 'https://kni.vn/#organization',
               name: 'KNI Education',
               url: 'https://kni.vn',
               logo: 'https://kni.vn/images/logo.avif',
               description:
                 'Trung tâm luyện thi TestAS uy tín tại TP.HCM với tỷ lệ đậu 95%. Tư vấn du học Đức và VGU miễn phí.',
+              founder: {
+                '@type': 'Person',
+                '@id': 'https://kni.vn/#founder',
+                name: 'Khánh Nhật',
+                jobTitle: 'Founder & TestAS Lead Instructor',
+                email: 'nhat@kni.vn',
+                alumniOf: {
+                  '@type': 'CollegeOrUniversity',
+                  name: 'Vietnamese-German University (VGU)'
+                }
+              },
               contactPoint: [
                 {
                   '@type': 'ContactPoint',
@@ -134,6 +158,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 addressLocality: 'Thành phố Hồ Chí Minh',
                 addressCountry: 'VN',
               },
+              areaServed: [
+                {
+                  '@type': 'City',
+                  name: 'Thành phố Hồ Chí Minh',
+                },
+                {
+                  '@type': 'Country',
+                  name: 'Việt Nam',
+                },
+              ],
               sameAs: [
                 'https://www.facebook.com/testascandidates',
                 'https://www.instagram.com/khanhnhatinstitute/',
@@ -149,8 +183,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
+              '@id': 'https://kni.vn/#website',
               name: 'KNI Education',
-              url: 'https://kni.vn/'
+              url: 'https://kni.vn/',
+              publisher: {
+                '@id': 'https://kni.vn/#organization',
+              },
+              inLanguage: ['vi-VN', 'en-US'],
             })
           }}
         />

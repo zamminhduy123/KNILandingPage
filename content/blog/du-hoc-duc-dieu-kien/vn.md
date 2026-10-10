@@ -2,14 +2,16 @@
 title: "Điều Kiện Du Học Đức Bằng TestAS: Quy Định Mới, Chọn Module Và Điểm An Toàn"
 slug: "du-hoc-duc-dieu-kien"
 date: "2026-09-05"
+updated: "2026-10-09"
 description: "Hướng dẫn chi tiết điều kiện du học Đức bằng TestAS: đối tượng bắt buộc, quy trình thẩm tra APS, cách chọn 6 module Digital TestAS và mức điểm an toàn vào đại học Đức."
+quickAnswer: "Đối với học sinh tốt nghiệp THPT tại Việt Nam, bài thi TestAS là điều kiện bắt buộc để hoàn thiện thủ tục thẩm tra APS và nộp hồ sơ qua Uni-assist vào các trường đại học tại Đức. Thí sinh có thể chọn thi bằng tiếng Anh hoặc tiếng Đức, chứng chỉ có giá trị vĩnh viễn. Mức điểm an toàn xét tuyển đại học Đức thường từ 100 điểm trở lên (mức trung bình chuẩn toàn cầu) và trên 110 điểm cho các trường danh tiếng."
 category: "Du học Đức"
 image: "/images/blog/dieu-kien-du-hoc-duc-bang-testas.webp"
 ---
 
 # Điều Kiện Du Học Đức Bằng TestAS: Quy Định Bắt Buộc, Chọn Module Và Mức Điểm An Toàn
 
-Học sinh tốt nghiệp Trung học Phổ thông (THPT) tại Việt Nam muốn du học đại học tại Đức bắt buộc phải tham gia kỳ thi TestAS. Kết quả bài thi là điều kiện tiên quyết để được cấp chứng nhận thẩm tra học thuật APS và nộp hồ sơ xét tuyển qua hệ thống Uni-assist. Bạn có thể chọn thi bằng tiếng Anh hoặc tiếng Đức với chứng chỉ có giá trị sử dụng vĩnh viễn.
+Học sinh tốt nghiệp Trung học Phổ thông (THPT) tại Việt Nam muốn du học đại học tại Đức bắt buộc phải tham gia kỳ thi TestAS. Kết quả bài thi là điều kiện tiên quyết để được cấp chứng nhận thẩm tra học thuật APS và nộp hồ sơ xét tuyển qua hệ thống [Uni-assist](https://www.uni-assist.de). Bạn có thể chọn thi bằng tiếng Anh hoặc tiếng Đức với chứng chỉ có giá trị sử dụng vĩnh viễn.
 
 Nếu bạn chưa nắm rõ định dạng bài thi, lệ phí và các thủ tục cơ bản, hãy đọc trước [bài viết tổng quan về kỳ thi TestAS](/vn/blog/testas-la-gi) trên website của KNI.
 
@@ -19,7 +21,7 @@ Nếu bạn chưa nắm rõ định dạng bài thi, lệ phí và các thủ t�
 
 ## Du học Đức có cần thi TestAS không? Quy định từ APS và DAAD
 
-Theo quy định tuyển sinh của Cơ quan Trao đổi Hàn lâm Đức (DAAD) và Bộ phận Thẩm tra Học thuật (APS) thuộc Đại sứ quán Đức tại Hà Nội, TestAS (Test for Academic Studies) là bài thi đánh giá năng lực tư duy bắt buộc đối với hầu hết sinh viên ngoài khối Liên minh Châu Âu (EU) muốn theo học bậc Cử nhân tại Đức.
+Theo quy định tuyển sinh của [Cơ quan Trao đổi Hàn lâm Đức (DAAD)](https://www.daad-vietnam.vn) và [Bộ phận Thẩm tra Học thuật (APS)](https://vietnam.diplo.de/vn-vi/dichvudaissquan/aps) thuộc Đại sứ quán Đức tại Hà Nội, [TestAS](https://www.testas.de) (*Test for Academic Studies*) là bài thi đánh giá năng lực tư duy bắt buộc đối với hầu hết sinh viên ngoài khối Liên minh Châu Âu (EU) muốn theo học bậc Cử nhân tại Đức.
 
 ### Quy định cụ thể theo từng nhóm đối tượng
 
@@ -34,7 +36,7 @@ Chứng chỉ TestAS giữ vai trò quyết định trong 4 bước liên tiếp
 ![4 bước hoàn thiện hồ sơ du học Đức cùng chứng chỉ TestAS](/images/blog/4-buoc-du-hoc-duc.webp)
 
 1. **Thẩm tra APS:** Đại sứ quán Đức chỉ cấp chứng nhận APS diện học sinh THPT khi bạn đã nộp phiếu điểm TestAS hợp lệ. Không có chứng nhận APS, bạn không thể tiến hành bất kỳ bước nộp hồ sơ nào tiếp theo.
-2. **Xét duyệt qua cổng Uni-assist:** Uni-assist là cơ quan xử lý hồ sơ đầu vào của hơn 180 trường đại học tại Đức. Khi quét hồ sơ, hệ thống sẽ đánh dấu hồ sơ không hợp lệ (Incomplete) và dừng xét duyệt nếu bạn chưa tải lên chứng chỉ TestAS đạt chuẩn.
+2. **Xét duyệt qua cổng Uni-assist:** [Uni-assist](https://www.uni-assist.de) là cơ quan xử lý hồ sơ đầu vào của hơn 180 trường đại học tại Đức. Khi quét hồ sơ, hệ thống sẽ đánh dấu hồ sơ không hợp lệ (Incomplete) và dừng xét duyệt nếu bạn chưa tải lên chứng chỉ TestAS đạt chuẩn.
 3. **Cạnh tranh chỉ tiêu giới hạn (Numerus Clausus - NC):** Các ngành có giới hạn chỉ tiêu (như Y khoa, Dược, Khoa học Máy tính, Quản trị Kinh doanh) sử dụng điểm TestAS để cộng trực tiếp vào điểm tốt nghiệp THPT quy đổi (Abitur quy đổi). Điểm TestAS càng cao thì cơ hội nhận giấy mời nhập học (*Zulassungsbescheid*) càng lớn.
 4. **Hồ sơ xin visa:** Bảng điểm TestAS đạt kết quả tốt là bằng chứng rõ ràng cho thấy bạn có đủ năng lực nhận thức để hoàn thành chương trình đại học, giúp hồ sơ xin visa minh bạch và thuận lợi hơn.
 

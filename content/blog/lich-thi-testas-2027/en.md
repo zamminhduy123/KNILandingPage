@@ -2,7 +2,9 @@
 title: "Official TestAS Exam Dates 2027: Fees, Exam Structure, and Registration Guide"
 slug: "lich-thi-testas-2027"
 date: "2026-09-04"
+updated: "2026-10-09"
 description: "Latest official 2027 TestAS dates from g.a.s.t.: deadlines, paper vs digital test dates, fees, subtest structure, and admissions requirements for VGU and German universities."
+quickAnswer: "The 2027 TestAS schedule features 6 official test dates by g.a.s.t. (3 Paper sessions in Feb, Apr, Oct; 3 Digital sessions in Mar, Jun, Nov). The international exam fee is 150 EUR. Scores never expire and are mandatory for German APS certificates and direct scholarship admissions (25-100%) at Vietnamese-German University (VGU)."
 category: "Exam Dates"
 image: "/images/blog/lich-thi-testas-2027.webp"
 ---

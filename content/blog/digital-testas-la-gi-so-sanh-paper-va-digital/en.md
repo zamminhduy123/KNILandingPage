@@ -2,14 +2,16 @@
 title: "What is Digital TestAS? Detailed Comparison Between Paper-based and Digital TestAS"
 slug: "digital-testas-la-gi-so-sanh-paper-va-digital"
 date: "2026-09-03"
+updated: "2026-10-09"
 description: "Learn what Digital TestAS is and compare Paper-based vs Digital TestAS in detail: test format, scratchpad rules, one-way navigation, and how to choose the right format."
+quickAnswer: "Digital TestAS is the computer-based version of the standardized TestAS exam administered at certified test centers. Compared to Paper TestAS, Digital TestAS is shorter (3.5 hours vs 5 hours), offers 6 subject modules instead of 4, enforces one-way question navigation with per-item timers, and uses a digital on-screen scratchpad. Both formats are issued by the TestDaF Institute / g.a.s.t. with lifetime validity and equal recognition."
 category: "Test Preparation"
 image: "/images/blog/so-sanh-testas-paper-va-digital.webp"
 ---
 
 # What is Digital TestAS? Detailed Comparison Between Paper-based and Digital TestAS
 
-Digital TestAS is the fully computer-based version of the standardized TestAS examination, administered at authorized testing centers worldwide. The most prominent differences between the two formats lie in the testing experience: Digital TestAS reduces total test time to approximately 3.5 hours, prohibits physical scratch paper, enforces strict one-way navigation (no returning to prior questions), and expands available subject modules to six instead of four.
+Digital TestAS is the fully computer-based version of the standardized [TestAS](https://www.testas.de) examination, administered at authorized testing centers worldwide. The most prominent differences between the two formats lie in the testing experience: Digital TestAS reduces total test time to approximately 3.5 hours, prohibits physical scratch paper, enforces strict one-way navigation (no returning to prior questions), and expands available subject modules to six instead of four.
 
 If you are deciding whether to register for the paper-based or computer-based test, this detailed side-by-side comparison will help you and your family select the format best matched to your strengths.
 
@@ -17,7 +19,7 @@ If you are deciding whether to register for the paper-based or computer-based te
 
 ## 1. What is Digital TestAS?
 
-Digital TestAS evaluates the cognitive abilities and academic aptitude of international students applying to undergraduate programs in Germany, delivered entirely via secure exam software on computer workstations.
+Digital TestAS evaluates the cognitive abilities and academic aptitude of international students applying to undergraduate programs in Germany, developed by the [TestDaF-Institut](https://www.testdaf.de) and [g.a.s.t.](https://www.testas.de) and delivered entirely via secure exam software on computer workstations.
 
 Just like the traditional paper version, Digital TestAS does not test rote memorization. It measures inductive and deductive reasoning, data analysis, and scientific problem-solving in either English or German.
 

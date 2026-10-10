@@ -13,6 +13,7 @@ export interface BlogFrontmatter {
   description: string;
   category: string;
   image: string;
+  quickAnswer?: string;
 }
 
 export interface BlogHeading {

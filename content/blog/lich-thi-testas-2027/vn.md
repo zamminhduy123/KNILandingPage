@@ -2,7 +2,9 @@
 title: "Lịch Thi TestAS 2027 Mới Nhất: Lệ Phí, Cấu Trúc Đề Và Cách Đăng Ký"
 slug: "lich-thi-testas-2027"
 date: "2026-09-04"
+updated: "2026-10-09"
 description: "Cập nhật lịch thi TestAS 2027 mới nhất từ tổ chức g.a.s.t.: thời hạn đăng ký, ngày thi giấy và máy tính, lệ phí, cấu trúc đề thi và điều kiện xét tuyển vào VGU cũng như du học Đức."
+quickAnswer: "Kỳ thi TestAS 2027 gồm 6 đợt thi chính thức từ g.a.s.t. (3 đợt Paper: tháng 2, 4, 10; 3 đợt Digital: tháng 3, 6, 11). Lệ phí thi quốc tế cố định là 150 Euro. Kết quả có giá trị vĩnh viễn, dùng bắt buộc cho hồ sơ thẩm tra APS du học Đức và xét tuyển thẳng kèm học bổng 25–100% tại Đại học Việt Đức (VGU)."
 category: "Lịch thi TestAS"
 image: "/images/blog/lich-thi-testas-2027.webp"
 ---
