@@ -491,11 +491,13 @@ export default async function BlogPostPage({ params }: Props) {
                 <span className="inline-flex items-center rounded-full bg-orange-100 px-3 py-1 text-xs font-medium text-orange-700">
                   {frontmatter.category}
                 </span>
-                <span className="text-sm text-gray-400">{formatDate(frontmatter.date, locale)}</span>
+                <time dateTime={frontmatter.date} className="text-sm text-gray-500">
+                  {formatDate(frontmatter.date, locale)}
+                </time>
                 {frontmatter.updated && (
-                  <span className="text-sm text-slate-500 font-medium">
+                  <time dateTime={frontmatter.updated} className="text-sm text-slate-500 font-medium">
                     • {locale === "vn" ? "Cập nhật:" : "Updated:"} {formatDate(frontmatter.updated, locale)}
-                  </span>
+                  </time>
                 )}
               </div>
 
