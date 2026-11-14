@@ -86,7 +86,6 @@ export default function FAQ() {
     { q: t("items.5.q"), a: t("items.5.a") },
     { q: t("items.6.q"), a: t("items.6.a") },
     { q: t("items.7.q"), a: t("items.7.a") },
-    { q: t("items.8.q"), a: t("items.8.a") },
   ];
 
   return (

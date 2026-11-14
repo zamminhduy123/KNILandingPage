@@ -625,8 +625,8 @@ export default async function BlogPostPage({ params }: Props) {
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     {locale === "vn" 
-                      ? "Người sáng lập KNI Education, với hơn 3 năm đào tạo TestAS thực chiến, hỗ trợ hàng trăm học viên đạt điểm cao xét học bổng VGU & du học Đức."
-                      : "Founder of KNI Education, with 3+ years of TestAS training, supporting hundreds of students in VGU admissions and study in Germany."}
+                      ? "Người sáng lập KNI Education, với 4 năm đào tạo TestAS thực chiến, hỗ trợ hàng trăm học viên đạt điểm cao xét học bổng VGU & du học Đức."
+                      : "Founder of KNI Education, with 4 years of TestAS training, supporting hundreds of students in VGU admissions and study in Germany."}
                   </p>
                 </div>
 

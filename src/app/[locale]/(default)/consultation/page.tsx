@@ -97,15 +97,15 @@ export default async function Consultation({ params }: Props) {
             <h1
               className="text-3xl md:text-4xl font-bold text-black mb-2"
             >
-              {t("title")}{" "}{t("free")}<span className="text-black">.</span>
+              {t("title")}{t("free") ? ` ${t("free")}` : ""}<span className="text-black">.</span>
             </h1>
             <p
               className="text-gray-600 mb-2"
             >
-              {t("description.line1")}{" "}{t("description.line2")}{" "}{t("description.line3")}
+              {t("description.line1")}{" "}{t("description.line3")}
             </p>
             <p
-              className="text-[#ff914d] font-bold mb-2"
+              className="text-orange-600 font-bold mb-2"
             >
               {t("description.line4")}
             </p>

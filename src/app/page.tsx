@@ -4,7 +4,7 @@ import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: "Luyện thi TestAS chuẩn cam kết đầu ra | KNI Education",
-  description: "KNI Education - Học viện chuyên sâu luyện thi TestAS chuẩn hóa tại TP.HCM. Tỷ lệ đậu 95%, cam kết điểm số 100+, tư vấn du học Đức & xét tuyển VGU miễn phí.",
+  description: "KNI Education - Học viện chuyên sâu luyện thi TestAS chuẩn hóa online. Tỷ lệ đậu 97%, cam kết điểm số 100+, tư vấn du học Đức & xét tuyển VGU miễn phí.",
   alternates: {
     canonical: "https://kni.vn/vn/",
     languages: {
@@ -76,7 +76,7 @@ export default function RootPage() {
         "url": "https://kni.vn/",
         "name": "KNI Education",
         "logo": "https://kni.vn/images/logo.avif",
-        "description": "Học viện chuyên sâu luyện thi TestAS chuẩn hóa (Paper & Digital) tại TP.HCM. Tỷ lệ đậu 95%, cam kết điểm số 100+, tư vấn du học Đức và xét tuyển Đại học Việt Đức (VGU).",
+        "description": "Học viện chuyên sâu luyện thi TestAS chuẩn hóa (Paper & Digital) trực tuyến. Tỷ lệ đậu 97%, cam kết điểm số 100+, tư vấn du học Đức và xét tuyển Đại học Việt Đức (VGU).",
         "founder": {
           "@type": "Person",
           "@id": "https://kni.vn/#founder",
@@ -190,7 +190,7 @@ export default function RootPage() {
             <h2 id="section-navigation" className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100">
               Khám phá các chương trình &amp; Tài nguyên học tập
             </h2>
-            <nav aria-label="Main Navigation Hub" className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <nav aria-label="Main Navigation Hub" className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <a
                 href="/vn/khoa-hoc-testas/"
                 className="p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-orange-50/50 hover:border-orange-200 transition-colors group"
@@ -200,18 +200,6 @@ export default function RootPage() {
                 </div>
                 <div className="text-sm text-slate-600 mt-1">
                   Lộ trình ôn luyện từ mất gốc đến nâng cao, cam kết điểm số 100+ cho mọi khối ngành.
-                </div>
-              </a>
-
-              <a
-                href="/vn/free-testas/"
-                className="p-4 rounded-xl border border-slate-100 bg-slate-50 hover:bg-orange-50/50 hover:border-orange-200 transition-colors group"
-              >
-                <div className="font-bold text-slate-900 group-hover:text-orange-600 transition-colors">
-                  Thi thử TestAS miễn phí &rarr;
-                </div>
-                <div className="text-sm text-slate-600 mt-1">
-                  Trải nghiệm đề thi chuẩn hóa, kiểm tra tư duy logic và nhận đánh giá năng lực chi tiết.
                 </div>
               </a>
 

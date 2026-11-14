@@ -155,10 +155,6 @@ export default function PrivacyPolicy({ params }: Props) {
                 <strong className="text-gray-900">{t("section6.li2").split(":")[0]}:</strong>
                 {t("section6.li2").substring(t("section6.li2").indexOf(":") + 1)}
               </li>
-              <li>
-                <strong className="text-gray-900">{t("section6.li3").split(":")[0]}:</strong>
-                {t("section6.li3").substring(t("section6.li3").indexOf(":") + 1)}
-              </li>
             </ul>
           </div>
         </div>

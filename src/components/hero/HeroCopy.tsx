@@ -9,8 +9,8 @@ export default function HeroCopy() {
     <div className="flex max-w-4xl flex-col items-center justify-start text-center">
       <span className="mb-4 text-sm font-bold uppercase text-orange-600 sm:text-base">
         {isEn
-          ? "TestAS Preparation · HCMC & Online"
-          : "Luyện thi TestAS · TP.HCM & Online"}
+          ? "TestAS Preparation · Online"
+          : "Luyện thi TestAS · Online"}
       </span>
 
       <h1 className="mb-4 text-4xl sm:text-7xl md:text-3xl lg:text-6xl font-black leading-[1.25] text-slate-950">
@@ -42,9 +42,9 @@ export default function HeroCopy() {
       <div className="flex w-full flex-col items-center justify-center gap-4 sm:w-auto sm:flex-row md:flex-col lg:flex-row">
         <Link
           href={`/${locale}/consultation/`}
-          className="inline-flex min-h-[62px] w-full items-center justify-center rounded-xl bg-orange-600 px-9 text-base font-bold text-white shadow-[0_14px_28px_rgba(234,88,12,0.22)] transition-colors duration-200 hover:bg-orange-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 sm:w-auto"
+          className="inline-flex min-h-[62px] w-full items-center justify-center rounded-xl bg-orange-600 px-9 text-base font-bold text-white shadow-[0_14px_28px_rgba(232,112,42,0.24)] transition-colors duration-200 hover:bg-orange-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600 sm:w-auto"
         >
-          {isEn ? "Book a trial class" : "Đăng ký học thử"}
+          {isEn ? "Sign up" : "Đăng ký"}
           <svg
             className="ml-3 h-5 w-5"
             fill="none"

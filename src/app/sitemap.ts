@@ -19,7 +19,6 @@ const LOCALES = [
 const STATIC_PAGES = [
   '',
   'khoa-hoc-testas',
-  'free-testas',
   'contact',
   'consultation',
   'blog',
