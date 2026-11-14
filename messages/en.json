@@ -1,17 +1,16 @@
 {
   "HomePage": {
     "home": "Home",
-    "consultation": "Free Consultation + Trial Lesson",
-    "freeTest": "Free TestAS Practice",
+    "consultation": "Free Consultation",
     "contact": "Contact",
-    "signup": "Sign Up for a Trial Lesson",
+    "signup": "Sign Up",
     "course": "TestAS Course",
     "knowledge": "TestAS Knowledge",
     "about": "About KNI",
     "privacyPolicy": "Privacy Policy",
-    "heroTitle": "Expert TestAS Coaching. Proven Roadmap to 95% Pass Rate.",
-    "heroSubtitle": "Afraid of failing TestAS and missing your chance to study in Germany? Join the center that has helped 95% of students pass—2 years leading in quality and materials in Vietnam!",
-    "heroImageAlt": "KNI Education - Expert TestAS coaching in Ho Chi Minh City",
+    "heroTitle": "Expert TestAS Coaching. Proven Roadmap to 97% Pass Rate.",
+    "heroSubtitle": "Afraid of failing TestAS and missing your chance to study in Germany? Join the center that has helped 97% of students pass—4 years leading in quality and materials in Vietnam!",
+    "heroImageAlt": "KNI Education - Expert Online TestAS coaching",
     "enrollNow": "Enroll Now",
     "exploreCourses": "Explore Courses",
     "stats": {
@@ -90,10 +89,10 @@
       "subheading": "Hello, My Name Is Nhật",
       "description": {
         "item1": "Former VGU MEN Student, Class of 18-22",
-        "item2": "4 Consecutive Years of Scholarships (50-50-100-50%)",
+        "item2": "4 Consecutive Years of Teaching TestAS - Successful Rate 97%",
         "item3": "ABB Robotics Engineer",
         "item4": "TestAS: 125/130",
-        "item5": "2 Years Teaching TestAS – 95% Pass Rate"
+        "item5": "4 Years Teaching TestAS – 97% Pass Rate"
       },
       "quote": "I believe that education in Germany is the best opportunity for Vietnamese students’ future careers due to its global quality and near-zero tuition fees. That’s why I strive to bring the best opportunities to the most determined young people with this goal.",
       "signature": {
@@ -130,10 +129,10 @@
         "title": "TestAS Prep Target VGU",
         "popular": "Most Popular",
         "price": "8.500.000đ",
-        "btn": "Sign Up for Free Trial",
+        "btn": "Sign up now",
         "features": [
           "Core Test + Specialized Module",
-          "Study online or offline in Ho Chi Minh City",
+          "Study online every where",
           "Personalized / small group class",
           "Focused on your weak spots",
           "Mock tests with feedback & scoring",
@@ -188,18 +187,17 @@
       "title": "Student Satisfaction"
     },
     "cta": {
-      "contact": "Contact for Free Consultation + Trial Lesson",
+      "contact": "Contact for Free Consultation",
       "registerNow": "Register Now"
     }
   },
   "Consultation": {
     "label": "Contact",
-    "title": "Consultation + Trial Lesson",
-    "free": "Free",
+    "title": "Free Consultation",
+    "free": "",
     "imageAlt": "Free TestAS consultation at KNI Education",
     "description": {
       "line1": "Want to know everything about TestAS, VGU, or studying in Germany for your upcoming journey?",
-      "line2": "Or do you want to experience a trial lesson with KNI?",
       "line3": "Fill out the form below, and we’ll get back to you within 24 hours.",
       "line4": "No obligations, no cost."
     },
@@ -241,8 +239,8 @@
         "value": "nhat@kni.vn"
       },
       "3": {
-        "label": "Location",
-        "value": "Ho Chi Minh City, Vietnam"
+        "label": "Format",
+        "value": "100% Online everywhere"
       }
     },
     "SocialMedia": "Social Media"
@@ -251,8 +249,6 @@
     "title": "Thank you",
     "subtitle": "The free practice set will arrive in your email within 5 minutes.",
     "checkSpam": "CHECK YOUR SPAM FOLDER if you don’t find it after the specified time.",
-    "freeVideoTitle": "Want to try a free lesson?",
-    "freeVideoDescription": "After solving the practice set, would you like to know if your results are good enough to achieve your desired score in the real test? Or would you like an expert to analyze your strengths and weaknesses through the test to help you create a suitable self-study plan?",
     "contactPrompt": "Register now and we’ll call you for a free consultation!",
     "registerNow": "Register Now"
   },
@@ -320,7 +316,7 @@
     "intro": "At KNI Education, accessible from kni.vn, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by KNI Education and how we use it.",
     "section1": {
       "title": "1. Information We Collect",
-      "p1": "When you sign up for a free consultation, trial lesson, or download our TestAS practice tests, we collect the personal information you provide to us. This includes:",
+      "p1": "When you sign up for a free consultation, we collect the personal information you provide to us. This includes:",
       "li1": "Full Name",
       "li2": "Zalo Phone Number",
       "li3": "Email Address",
@@ -331,7 +327,7 @@
       "title": "2. How We Use Your Information",
       "p1": "We use the information we collect in various ways, including to:",
       "li1": "Send you the requested TestAS practice materials and updates.",
-      "li2": "Contact you via Zalo/phone/email to schedule free consultation calls or trial lessons.",
+      "li2": "Contact you via Zalo/phone/email to schedule free consultation calls.",
       "li3": "Provide, operate, and maintain our website and services.",
       "li4": "Improve, personalize, and expand our website and educational offerings.",
       "li5": "Understand and analyze how you use our website."
@@ -357,8 +353,7 @@
       "title": "6. Contact Us",
       "p1": "If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us:",
       "li1": "Email: nhat@kni.vn",
-      "li2": "Phone: +84 091-839-1099",
-      "li3": "Location: Ho Chi Minh City, Vietnam"
+      "li2": "Phone: +84 091-839-1099"
     }
   },
   "MentorPage": {
@@ -369,10 +364,10 @@
     "bioDesc": "I'm Nhật, graduated from Van Lang University (VGU) MEN class of 18-22. During my 4 years at university, I received consecutive scholarships at 50-50-100-50% levels. I then continued studying robotics engineering at ABB and scored 125/130 on the TestAS exam.",
     "achievementTitle": "Achievements",
     "achievement1": "VGU MEN Alumni, Class of 18-22",
-    "achievement2": "4 consecutive years of scholarships (50-50-100-50%)",
+    "achievement2": "4 Consecutive Years of Teaching TestAS - Successful Rate 97%",
     "achievement3": "ABB Robotics Engineer",
     "achievement4": "TestAS: 125/130",
-    "achievement5": "2 years teaching TestAS – 95% pass rate",
+    "achievement5": "4 years teaching TestAS – 97% pass rate",
     "philosophyTitle": "Teaching Philosophy",
     "philosophyQuote": "I believe that education in Germany is the best opportunity for Vietnamese students' future careers due to its global quality and near-zero tuition fees. That's why I strive to bring the best opportunities to the most determined young people with this goal.",
     "whyTitle": "Why Learn With Nhật",
@@ -381,15 +376,14 @@
     "why3": "Personal experience studying and living in Germany",
     "why4": "Personalized teaching methodology",
     "ctaTitle": "Book a Consultation With Nhật",
-    "ctaSubtitle": "Sign up for a free trial to experience Nhật's teaching method and receive a personalized TestAS preparation roadmap."
+    "ctaSubtitle": "Sign up for a free consultation to receive a personalized TestAS preparation roadmap with Nhật."
   },
   "CoursePage": {
     "heroLabel": "Premium TestAS Course",
     "heroTitle": "Comprehensive TestAS Course",
     "heroSubtitle": "4-step roadmap from fundamentals to advanced. Free support guarantee until you reach your target score.",
     "heroImageAlt": "KNI instructor guiding TestAS preparation",
-    "enrollNow": "Sign Up for Free Trial",
-    "freePractice": "Free TestAS Practice",
+    "enrollNow": "Enroll Now",
     "stat1_label": "Graduates",
     "stat2_label": "Pass Rate",
     "stat3_label": "Years Experience",
@@ -409,26 +403,23 @@
     "optionsTitle": "Choose the format that suits you best",
     "onlineGroupTitle": "Online Group Class",
     "onlineGroupPrice": "4,500,000 VND/course",
-    "inPersonTitle": "In-Person Class",
-    "inPersonPrice": "6,500,000 VND/course",
     "oneOnOneTitle": "Private Tutoring",
     "oneOnOnePrice": "Contact for pricing",
     "feature1": "Updated TestAS preparation materials",
     "feature2": "Teacher from VGU, TestAS 125/130",
     "feature3": "Free support guarantee until you pass",
-    "featureOnline": "Online via Zoom, recorded lectures",
-    "featureInPerson": "In-person classes at our HCMC center",
+    "featureOnline": "Online everywhere, recorded lectures",
     "featureOneOnOne": "Personalized roadmap based on your target score",
     "whyLabel": "Why Choose KNI",
     "whyTitle": "Guided by experts",
-    "whyItem1": "95% of students reach their target score",
+    "whyItem1": "97% of students reach their target score",
     "whyItem2": "Direct teachers from VGU, TestAS 125/130",
     "whyItem3": "TestAS materials updated to the latest structure",
     "whyItem4": "Free support until you achieve your target score",
     "learnMore": "Learn about Nhật",
     "tutorImageAlt": "Instructor Nhật - TestAS Expert",
     "ctaTitle": "Start your TestAS journey today",
-    "ctaSubtitle": "Sign up for a free trial to experience KNI teaching methods. No commitment, no cost."
+    "ctaSubtitle": "Sign up to receive a personalized TestAS preparation roadmap. No commitment, no cost."
   },
   "WhyTestAS": {
     "title": "TestAS is not just an exam — it is a gateway to opportunity.",
@@ -447,20 +438,20 @@
   },
   "StatsBar": {
     "stat1": {
-      "value": "95%+",
+      "value": "97%+",
       "label": "Student pass rate"
     },
     "stat2": {
-      "value": "100+",
+      "value": "200+",
       "label": "Students trained"
     },
     "stat3": {
-      "value": "Online & Offline",
-      "label": "in Ho Chi Minh City"
+      "value": "Online",
+      "label": "Learn anywhere everywhere"
     },
     "stat4": {
-      "value": "1:1",
-      "label": "Personalised roadmap"
+      "value": "1:1 & small groups",
+      "label": "Max 8 students per class"
     },
     "stat5": {
       "value": "100%",
@@ -477,8 +468,8 @@
         "a": "The course is suitable for all students planning to study in Germany and preparing for the TestAS exam — whether you are just starting out or already have some background knowledge."
       },
       {
-        "q": "Online or in-person?",
-        "a": "KNI offers both formats: online via Zoom (with recorded lectures) and in-person at our Ho Chi Minh City center. Choose the format that fits your schedule."
+        "q": "How do online classes work?",
+        "a": "All classes at KNI are taught 100% online everywhere (with recorded lectures), so you can study flexibly from anywhere."
       },
       {
         "q": "What if I miss a session?",
@@ -486,11 +477,7 @@
       },
       {
         "q": "How soon can I start?",
-        "a": "You can register for a free trial lesson today. The main course opens monthly — KNI will advise you on the nearest start date that fits your timeline."
-      },
-      {
-        "q": "Is there a free trial?",
-        "a": "Yes. KNI offers a free trial session so you can experience our teaching method before committing. No payment required, no strings attached."
+        "a": "The main course opens monthly — KNI will advise you on the nearest start date that fits your timeline."
       },
       {
         "q": "How long is the course?",
@@ -506,7 +493,7 @@
       },
       {
         "q": "Do you cover the specialized modules?",
-        "a": "Yes. KNI covers both the Core section and all specialized modules: Mathematics, Computer Science and Natural Sciences (MNS); Economics; Humanities, Cultural Studies and Social Sciences (HCS); and Engineering."
+        "a": "Yes. KNI covers both the Core section and all specialized modules: Mathematics, Computer Science and Natural Sciences (MNS); Economics; and Engineering."
       }
     ],
     "cta": "Still have questions? Get free advice"
@@ -528,9 +515,9 @@
     },
     "contact": {
       "title": "Contact KNI Education — Study in Germany & TestAS Prep",
-      "description": "Contact KNI Education via phone, email, or visit our office. Support for German study abroad advice and TestAS preparation.",
+      "description": "Contact KNI Education via phone, email, or social media. Online support for German study abroad advice and TestAS preparation.",
       "ogTitle": "Contact KNI Education",
-      "ogDescription": "Office in HCMC & Hanoi. Hotline: +84-91-839-1099.",
+      "ogDescription": "100% Online TestAS Preparation. Hotline: +84-91-839-1099.",
       "ogImageAlt": "Contact KNI Education"
     },
     "freeTestas": {
@@ -593,7 +580,7 @@
     },
     "cta": {
       "question": "Want to know what goal you can achieve?",
-      "button": "Book a Trial Lesson"
+      "button": "Sign Up Now"
     }
   },
   "NotFound": {

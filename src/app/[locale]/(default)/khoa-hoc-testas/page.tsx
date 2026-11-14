@@ -173,32 +173,9 @@ export default async function CoursePage({
       },
       {
         "@type": "CourseInstance",
-        "name": t("inPersonTitle"),
-        "description": `${t("feature1")}. ${t("feature2")}. ${t("featureInPerson")}`,
-        "courseMode": "onsite",
-        "location": {
-          "@type": "Place",
-          "name": "KNI Education Center",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Thành phố Hồ Chí Minh",
-            "addressCountry": "VN"
-          }
-        },
-        "offers": {
-          "@type": "Offer",
-          "price": "6500000",
-          "priceCurrency": "VND",
-          "availability": "https://schema.org/InStock",
-          "url": `https://kni.vn/${locale}/consultation/`,
-          "validFrom": "2024-01-01"
-        }
-      },
-      {
-        "@type": "CourseInstance",
         "name": t("oneOnOneTitle"),
         "description": `${t("feature1")}. ${t("feature2")}. ${t("featureOneOnOne")}`,
-        "courseMode": "blended",
+        "courseMode": "online",
         "offers": {
           "@type": "Offer",
           "price": "8500000",
@@ -232,12 +209,6 @@ export default async function CoursePage({
                 >
                   {t("enrollNow")} <span>→</span>
                 </a>
-                <a
-                  href={`${localePath}/free-testas/`}
-                  className="border border-gray-600 text-white px-8 py-4 rounded-full font-bold hover:border-orange-500 transition"
-                >
-                  {t("freePractice")}
-                </a>
               </div>
             </div>
             <div className="hidden lg:flex justify-center">
@@ -260,9 +231,9 @@ export default async function CoursePage({
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { num: "100+", labelKey: "stat1_label" },
-              { num: "95%", labelKey: "stat2_label" },
-              { num: "2+", labelKey: "stat3_label" },
+              { num: "200+", labelKey: "stat1_label" },
+              { num: "97%", labelKey: "stat2_label" },
+              { num: "4+", labelKey: "stat3_label" },
               { num: "4", labelKey: "stat4_label" },
             ].map((stat, i) => (
               <div key={i} className="text-center">
@@ -306,20 +277,12 @@ export default async function CoursePage({
             <p className="text-orange-500 font-semibold tracking-wider uppercase mb-3">{t("optionsLabel")}</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{t("optionsTitle")}</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <CourseCard
               icon={FaUsers}
               title={t("onlineGroupTitle")}
               price={t("onlineGroupPrice")}
               features={[t("feature1"), t("feature2"), t("feature3"), t("featureOnline")]}
-              locale={locale}
-              enrollText={t("enrollNow")}
-            />
-            <CourseCard
-              icon={FaChalkboardTeacher}
-              title={t("inPersonTitle")}
-              price={t("inPersonPrice")}
-              features={[t("feature1"), t("feature2"), t("feature3"), t("featureInPerson")]}
               highlight
               locale={locale}
               enrollText={t("enrollNow")}

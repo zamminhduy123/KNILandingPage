@@ -70,11 +70,7 @@ export default function ThankYouPage({ params }: Props) {
           {t("title")} <span className="text-orange-600">!</span>
         </h1>
         <p className="text-gray-600 mb-2">{t("subtitle")}</p>
-        <p className="text-gray-600 mb-4 font-bold">{t("checkSpam")}</p>
-        <h2 className="text-2xl font-semibold text-orange-600 mb-4">
-          {t("freeVideoTitle")}
-        </h2>
-        <p className="text-gray-600 mb-6">{t("freeVideoDescription")}</p>
+        <p className="text-gray-600 mb-6 font-bold">{t("checkSpam")}</p>
         <p className="text-gray-600 mb-6">{t("contactPrompt")}</p>
 
         {/* Register Now Button */}

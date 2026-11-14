@@ -30,7 +30,7 @@ export default function HeroStats() {
       {cards.map((card, i) => (
         <div
           key={i}
-          className={`flex min-h-[96px] flex-1 items-center gap-4 rounded-[22px] border border-orange-100/90 bg-white/95 px-6 py-5 text-left shadow-[0_18px_48px_rgba(249,115,22,0.12)] backdrop-blur-sm ${card.className}`}
+          className={`flex min-h-[96px] flex-1 items-center gap-4 rounded-[22px] border border-orange-100/90 bg-white/95 px-6 py-5 text-left shadow-[0_18px_48px_rgba(255,144,77,0.12)] backdrop-blur-sm ${card.className}`}
         >
           <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-orange-50 text-3xl leading-none">
             {card.emoji}

@@ -124,7 +124,7 @@ export default function Tutor() {
                     {renderDescriptionWithMultipleHighlights(t("description.item4"), ["125/130"], 'text-orange-500 font-bold')}
                 </p>
             </li>
-              {listItem(renderDescriptionWithMultipleHighlights(t("description.item5"), ["95%"], 'text-orange-500 font-bold'), FaCheck)}
+              {listItem(renderDescriptionWithMultipleHighlights(t("description.item5"), ["97%"], 'text-orange-500 font-bold'), FaCheck)}
               
             </ul>
             {/* Highlighted Quote */}

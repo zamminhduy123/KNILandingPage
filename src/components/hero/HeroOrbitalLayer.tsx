@@ -58,7 +58,7 @@ function GlowOrb({ className, delay = 0 }: { className: string; delay?: number }
 
   return (
     <motion.span
-      className={`absolute rounded-full border border-orange-200/70 bg-white/80 shadow-[0_0_26px_rgba(249,115,22,0.32)] ${className}`}
+      className={`absolute rounded-full border border-orange-200/70 bg-white/80 shadow-[0_0_26px_rgba(255,144,77,0.32)] ${className}`}
       animate={shouldReduceMotion ? undefined : { opacity: [0.5, 1, 0.55], scale: [0.92, 1.08, 0.92] }}
       transition={
         shouldReduceMotion
@@ -127,7 +127,7 @@ function ScoreCard() {
       </div>
       <p className="mb-1 text-sm font-bold uppercase text-slate-500">PERCENTILE</p>
       <div className="flex items-end justify-between gap-4">
-        <span className="text-[2.25rem] font-black leading-none text-orange-600">95%</span>
+        <span className="text-[2.25rem] font-black leading-none text-orange-600">97%</span>
         <div className="flex h-10 items-end gap-2 pb-1">
           {bars.map((height, index) => (
             <span
@@ -162,16 +162,16 @@ function RadarCard() {
             <path d={mid} fill="none" stroke="#fed7aa" strokeWidth="0.5" />
             <path
               d={data}
-              fill="rgba(249,115,22,0.18)"
-              stroke="#f97316"
+              fill="rgba(255,144,77,0.18)"
+              stroke="#FF904D"
               strokeLinejoin="round"
               strokeWidth="1.4"
             />
-            <circle cx="30" cy="15.7" r="1.6" fill="#f97316" />
-            <circle cx="46.7" cy="24.6" r="1.6" fill="#f97316" />
-            <circle cx="37.1" cy="39.8" r="1.6" fill="#f97316" />
-            <circle cx="21" cy="42.5" r="1.6" fill="#f97316" />
-            <circle cx="17.5" cy="25.9" r="1.6" fill="#f97316" />
+            <circle cx="30" cy="15.7" r="1.6" fill="#FF904D" />
+            <circle cx="46.7" cy="24.6" r="1.6" fill="#FF904D" />
+            <circle cx="37.1" cy="39.8" r="1.6" fill="#FF904D" />
+            <circle cx="21" cy="42.5" r="1.6" fill="#FF904D" />
+            <circle cx="17.5" cy="25.9" r="1.6" fill="#FF904D" />
           </g>
           <text x="37" y="8" className="fill-slate-500 text-[5px]">Logic</text>
           <text x="54" y="28" className="fill-slate-500 text-[5px]">Text</text>
@@ -201,16 +201,16 @@ function ProgressCard() {
             d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
           />
           <path
-            stroke="#fb4e06"
+            stroke="#FF904D"
             strokeWidth="4"
             strokeLinecap="round"
-            strokeDasharray="95, 100"
+            strokeDasharray="97, 100"
             fill="none"
             d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
           />
         </svg>
         <div className="absolute inset-0 flex items-center justify-center">
-          <span className="text-3xl font-black text-orange-600">95%</span>
+          <span className="text-3xl font-black text-orange-600">97%</span>
         </div>
       </div>
       <p className="mb-4 text-center text-sm font-medium text-slate-500">Hoàn thành mục tiêu</p>

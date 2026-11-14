@@ -26,7 +26,7 @@ type Props = {
 
 // themeColor is a viewport field in Next 15+; putting it in `metadata` silently drops the tag.
 export const viewport: Viewport = {
-  themeColor: '#ff914d',
+  themeColor: '#FF904D',
 };
 
 // Site-wide defaults that all pages inherit
@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       template: "%s | KNI Education",
       default: "KNI Education",
     },
-    description: 'KNI - Trung tâm luyện thi TestAS uy tín tại TP.HCM. Tỷ lệ đậu 95%, tư vấn du học Đức & VGU miễn phí.',
+    description: 'KNI - Trung tâm luyện thi TestAS online uy tín. Tỷ lệ đậu 97%, tư vấn du học Đức & VGU miễn phí.',
     manifest: '/manifest.json',
     icons: {
       icon: [
@@ -52,6 +52,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: "KNI Education",
       type: "website",
       locale: locale === "en" ? "en_US" : "vi_VN",
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
     },
   };
 }
@@ -132,7 +143,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               url: 'https://kni.vn',
               logo: 'https://kni.vn/images/logo.avif',
               description:
-                'Trung tâm luyện thi TestAS uy tín tại TP.HCM với tỷ lệ đậu 95%. Tư vấn du học Đức và VGU miễn phí.',
+                'Trung tâm luyện thi TestAS online uy tín với tỷ lệ đậu 97%. Tư vấn du học Đức và VGU miễn phí.',
               founder: {
                 '@type': 'Person',
                 '@id': 'https://kni.vn/#founder',
@@ -153,19 +164,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   availableLanguage: ['English', 'Vietnamese'],
                 },
               ],
-              address: {
-                '@type': 'PostalAddress',
-                addressLocality: 'Thành phố Hồ Chí Minh',
-                addressCountry: 'VN',
-              },
               areaServed: [
-                {
-                  '@type': 'City',
-                  name: 'Thành phố Hồ Chí Minh',
-                },
                 {
                   '@type': 'Country',
                   name: 'Việt Nam',
+                },
+              ],
+              knowsAbout: [
+                {
+                  '@type': 'DefinedTerm',
+                  name: 'TestAS',
+                  description:
+                    'Standardized aptitude test for foreign students applying to German universities',
+                  sameAs: 'https://www.wikidata.org/wiki/Q1748834',
+                },
+                {
+                  '@type': 'Organization',
+                  name: 'g.a.s.t. e.V.',
+                  description:
+                    'Gesellschaft für Akademische Studienvorbereitung und Testentwicklung e.V.',
+                  sameAs: 'https://www.wikidata.org/wiki/Q1486749',
+                },
+                {
+                  '@type': 'CollegeOrUniversity',
+                  name: 'Vietnamese-German University (VGU)',
+                  sameAs: 'https://www.wikidata.org/wiki/Q2524458',
+                },
+                {
+                  '@type': 'Organization',
+                  name: 'German Academic Exchange Service (DAAD)',
+                  sameAs: 'https://www.wikidata.org/wiki/Q702842',
                 },
               ],
               sameAs: [

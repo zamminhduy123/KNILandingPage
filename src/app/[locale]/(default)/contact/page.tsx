@@ -7,7 +7,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Metadata } from "next";
 import { routing } from "@/src/i18n/routing";
-import { FaEnvelope, FaMapMarkerAlt, FaBuilding } from "react-icons/fa";
+import { FaEnvelope, FaGlobe, FaBuilding } from "react-icons/fa";
 import { use } from "react";
 
 type Props = {
@@ -98,7 +98,7 @@ export default async function Contact({ params }: Props) {
       isHighlighted: false,
     },
     {
-      icon: <FaMapMarkerAlt className="text-orange-600 text-2xl" />,
+      icon: <FaGlobe className="text-orange-600 text-2xl" />,
       label: t("items.3.label"),
       value: t("items.3.value"),
       isHighlighted: false,

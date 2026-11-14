@@ -1,17 +1,16 @@
 {
   "HomePage": {
     "home": "Trang Chủ",
-    "consultation": "Tư Vấn Miễn Phí + Học Thử",
-    "freeTest": "Đề TestAS FREE",
+    "consultation": "Tư Vấn Miễn Phí",
     "contact": "Liên Hệ",
-    "signup": "Đăng Ký Học Thử",
+    "signup": "Đăng Ký",
     "course": "Khóa Học TestAS",
     "knowledge": "Kiến Thức TestAS",
     "about": "Về KNI",
     "privacyPolicy": "Chính sách bảo mật",
-    "heroTitle": "Luyện Thi TestAS Cùng Chuyên Gia – Lộ Trình Đậu 95%.",
-    "heroSubtitle": "Sợ rớt TestAS, lo lỡ hẹn nước Đức? Đồng hành ngay với trung tâm đã giúp 95% học viên đậu—2 năm dẫn đầu chất lượng và tài liệu tại Việt Nam!",
-    "heroImageAlt": "KNI Education – Luyện thi TestAS chuyên nghiệp tại TP.HCM",
+    "heroTitle": "Luyện Thi TestAS Cùng Chuyên Gia – Lộ Trình Đậu 97%.",
+    "heroSubtitle": "Sợ rớt TestAS, lo lỡ hẹn nước Đức? Đồng hành ngay với trung tâm đã giúp 97% học viên đậu—4 năm dẫn đầu chất lượng và tài liệu tại Việt Nam!",
+    "heroImageAlt": "KNI Education – Luyện thi TestAS online chuyên nghiệp",
     "enrollNow": "Đăng Ký Ngay",
     "exploreCourses": "Khám Phá Khóa Học",
     "stats": {
@@ -90,12 +89,12 @@
       "subheading": "Hello, mình tên là Nhật",
       "description": {
         "item1": "Cựu sinh viên VGU MEN khóa 18-22",
-        "item2": "4 năm học bổng liên tiếp (50-50-100-50%)",
+        "item2": "4 năm dạy TestAS - tỉ lệ đậu 97%",
         "item3": "Kỹ sư robot ABB",
         "item4": "TestAS: 125/130",
-        "item5": "2 năm dạy TestAS – tỉ lệ đậu 95%"
+        "item5": "4 năm dạy TestAS – tỉ lệ đậu 97%"
       },
-      "quote": "Mình tin rằng giáo dục tại Đức là cơ hội tốt nhất cho sự nghiệp sau này của sinh viên Việt Nam vì chất lượng mang tính toàn cầu và học phí gần như không. Chính vì thế mình có gắng đem lại cơ hội tốt nhất đến những bạn trẻ quyết tâm nhất với mục tiêu này.",
+      "quote": "Mình tin rằng giáo dục tại Đức là cơ hội tốt nhất cho sự nghiệp sau này của sinh viên Việt Nam vì chất lượng mang tính toàn cầu và học phí gần như không. Chính vì thế mình cố gắng đem lại cơ hội tốt nhất đến những bạn trẻ quyết tâm nhất với mục tiêu này.",
       "signature": {
         "name": "Nhật, Người hướng dẫn của bạn"
       }
@@ -107,7 +106,7 @@
       "steps": {
         "0": {
           "title": "Mẹo và Bí quyết",
-          "description": "Tắt cả mẹo và bị quyết giải để nhanh và đơn giản."
+          "description": "Tất cả mẹo và bị quyết giải để nhanh và đơn giản."
         },
         "1": {
           "title": "Kiến thức chuyên ngành",
@@ -130,10 +129,10 @@
         "title": "Luyện thi TestAS hướng đến VGU",
         "popular": "Phổ biến nhất",
         "price": "8.500.000đ",
-        "btn": "Đăng ký học thử",
+        "btn": "Đăng ký ngay",
         "features": [
           "Core Test + Module tuỳ ngành",
-          "Học online hoặc offline tại TP.HCM",
+          "Học online",
           "Lớp cá nhân hoá / nhóm nhỏ",
           "Luyện đúng điểm yếu",
           "Mock test và chấm chữa",
@@ -188,18 +187,17 @@
       "title": "Sự hài lòng của học viên"
     },
     "cta": {
-      "contact": "Liên hệ để được tư vấn + học thử miễn phí",
+      "contact": "Liên hệ để được tư vấn miễn phí",
       "registerNow": "Đăng ký ngay"
     }
   },
   "Consultation": {
     "label": "Liên hệ",
-    "title": "Tư vấn + Học thử",
+    "title": "Tư vấn",
     "free": "miễn phí",
     "imageAlt": "Tư vấn miễn phí luyện thi TestAS tại KNI Education",
     "description": {
       "line1": "Bạn muốn biết tất cả thông tin về TestAS, VGU hay du học Đức cho hành trình sắp tới của bạn?",
-      "line2": "Hay bạn muốn trải nghiệm thử một lớp KNI?",
       "line3": "Điền đơn sau và chúng mình sẽ liên hệ lại với bạn trong vòng 24 tiếng.",
       "line4": "Không bắt buộc, không chi phí."
     },
@@ -216,7 +214,7 @@
     "title": "Đề TestAS miễn phí",
     "quote": "Em không ngờ là bài thi TestAS khó như vậy - 99% người thi TestAS",
     "description": {
-      "line1": "Dùng đề sư thửc chuyên bị là nguy hiểm bạn không được vào nào trước mơ ước của mình.",
+      "line1": "Dùng đề sư thức chuyên bị là nguy hiểm bạn không được vào nào trước mơ ước của mình.",
       "line2": "Bộ đề Core Test này cho bạn biết những gì căn chuẩn bị cho kỳ thi TestAS. Tham chi bạn được tăng kèm bộ Digital Core Test để bạn lựa chọn hình thức thi phù hợp với bạn nhất."
     },
     "form": {
@@ -241,8 +239,8 @@
         "value": "nhat@kni.vn"
       },
       "3": {
-        "label": "Vị trí",
-        "value": "Thành phố Hồ Chí Minh, Việt Nam"
+        "label": "Hình thức",
+        "value": "100% Online"
       }
     },
     "SocialMedia": "Mạng xã hội"
@@ -251,8 +249,6 @@
     "title": "Cảm ơn bạn",
     "subtitle": "Bộ đề miễn phí sẽ đến email của bạn trong vòng 5 phút.",
     "checkSpam": "KIỂM TRA MỤC THƯ RÁC nếu bạn không tìm thấy nó sau thời gian trên.",
-    "freeVideoTitle": "Muốn được học thử miễn phí?",
-    "freeVideoDescription": "Có thể sau khi giải xong đề bạn sẽ muốn được biết kết quả của bạn có đủ khá năng đạt điểm bạn mong muốn trong bài thi thật hay không? Hay bạn sẽ muốn được phân tích điểm mạnh và điểm yếu qua bài thi bởi người có kinh nghiệm để bạn có lộ trình tự học hợp lý?",
     "contactPrompt": "Hãy đăng ký ngay và chúng mình sẽ Alo tư vấn trực tiếp miễn phí cho bạn!",
     "registerNow": "Đăng Ký Ngay"
   },
@@ -320,7 +316,7 @@
     "intro": "Tại KNI Education (kni.vn), một trong những ưu tiên hàng đầu của chúng tôi là bảo vệ quyền riêng tư của khách truy cập. Tài liệu Chính sách Bảo mật này chứa các loại thông tin được thu thập, ghi lại bởi KNI Education và cách chúng tôi sử dụng nó.",
     "section1": {
       "title": "1. Thông Tin Chúng Tôi Thu Thập",
-      "p1": "Khi bạn đăng ký nhận tư vấn miễn phí, học thử hoặc tải về các đề thi TestAS miễn phí, chúng tôi sẽ thu thập thông tin cá nhân do bạn cung cấp bao gồm:",
+      "p1": "Khi bạn đăng ký nhận tư vấn miễn phí, chúng tôi sẽ thu thập thông tin cá nhân do bạn cung cấp bao gồm:",
       "li1": "Họ và tên",
       "li2": "Số điện thoại Zalo",
       "li3": "Địa chỉ Email",
@@ -331,7 +327,7 @@
       "title": "2. Cách Chúng Tôi Sử Dụng Thông Tin",
       "p1": "Chúng tôi sử dụng thông tin thu thập được cho các mục đích bao gồm:",
       "li1": "Gửi tài liệu ôn tập TestAS và các bản cập nhật mới nhất cho bạn.",
-      "li2": "Liên hệ qua Zalo/điện thoại/email để xếp lịch học thử hoặc tư vấn lộ trình.",
+      "li2": "Liên hệ qua Zalo/điện thoại/email để tư vấn lộ trình học tập.",
       "li3": "Cung cấp, vận hành và duy trì trang web cũng như dịch vụ của chúng tôi.",
       "li4": "Cải thiện, cá nhân hóa và mở rộng trang web cũng như các chương trình đào tạo.",
       "li5": "Tìm hiểu và phân tích cách bạn sử dụng trang web của chúng tôi."
@@ -357,8 +353,7 @@
       "title": "6. Liên Hệ Với Chúng Tôi",
       "p1": "Nếu bạn có bất kỳ câu hỏi hoặc góp ý nào về Chính sách Bảo mật của chúng tôi, xin vui lòng liên hệ trực tiếp:",
       "li1": "Email: nhat@kni.vn",
-      "li2": "Số điện thoại: +84 091-839-1099",
-      "li3": "Địa chỉ: Thành phố Hồ Chí Minh, Việt Nam"
+      "li2": "Số điện thoại: +84 091-839-1099"
     }
   },
   "MentorPage": {
@@ -369,10 +364,10 @@
     "bioDesc": "Mình là Nhật, tốt nghiệp Đại học Văn Lang (VGU) khóa MEN 18-22. Trong 4 năm đại học, mình nhận được học bổng liên tiếp với mức 50-50-100-50%. Sau đó mình tiếp tục học kỹ thuật robot tại ABB và đạt điểm 125/130 trong kỳ thi TestAS.",
     "achievementTitle": "Thành Tích",
     "achievement1": "Cựu sinh viên VGU MEN khóa 18-22",
-    "achievement2": "4 năm học bổng liên tiếp (50-50-100-50%)",
+    "achievement2": "4 năm dạy TestAS - tỉ lệ đậu 97%",
     "achievement3": "Kỹ sư robot ABB",
     "achievement4": "TestAS: 125/130",
-    "achievement5": "2 năm dạy TestAS – 95% học viên đậu",
+    "achievement5": "4 năm dạy TestAS – 97% học viên đậu",
     "philosophyTitle": "Triết Lý Giáo Dục",
     "philosophyQuote": "Mình tin rằng giáo dục tại Đức là cơ hội tốt nhất cho sự nghiệp sau này của sinh viên Việt Nam vì chất lượng mang tính toàn cầu và học phí gần như không. Chính vì thế mình cố gắng đem lại cơ hội tốt nhất đến những bạn trẻ quyết tâm nhất với mục tiêu này.",
     "whyTitle": "Tại Sao Học Cùng Nhật",
@@ -381,15 +376,14 @@
     "why3": "Kinh nghiệm thực tế du học và học tập tại Đức",
     "why4": "Phương pháp giảng dạy cá nhân hóa",
     "ctaTitle": "Đặt Lịch Tư Vấn Với Nhật",
-    "ctaSubtitle": "Đăng ký học thử miễn phí để trải nghiệm phương pháp giảng dạy của Nhật và nhận lộ trình ôn thi TestAS cá nhân hóa."
+    "ctaSubtitle": "Đăng ký để được tư vấn lộ trình ôn thi TestAS cá nhân hóa cùng Nhật."
   },
   "CoursePage": {
     "heroLabel": "Khóa Học Chất Lượng Cao",
     "heroTitle": "Khóa Học TestAS Chuyên Sâu",
     "heroSubtitle": "Lộ trình 4 bước từ cơ bản đến nâng cao. Cam kết hỗ trợ miễn phí đến khi đạt điểm mục tiêu.",
     "heroImageAlt": "Giáo viên KNI hướng dẫn ôn thi TestAS",
-    "enrollNow": "Đăng Ký Học Thử Miễn Phí",
-    "freePractice": "Đề TestAS FREE",
+    "enrollNow": "Đăng Ký Ngay",
     "stat1_label": "Học viên đã tốt nghiệp",
     "stat2_label": "Tỷ lệ đậu",
     "stat3_label": "Năm kinh nghiệm",
@@ -409,26 +403,23 @@
     "optionsTitle": "Chọn hình thức phù hợp nhất với bạn",
     "onlineGroupTitle": "Học Online Nhóm",
     "onlineGroupPrice": "4.500.000đ/khóa",
-    "inPersonTitle": "Học Tại Trung Tâm",
-    "inPersonPrice": "6.500.000đ/khóa",
     "oneOnOneTitle": "Kèm 1 Kèm",
     "oneOnOnePrice": "Liên hệ báo giá",
     "feature1": "Tài liệu ôn thi TestAS cập nhật mới nhất",
     "feature2": "Giáo viên VGU, TestAS 125/130",
     "feature3": "Cam kết hỗ trợ miễn phí đến khi đậu",
-    "featureOnline": "Học online qua Zoom, ghi hình bài giảng",
-    "featureInPerson": "Học trực tiếp tại trung tâm TP.HCM",
+    "featureOnline": "Học online, ghi hình bài giảng",
     "featureOneOnOne": "Lộ trình cá nhân hóa theo mục tiêu điểm số",
     "whyLabel": "Tại sao chọn KNI",
     "whyTitle": "Đồng hành cùng chuyên gia",
-    "whyItem1": "95% học viên đạt mục tiêu điểm số",
+    "whyItem1": "97% học viên đạt mục tiêu điểm số",
     "whyItem2": "Giáo viên trực tiếp từ VGU, TestAS 125/130",
     "whyItem3": "Tài liệu ôn thi TestAS cập nhật theo cấu trúc mới nhất",
     "whyItem4": "Hỗ trợ miễn phí đến khi đạt điểm mục tiêu",
     "learnMore": "Tìm hiểu về Nhật",
     "tutorImageAlt": "Giáo viên Nhật - Chuyên gia luyện thi TestAS",
     "ctaTitle": "Bắt đầu hành trình TestAS ngay hôm nay",
-    "ctaSubtitle": "Đăng ký học thử miễn phí để trải nghiệm phương pháp học tại KNI. Không ràng buộc, không chi phí."
+    "ctaSubtitle": "Đăng ký để được tư vấn lộ trình ôn thi TestAS cá nhân hóa. Không ràng buộc, không chi phí."
   },
   "WhyTestAS": {
     "title": "TestAS không chỉ là một bài thi — đó là cánh cửa vào cơ hội.",
@@ -447,20 +438,20 @@
   },
   "StatsBar": {
     "stat1": {
-      "value": "95%+",
+      "value": "97%+",
       "label": "Tỉ lệ học viên đạt mục tiêu"
     },
     "stat2": {
-      "value": "100+",
+      "value": "200+",
       "label": "Học viên đã đồng hành"
     },
     "stat3": {
-      "value": "Online & Offline",
-      "label": "tại TP.HCM"
+      "value": "Online",
+      "label": "Học từ mọi nơi"
     },
     "stat4": {
-      "value": "1:1",
-      "label": "Lộ trình cá nhân hoá"
+      "value": "1:1 & lớp nhỏ",
+      "label": "Tối đa 8 bạn/lớp"
     },
     "stat5": {
       "value": "100%",
@@ -477,8 +468,8 @@
         "a": "Khóa học phù hợp với tất cả học sinh, sinh viên đang có mục tiêu du học Đức và cần chuẩn bị cho kỳ thi TestAS — dù bạn mới bắt đầu tìm hiểu hay đã có nền tảng trước đó."
       },
       {
-        "q": "Học online hay offline?",
-        "a": "KNI cung cấp cả hai hình thức: học online qua Zoom (có ghi hình bài giảng) và học trực tiếp tại trung tâm TP.HCM. Bạn chọn hình thức phù hợp với lịch trình của mình."
+        "q": "Học online như thế nào?",
+        "a": "Tất cả lớp học tại KNI đều được giảng dạy 100% online (có ghi hình bài giảng), giúp bạn học tập linh hoạt từ mọi nơi."
       },
       {
         "q": "Nếu mất giờ có học được không?",
@@ -486,11 +477,7 @@
       },
       {
         "q": "Bao lâu thì có thể bắt đầu?",
-        "a": "Bạn có thể đăng ký học thử miễn phí ngay hôm nay. Khóa học chính thức khai giảng theo chu kỳ hàng tháng — KNI sẽ tư vấn lịch khai giảng gần nhất phù hợp với timeline của bạn."
-      },
-      {
-        "q": "Có học thử không?",
-        "a": "Có. KNI cung cấp buổi học thử miễn phí để bạn trải nghiệm phương pháp giảng dạy trước khi quyết định đăng ký. Không cần thanh toán, không ràng buộc."
+        "a": "Khóa học chính thức khai giảng theo chu kỳ hàng tháng — KNI sẽ tư vấn lịch khai giảng gần nhất phù hợp với timeline của bạn."
       },
       {
         "q": "Khóa học kéo dài bao lâu?",
@@ -498,7 +485,7 @@
       },
       {
         "q": "Có hỗ trợ ngoài giờ học không?",
-        "a": "Có. Học viên được hỗ trợ giải đáp qua cộng đồng trực tuyến và mentor nêng ngoài các buổi học chính thức."
+        "a": "Có. Học viên được hỗ trợ giải đáp qua cộng đồng trực tuyến và mentor nâng ngoài các buổi học chính thức."
       },
       {
         "q": "Sau khi đăng ký tôi nhận tài liệu như thế nào?",
@@ -506,7 +493,7 @@
       },
       {
         "q": "Có luyện Module chuyên ngành không?",
-        "a": "Có. KNI dạy đầy đủ cả phần Core và các Module chuyên ngành: Mathematics, Computer Science and Natural Sciences (MNS); Economics; Humanities, Cultural Studies and Social Sciences (HCS); và Engineering."
+        "a": "Có. KNI dạy đầy đủ cả phần Core và các Module chuyên ngành: Mathematics, Computer Science and Natural Sciences (MNS); Economics; và Engineering."
       }
     ],
     "cta": "Còn thắc mắc? Tư vấn miễn phí ngay"
@@ -528,9 +515,9 @@
     },
     "contact": {
       "title": "Liên hệ KNI Education — Tư vấn du học Đức & TestAS",
-      "description": "Liên hệ KNI Education qua hotline, email hoặc đến trực tiếp văn phòng. Hỗ trợ tư vấn du học Đức và luyện thi TestAS.",
+      "description": "Liên hệ KNI Education qua hotline, email hoặc mạng xã hội. Hỗ trợ tư vấn du học Đức và luyện thi TestAS online.",
       "ogTitle": "Liên hệ KNI Education",
-      "ogDescription": "Văn phòng tại TP.HCM & Hà Nội. Hotline: +84-91-839-1099.",
+      "ogDescription": "Luyện thi TestAS 100% Online. Hotline: +84-91-839-1099.",
       "ogImageAlt": "Liên hệ KNI Education"
     },
     "freeTestas": {
@@ -593,7 +580,7 @@
     },
     "cta": {
       "question": "Bạn muốn biết mình có thể đạt mục tiêu nào?",
-      "button": "Đăng ký học thử"
+      "button": "Đăng ký ngay"
     }
   },
   "NotFound": {

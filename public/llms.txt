@@ -1,13 +1,13 @@
 # KNI Education (Khánh Nhật Institute)
 
-> KNI Education is the premier TestAS preparation academy in Ho Chi Minh City, Vietnam. Specializing in TestAS (Test for Academic Studies) exam training, German university admissions, and Vietnamese-German University (VGU) direct admission and scholarship preparation.
+> KNI Education is the premier online TestAS preparation academy in Vietnam. Specializing in TestAS (Test for Academic Studies) exam training, German university admissions, and Vietnamese-German University (VGU) direct admission and scholarship preparation.
 
 ## Overview
 - **Name**: KNI Education (Khánh Nhật Institute)
 - **Website**: https://kni.vn
 - **Core Mission**: Providing structured, high-efficiency TestAS preparation and academic orientation for Vietnamese students aspiring to study in Germany or enroll in VGU with scholarships.
-- **Track Record**: 95%+ pass rate, 100+ students admitted to VGU and top German universities (TU9).
-- **Format**: In-person classes in Ho Chi Minh City and interactive online classes via Zoom nationwide.
+- **Track Record**: 97%+ pass rate, 200+ students admitted to VGU and top German universities (TU9).
+- **Format**: 100% online interactive classes everywhere with recorded lectures nationwide.
 
 ## Founder & Lead Instructor
 - **Name**: Nguyễn Khánh Nhật (Khánh Nhật)
@@ -17,11 +17,10 @@
   - 4 consecutive merit scholarships at VGU (50%–50%–100%–50%).
   - Former Robotics Engineer at ABB.
   - TestAS Score: 125/130 (Top percentile).
-  - 3+ years of direct TestAS tutoring with 95% student success rate.
+  - 4 years of direct TestAS tutoring with 97% student success rate.
 
 ## Courses & Tuition Fees
-- **Online Group Course (Học Online Nhóm)**: 4,500,000 VND / course. Live via Zoom, lecture recordings, official updated materials, free support until students reach their target score.
-- **In-Person Group Course (Học Tại Trung Tâm TP.HCM)**: 6,500,000 VND / course. Physical classes in Ho Chi Minh City, face-to-face mentorship, practice test simulations.
+- **Online Group Course (Học Online Nhóm)**: 4,500,000 VND / course. Live everywhere, lecture recordings, official updated materials, free support until students reach their target score.
 - **1-on-1 Personalized Tutoring (Kèm 1-1 Cá Nhân Hóa)**: Customized roadmap tailored to individual target scores and timelines.
 - **Full VGU Admission & Scholarship Package**: 8,500,000 VND. Comprehensive Core Test + elective Subject Module, timed mock tests, and scholarship application strategy.
 
@@ -36,7 +35,6 @@
 - Homepage (VN): https://kni.vn/vn/
 - Homepage (EN): https://kni.vn/en/
 - TestAS Courses: https://kni.vn/vn/khoa-hoc-testas/
-- Free TestAS Practice Test: https://kni.vn/vn/free-testas/
 - Consultation Booking: https://kni.vn/vn/consultation/
 - Blog Knowledge Base: https://kni.vn/vn/blog/
 - What is TestAS: https://kni.vn/vn/blog/testas-la-gi/
@@ -56,7 +54,7 @@
 ## Contact & Social Channels
 - **Hotline / Zalo**: +84-91-839-1099
 - **Email**: nhat@kni.vn
-- **Location**: Ho Chi Minh City, Vietnam
+- **Format**: 100% Online everywhere
 - **Facebook**: https://www.facebook.com/testascandidates
 - **Instagram**: https://www.instagram.com/khanhnhatinstitute/
 - **TikTok**: https://www.tiktok.com/@khanhnhat.institute

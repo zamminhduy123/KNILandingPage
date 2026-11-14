@@ -5,9 +5,9 @@ import { Html, Line, Sparkles } from "@react-three/drei";
 import * as THREE from "three";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-const ORANGE = "#f97316";
-const ORANGE_SOFT = "#fb923c";
-const ORANGE_LIGHT = "#fed7aa";
+const ORANGE = "#FF904D";
+const ORANGE_SOFT = "#FFA46D";
+const ORANGE_LIGHT = "#FFD4B8";
 
 const HTML_DISTANCE = 4.15;
 
@@ -129,7 +129,7 @@ function Platform({ reducedMotion }: { reducedMotion: boolean }) {
 function ScoreCard() {
   return (
     <Html transform center distanceFactor={HTML_DISTANCE} pointerEvents="none">
-      <div className="w-[178px] select-none rounded-[1.35rem] border border-orange-100/90 bg-white/92 p-4 shadow-[0_24px_70px_rgba(249,115,22,0.2)] backdrop-blur-xl">
+      <div className="w-[178px] select-none rounded-[1.35rem] border border-orange-100/90 bg-white/92 p-4 shadow-[0_24px_70px_rgba(255,144,77,0.2)] backdrop-blur-xl">
         <div className="mb-3 flex items-center justify-between">
           <span className="text-[8px] font-black uppercase tracking-[0.22em] text-slate-400">
             TestAS Score
@@ -155,7 +155,7 @@ function ScoreCard() {
               Percentile
             </p>
             <p className="text-3xl font-black leading-none text-orange-500">
-              95%
+              97%
             </p>
           </div>
 
@@ -172,7 +172,7 @@ function ScoreCard() {
 
         <div className="mt-4 rounded-full bg-orange-50/85 px-3 py-2">
           <div className="flex items-center justify-center gap-2">
-            <span className="h-1.5 w-1.5 rounded-full bg-orange-500 shadow-[0_0_14px_rgba(249,115,22,0.9)]" />
+            <span className="h-1.5 w-1.5 rounded-full bg-orange-500 shadow-[0_0_14px_rgba(255,144,77,0.9)]" />
             <span className="text-[10px] font-black text-slate-700">
               Top 5% — KNI
             </span>
@@ -201,8 +201,8 @@ function GhostRadarCard() {
             />
             <polygon
               points="50,23 75,41 66,72 33,75 26,43"
-              fill="rgba(249,115,22,0.2)"
-              stroke="#f97316"
+              fill="rgba(255,144,77,0.2)"
+              stroke="#FF904D"
               strokeWidth="2"
             />
             {[
@@ -212,7 +212,7 @@ function GhostRadarCard() {
               ["33", "75"],
               ["26", "43"],
             ].map(([cx, cy], index) => (
-              <circle key={index} cx={cx} cy={cy} r="2.2" fill="#f97316" />
+              <circle key={index} cx={cx} cy={cy} r="2.2" fill="#FF904D" />
             ))}
           </svg>
         </div>
@@ -236,12 +236,12 @@ function GhostProgressCard() {
               width: 46,
               height: 46,
               background:
-                "conic-gradient(#f97316 0deg 342deg, #ffedd5 342deg 360deg)",
+                "conic-gradient(#FF904D 0deg 349deg, #ffedd5 349deg 360deg)",
             }}
           >
             <div className="grid h-8 w-8 place-items-center rounded-full bg-white">
               <span className="text-[10px] font-black text-orange-500">
-                95%
+                97%
               </span>
             </div>
           </div>
@@ -260,7 +260,7 @@ function OpportunityChip({
 }) {
   return (
     <Html transform center distanceFactor={HTML_DISTANCE} pointerEvents="none">
-      <div className="select-none rounded-full border border-orange-100/80 bg-white/88 px-3.5 py-2 shadow-[0_16px_45px_rgba(249,115,22,0.14)] backdrop-blur-xl">
+      <div className="select-none rounded-full border border-orange-100/80 bg-white/88 px-3.5 py-2 shadow-[0_16px_45px_rgba(255,144,77,0.14)] backdrop-blur-xl">
         <div className="flex items-center gap-2 whitespace-nowrap">
           <span className="text-xs">{icon}</span>
           <span className="text-[11px] font-black text-slate-800">

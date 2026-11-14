@@ -491,11 +491,13 @@ export default async function BlogPostPage({ params }: Props) {
                 <span className="inline-flex items-center rounded-full bg-orange-100 px-3 py-1 text-xs font-medium text-orange-700">
                   {frontmatter.category}
                 </span>
-                <span className="text-sm text-gray-400">{formatDate(frontmatter.date, locale)}</span>
+                <time dateTime={frontmatter.date} className="text-sm text-gray-500">
+                  {formatDate(frontmatter.date, locale)}
+                </time>
                 {frontmatter.updated && (
-                  <span className="text-sm text-slate-500 font-medium">
+                  <time dateTime={frontmatter.updated} className="text-sm text-slate-500 font-medium">
                     • {locale === "vn" ? "Cập nhật:" : "Updated:"} {formatDate(frontmatter.updated, locale)}
-                  </span>
+                  </time>
                 )}
               </div>
 
@@ -623,8 +625,8 @@ export default async function BlogPostPage({ params }: Props) {
                   </div>
                   <p className="text-xs text-slate-600 leading-relaxed">
                     {locale === "vn" 
-                      ? "Người sáng lập KNI Education, với hơn 3 năm đào tạo TestAS thực chiến, hỗ trợ hàng trăm học viên đạt điểm cao xét học bổng VGU & du học Đức."
-                      : "Founder of KNI Education, with 3+ years of TestAS training, supporting hundreds of students in VGU admissions and study in Germany."}
+                      ? "Người sáng lập KNI Education, với 4 năm đào tạo TestAS thực chiến, hỗ trợ hàng trăm học viên đạt điểm cao xét học bổng VGU & du học Đức."
+                      : "Founder of KNI Education, with 4 years of TestAS training, supporting hundreds of students in VGU admissions and study in Germany."}
                   </p>
                 </div>
 

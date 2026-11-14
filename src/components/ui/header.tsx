@@ -103,9 +103,6 @@ export default function Header() {
             <Link href={`/${locale}/blog/`} className={navClassName("/blog")}>
               {t("knowledge")}
             </Link>
-            <Link href={`/${locale}/free-testas/`} className={navClassName("/free-testas")}>
-              {t("freeTest")}
-            </Link>
             <Link href={`/${locale}/contact/`} className={navClassName("/contact")}>
               {t("contact")}
             </Link>
@@ -151,9 +148,6 @@ export default function Header() {
           </Link>
           <Link href={`/${locale}/blog/`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/blog")}>
             {t("knowledge")}
-          </Link>
-          <Link href={`/${locale}/free-testas/`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/free-testas")}>
-            {t("freeTest")}
           </Link>
           <Link href={`/${locale}/contact/`} onClick={() => setIsOpen(false)} className={mobileNavClassName("/contact")}>
             {t("contact")}

@@ -423,7 +423,7 @@ export default function BrevoForm() {
               <div style={{ padding: "8px 0" }}>
                 <div className="sib-form-block" style={{ textAlign: "left" }}>
                   <button
-                    className="sib-form-block__button-with-loader bg-[#ff914d] text-white uppercase px-6 py-3 rounded-md hover:bg-orange-500 transition flex items-center justify-center cursor-pointer"
+                    className="sib-form-block__button-with-loader bg-orange-600 text-white uppercase px-6 py-3 rounded-md hover:bg-orange-700 transition flex items-center justify-center cursor-pointer"
                     form="sib-form"
                     type="submit"
                   >
