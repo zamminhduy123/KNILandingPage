@@ -14,11 +14,18 @@ type FloatCardProps = {
   distance?: number;
 };
 
-function FloatCard({ children, className, delay = 0, distance = 10 }: FloatCardProps) {
+function FloatCard({
+  children,
+  className,
+  delay = 0,
+  distance = 10,
+}: FloatCardProps) {
   const shouldReduceMotion = useReducedMotion();
 
   return (
-    <div className={`${className} pointer-events-auto transition-transform duration-300 max-[1366px]:scale-[0.88]`}>
+    <div
+      className={`${className} pointer-events-auto transition-transform duration-300 max-[1366px]:scale-[0.88]`}
+    >
       <motion.div
         className="will-change-transform"
         animate={shouldReduceMotion ? undefined : { y: [0, -distance, 0] }}
@@ -96,21 +103,10 @@ function OrbitField() {
         />
       </svg>
 
-      {/* <svg
-        className="absolute inset-x-0 bottom-[-9%] hidden h-[260px] w-full text-orange-300/40 lg:block"
-        fill="none"
-        viewBox="0 0 1400 260"
-        preserveAspectRatio="none"
-      >
-        <ellipse cx="700" cy="142" rx="570" ry="80" stroke="currentColor" strokeOpacity="0.34" strokeWidth="8" />
-        <ellipse cx="700" cy="144" rx="410" ry="54" stroke="currentColor" strokeOpacity="0.34" strokeWidth="4" />
-        <ellipse cx="700" cy="146" rx="270" ry="34" stroke="currentColor" strokeOpacity="0.28" strokeWidth="2" />
-      </svg> */}
-
-      <GlowOrb className="left-[8%] top-[62%] h-5 w-5" />
-      <GlowOrb className="left-[18%] bottom-[12%] h-7 w-7" delay={0.8} />
-      <GlowOrb className="right-[10%] top-[48%] h-10 w-10" delay={1.4} />
-      <GlowOrb className="right-[22%] bottom-[25%] h-12 w-12" delay={2.1} />
+      <GlowOrb className="left-[7%] top-[48%] h-5 w-5" />
+      <GlowOrb className="left-[12%] bottom-[14%] h-7 w-7" delay={0.8} />
+      <GlowOrb className="right-[8%] top-[24%] h-9 w-9" delay={1.4} />
+      <GlowOrb className="right-[11%] bottom-[16%] h-11 w-11" delay={2.1} />
     </div>
   );
 }
@@ -233,26 +229,78 @@ type BenefitCardProps = {
 
 function BenefitCard({ emoji, title, subtitle }: BenefitCardProps) {
   return (
-    <div className={`${cardShell} flex min-h-[92px] w-[230px] items-center gap-4 px-5 py-4 text-left`}>
-      <span className="flex h-[52px] w-[52px] shrink-0 items-center justify-center rounded-full bg-orange-50 text-3xl leading-none">
+    <div className={`${cardShell} flex min-h-[88px] w-full items-center gap-4 px-5 py-4 text-left sm:min-h-[92px]`}>
+      <span className="flex h-[50px] w-[50px] shrink-0 items-center justify-center rounded-full bg-orange-50 text-3xl leading-none">
         {emoji}
       </span>
-      <div>
-        <p className="text-lg font-black leading-tight text-slate-900">{title}</p>
-        <p className="mt-1 max-w-[145px] text-sm font-medium leading-snug text-slate-500">{subtitle}</p>
+      <div className="min-w-0">
+        <p className="text-base font-black leading-tight text-slate-900 sm:text-lg">{title}</p>
+        <p className="mt-1 text-sm font-medium leading-snug text-slate-500">{subtitle}</p>
       </div>
+    </div>
+  );
+}
+
+export function HeroBenefitCards() {
+  const locale = useLocale();
+  const isEn = locale === "en";
+  const shouldReduceMotion = useReducedMotion();
+
+  const items = [
+    {
+      emoji: "🎓",
+      title: "VGU",
+      subtitle: "Vietnamese-German University",
+      delay: 0,
+    },
+    {
+      emoji: "🏆",
+      title: isEn ? "Scholarship" : "Học bổng",
+      subtitle: isEn ? "Valuable scholarship opportunities" : "Cơ hội học bổng giá trị",
+      delay: 0.5,
+    },
+    {
+      emoji: "🇩🇪",
+      title: isEn ? "Study in Germany" : "Du học Đức",
+      subtitle: isEn ? "A solid path for your future" : "Hành trang vững chắc cho tương lai",
+      delay: 1.0,
+    },
+  ];
+
+  return (
+    <div className="mt-8 flex w-full max-w-[740px] flex-wrap items-stretch justify-center gap-3 sm:mt-10 lg:gap-4">
+      {items.map((item) => (
+        <motion.div
+          key={item.title}
+          className="w-full max-w-[340px] sm:w-[224px] lg:w-[230px]"
+          animate={shouldReduceMotion ? undefined : { y: [0, -5, 0] }}
+          transition={
+            shouldReduceMotion
+              ? undefined
+              : {
+                  duration: 7,
+                  delay: item.delay,
+                  ease: "easeInOut",
+                  repeat: Infinity,
+                }
+          }
+          whileHover={shouldReduceMotion ? undefined : { y: -4 }}
+        >
+          <BenefitCard emoji={item.emoji} title={item.title} subtitle={item.subtitle} />
+        </motion.div>
+      ))}
     </div>
   );
 }
 
 function TabletCards() {
   return (
-    <div className="absolute inset-x-0 top-[6%] z-10 hidden px-6 md:block lg:hidden">
-      <div className="mx-auto flex justify-between">
-        <FloatCard className="scale-[0.78] -rotate-6" distance={8}>
+    <div className="absolute inset-x-0 top-[356px] z-10 hidden px-4 md:block lg:hidden">
+      <div className="mx-auto flex items-start justify-between">
+        <FloatCard className="origin-top-left scale-[0.65] -rotate-6" distance={6}>
           <ScoreCard />
         </FloatCard>
-        <FloatCard className="scale-[0.78] rotate-6" delay={0.7} distance={8}>
+        <FloatCard className="origin-top-right scale-[0.65] rotate-6" delay={0.7} distance={6}>
           <ProgressCard />
         </FloatCard>
       </div>
@@ -261,48 +309,21 @@ function TabletCards() {
 }
 
 export default function HeroOrbitalLayer() {
-  const locale = useLocale();
-  const isEn = locale === "en";
-
   return (
     <div className="pointer-events-none absolute inset-0 z-10 mx-auto max-w-7xl">
       <OrbitField />
 
       <div className="hidden md:block">
-        <FloatCard className="absolute sm:left-0 md:left-[2%] top-[10%] w-[250px] -rotate-6" distance={12}>
+        <FloatCard className="absolute sm:left-0 md:left-[2%] top-[80px] w-[250px] -rotate-6" distance={12}>
           <ScoreCard />
         </FloatCard>
 
-        <FloatCard className="absolute left-[5%] bottom-[25%] w-[230px] rotate-3" delay={0.8} distance={10}>
+        <FloatCard className="absolute left-[5%] top-[410px] w-[230px] rotate-3" delay={0.8} distance={10}>
           <RadarCard />
         </FloatCard>
 
-        <FloatCard className="absolute right-[8%] top-[28%] w-[220px] rotate-6" delay={0.4} distance={14}>
+        <FloatCard className="absolute right-[8%] top-[230px] w-[220px] rotate-6" delay={0.4} distance={14}>
           <ProgressCard />
-        </FloatCard>
-
-        <FloatCard className="absolute left-[24%] bottom-[10%] w-[230px] rotate-3" delay={1.1} distance={8}>
-          <BenefitCard
-            emoji="🎓"
-            title="VGU"
-            subtitle="Vietnamese-German University"
-          />
-        </FloatCard>
-
-        <FloatCard className="absolute left-1/2 bottom-[6%] z-20 w-[230px] -translate-x-1/2" delay={0.3} distance={9}>
-          <BenefitCard
-            emoji="🏆"
-            title={isEn ? "Scholarship" : "Học bổng"}
-            subtitle={isEn ? "Valuable scholarship opportunities" : "Cơ hội học bổng giá trị"}
-          />
-        </FloatCard>
-
-        <FloatCard className="absolute right-[24%] bottom-[10%] w-[230px] -rotate-3" delay={1.5} distance={8}>
-          <BenefitCard
-            emoji="🇩🇪"
-            title={isEn ? "Study in Germany" : "Du học Đức"}
-            subtitle={isEn ? "A solid path for your future" : "Hành trang vững chắc cho tương lai"}
-          />
         </FloatCard>
       </div>
 
