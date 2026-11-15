@@ -1,5 +1,6 @@
 import HeroCopy from "./HeroCopy";
-import HeroOrbitalLayer from "./HeroOrbitalLayer";
+import HeroOrbitalLayer, { HeroBenefitCards } from "./HeroOrbitalLayer";
+import HeroVideo from "./HeroVideo";
 
 export default function HeroSection() {
   return (
@@ -7,21 +8,23 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 pointer-events-none"
         aria-hidden="true"
-        // style={{
-        //   background:
-        //     "radial-gradient(ellipse 58% 42% at 50% 44%, rgba(249,115,22,0.14) 0%, rgba(251,146,60,0.06) 42%, transparent 76%), radial-gradient(ellipse 70% 28% at 50% 90%, rgba(249,115,22,0.16) 0%, rgba(251,191,36,0.07) 44%, transparent 78%)",
-        // }}
       />
       <div
         className="absolute inset-x-0 top-0 h-px bg-orange-100/70"
         aria-hidden="true"
       />
 
-      <div className="relative mx-auto flex sm:min-h-[calc(100svh-72px)] max-w-7xl items-center sm:items-start justify-center px-6 sm:px-8">
+      <div className="relative mx-auto flex max-w-7xl flex-col items-center justify-start px-6 pt-12 pb-16 sm:px-8 sm:pt-16 sm:pb-24">
         <HeroOrbitalLayer />
 
-        <div className="relative z-20 pt-16 mx-auto flex max-w-4xl flex-col justify-start items-center text-center">
+        <div className="relative z-20 mx-auto flex w-full max-w-4xl flex-col items-center justify-start text-center">
           <HeroCopy />
+
+          <div className="mt-10 flex w-full justify-center sm:mt-12">
+            <HeroVideo />
+          </div>
+
+          <HeroBenefitCards />
         </div>
       </div>
     </section>
